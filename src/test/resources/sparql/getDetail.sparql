@@ -1,0 +1,20 @@
+PREFIX rdfs:    <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX owl:     <http://www.w3.org/2002/07/owl#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+
+
+
+SELECT DISTINCT ?label1 ?label2 WHERE {
+	OPTIONAL { 
+	    <REPLACEME> rdfs:label ?label1 .
+	    FILTER(LANG(?label1) = "" || LANGMATCHES(LANG(?label1), "en")) .
+	}
+	OPTIONAL {
+	    <REPLACEME> skos:prefLabel ?label2 .
+	    FILTER(LANG(?label2) = "" || LANGMATCHES(LANG(?label2), "en")) .
+	}
+
+
+}
+
+
