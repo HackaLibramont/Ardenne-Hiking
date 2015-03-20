@@ -1,9 +1,9 @@
-package org.openthings.pojo.osm.geometry;
+package org.ardennes.pojo.osm.geometry;
+
+import com.fasterxml.jackson.annotation.JsonIgnore;
 
 import java.util.Arrays;
 import java.util.List;
-
-import com.fasterxml.jackson.annotation.JsonIgnore;
 
 public class Polygon extends Geometry<List<LngLatAlt>> {
 

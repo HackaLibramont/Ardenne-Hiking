@@ -1,14 +1,36 @@
-package org.openthings.pojo.osm;
+package org.ardennes.pojo.osm;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
-import org.openthings.UrlResolver;
-import org.openthings.pojo.osm.geometry.GeoJsonObjectVisitor;
+import org.ardennes.pojo.osm.geometry.GeoJsonObjectVisitor;
+import org.ardennes.pojo.app.User;
+import org.ardennes.pojo.app.Event;
 
-public class Feature extends GeoJsonObject {
+import java.util.List;
+
+public class Feature extends org.ardennes.pojo.osm.GeoJsonObject {
 
     @JsonProperty("href")
     private String getHref(){
-        return UrlResolver.getOsmEntityURL(getId());
+        return org.ardennes.UrlResolver.getFeatureURL(getId());
+    }
+
+    private List<User> users;
+    private List<Event> events;
+
+    public List<User> getUsers() {
+        return users;
+    }
+
+    public void setUsers(List<User> users) {
+        this.users = users;
+    }
+
+    public List<Event> getEvents() {
+        return events;
+    }
+
+    public void setEvents(List<Event> events) {
+        this.events = events;
     }
 
     private GeoJsonObject geometry;

@@ -1,6 +1,6 @@
-package org.openthings.pojo.osm.geometry;
+package org.ardennes.pojo.osm.geometry;
 
-import org.openthings.pojo.osm.GeoJsonObject;
+import org.ardennes.pojo.osm.GeoJsonObject;
 
 import java.util.ArrayList;
 import java.util.Iterator;

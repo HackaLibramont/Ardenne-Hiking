@@ -1,4 +1,4 @@
-package org.openthings.pojo.osm.geometry;
+package org.ardennes.pojo.osm.geometry;
 
 import java.util.List;
 

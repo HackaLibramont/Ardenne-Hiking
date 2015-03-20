@@ -1,4 +1,4 @@
-package org.openthings;
+package org.ardennes;
 
 import org.apache.log4j.Logger;
 import org.springframework.web.bind.annotation.RequestMapping;

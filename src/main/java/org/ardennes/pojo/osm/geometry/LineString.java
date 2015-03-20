@@ -1,11 +1,11 @@
-package org.openthings.pojo.osm.geometry;
+package org.ardennes.pojo.osm.geometry;
 
 public class LineString extends MultiPoint {
 
 	public LineString() {
 	}
 
-	public LineString(LngLatAlt... points) {
+	public LineString(org.ardennes.pojo.osm.geometry.LngLatAlt... points) {
 		super(points);
 	}
 

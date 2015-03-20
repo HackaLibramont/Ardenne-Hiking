@@ -1,4 +1,5 @@
 import export.CsvFileWriter;
+import org.ardennes.pojo.graph.Graph;
 
 public class CsvGraph {
 

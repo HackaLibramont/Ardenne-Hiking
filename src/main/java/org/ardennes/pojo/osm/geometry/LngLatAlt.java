@@ -1,10 +1,10 @@
-package org.openthings.pojo.osm.geometry;
+package org.ardennes.pojo.osm.geometry;
 
 import com.fasterxml.jackson.databind.annotation.JsonDeserialize;
 import com.fasterxml.jackson.databind.annotation.JsonSerialize;
 
-@JsonDeserialize(using = org.openthings.pojo.osm.jackson.LngLatAltDeserializer.class)
-@JsonSerialize(using = org.openthings.pojo.osm.jackson.LngLatAltSerializer.class)
+@JsonDeserialize(using = org.ardennes.pojo.osm.jackson.LngLatAltDeserializer.class)
+@JsonSerialize(using = org.ardennes.pojo.osm.jackson.LngLatAltSerializer.class)
 public class LngLatAlt {
 
 	private double longitude;

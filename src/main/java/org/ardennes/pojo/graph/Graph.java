@@ -1,4 +1,4 @@
-package org.openthings.pojo.graph;
+package org.ardennes.pojo.graph;
 
 import java.util.List;
 

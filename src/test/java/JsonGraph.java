@@ -8,9 +8,9 @@ import com.hp.hpl.jena.rdf.model.ModelFactory;
 import export.JsonFileWriter;
 import org.apache.commons.io.IOUtils;
 import org.apache.commons.lang.StringUtils;
-import org.openthings.pojo.graph.Edge;
-import org.openthings.pojo.graph.Graph;
-import org.openthings.pojo.graph.Node;
+import org.ardennes.pojo.graph.Edge;
+import org.ardennes.pojo.graph.Graph;
+import org.ardennes.pojo.graph.Node;
 
 import java.io.IOException;
 import java.util.*;

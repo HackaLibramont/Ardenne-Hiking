@@ -1,14 +1,17 @@
-package org.openthings.pojo.osm.geometry;
+package org.ardennes.pojo.osm.geometry;
+
+import org.ardennes.pojo.osm.Feature;
+import org.ardennes.pojo.osm.FeatureCollection;
 
 public interface GeoJsonObjectVisitor<T> {
 
 	T visit(GeometryCollection geoJsonObject);
 
-	T visit(org.openthings.pojo.osm.FeatureCollection geoJsonObject);
+	T visit(FeatureCollection geoJsonObject);
 
 	T visit(Point geoJsonObject);
 
-	T visit(org.openthings.pojo.osm.Feature geoJsonObject);
+	T visit(Feature geoJsonObject);
 
 	T visit(MultiLineString geoJsonObject);
 
@@ -18,5 +21,5 @@ public interface GeoJsonObjectVisitor<T> {
 
 	T visit(MultiPoint geoJsonObject);
 
-	T visit(LineString geoJsonObject);
+	T visit(org.ardennes.pojo.osm.geometry.LineString geoJsonObject);
 }

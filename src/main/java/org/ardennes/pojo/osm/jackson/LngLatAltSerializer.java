@@ -1,13 +1,12 @@
-package org.openthings.pojo.osm.jackson;
-
-import java.io.IOException;
-
-import org.openthings.pojo.osm.geometry.LngLatAlt;
+package org.ardennes.pojo.osm.jackson;
 
 import com.fasterxml.jackson.core.JsonGenerator;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.JsonSerializer;
 import com.fasterxml.jackson.databind.SerializerProvider;
+import org.ardennes.pojo.osm.geometry.LngLatAlt;
+
+import java.io.IOException;
 
 public class LngLatAltSerializer extends JsonSerializer<LngLatAlt> {
 

@@ -1,4 +1,4 @@
-package org.openthings.pojo.osm;
+package org.ardennes.pojo.osm;
 
 import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonInclude.Include;
@@ -6,19 +6,19 @@ import com.fasterxml.jackson.annotation.JsonSubTypes;
 import com.fasterxml.jackson.annotation.JsonSubTypes.Type;
 import com.fasterxml.jackson.annotation.JsonTypeInfo;
 import com.fasterxml.jackson.annotation.JsonTypeInfo.Id;
-import org.openthings.pojo.osm.geometry.*;
+import org.ardennes.pojo.osm.geometry.*;
 
 import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Map;
 
 @JsonTypeInfo(property = "type", use = Id.NAME)
-@JsonSubTypes({ @Type(org.openthings.pojo.osm.Feature.class), @Type(Polygon.class), @Type(MultiPolygon.class), @Type(org.openthings.pojo.osm.FeatureCollection.class),
+@JsonSubTypes({ @Type(org.ardennes.pojo.osm.Feature.class), @Type(Polygon.class), @Type(MultiPolygon.class), @Type(org.ardennes.pojo.osm.FeatureCollection.class),
 		@Type(Point.class), @Type(MultiPoint.class), @Type(MultiLineString.class), @Type(LineString.class) })
 @JsonInclude(Include.NON_NULL)
 public abstract class GeoJsonObject {
 
-    private org.openthings.pojo.osm.geometry.Crs crs;
+    private org.ardennes.pojo.osm.geometry.Crs crs;
 	private double[] bbox;
 	@JsonInclude(Include.NON_EMPTY)
 	private Map<String, Object> properties = new HashMap<String, Object>();
@@ -56,7 +56,7 @@ public abstract class GeoJsonObject {
 		this.properties = properties;
 	}
 
-	public abstract <T> T accept(org.openthings.pojo.osm.geometry.GeoJsonObjectVisitor<T> geoJsonObjectVisitor);
+	public abstract <T> T accept(org.ardennes.pojo.osm.geometry.GeoJsonObjectVisitor<T> geoJsonObjectVisitor);
 
 	@Override
 	public boolean equals(Object o) {
