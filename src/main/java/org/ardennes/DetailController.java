@@ -1,9 +1,11 @@
 package org.ardennes;
 
 import org.apache.log4j.Logger;
-import org.ardennes.pojo.osm.Feature;
-import org.ardennes.pojo.app.User;
 import org.ardennes.pojo.app.Event;
+import org.ardennes.pojo.app.User;
+import org.ardennes.pojo.osm.Feature;
+import org.elasticsearch.action.index.IndexResponse;
+import org.elasticsearch.client.transport.TransportClient;
 import org.springframework.stereotype.Component;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -14,9 +16,16 @@ import org.springframework.web.bind.annotation.ResponseBody;
 @RequestMapping("/entity")
 public class DetailController {
 
-	private static final Logger logger = Logger.getLogger(DetailController.class);
+	private static final Logger log = Logger.getLogger(DetailController.class);
 
-	@RequestMapping(method = RequestMethod.GET, value = "feature/way/{id}" )
+    protected TransportClient client;
+
+    public DetailController() {
+        log.info("Starting up Elastic Search connection");
+        this.client = new TransportClient();
+    }
+
+    @RequestMapping(method = RequestMethod.GET, value = "feature/way/{id}" )
 	@ResponseBody
     public Feature way(@PathVariable("id") String id) throws Exception{
         return Mock.getFeature(id);
@@ -56,4 +65,10 @@ public class DetailController {
 //		return new ResponseEntity<>(responseHeaders,HttpStatus.SEE_OTHER);
 //	}
 
+    String logESMessage(final String type, final String json) throws Exception {
+        final IndexResponse response = client
+                    .prepareIndex("ardennes", type).setSource(json).execute()
+                    .actionGet();
+            return response.getId();
+    }
 }
