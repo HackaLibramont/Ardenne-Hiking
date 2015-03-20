@@ -1,5 +1,4 @@
 import export.CsvFileWriter;
-import org.openthings.pojo.graph.Graph;
 
 public class CsvGraph {
 
