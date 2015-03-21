@@ -2,7 +2,7 @@ package org.ardennes.pojo.app;
 
 import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonProperty;
-import org.ardennes.Common;
+import org.ardennes.Constants;
 
 import java.util.Date;
 
@@ -14,7 +14,7 @@ public class Event {
 
     @JsonProperty("URL")
     private String getHref(){
-        return Common.getEventURL(getId());
+        return Constants.getEventURL(getId());
     }
     private String id;
     private String type="Event";
@@ -22,13 +22,13 @@ public class Event {
     
     @JsonProperty("userURL")
     private String getUserHref(){
-        return Common.getUserURL(getEventUserId());
+        return Constants.getUserURL(getEventUserId());
     }
     String eventUserId;
     
     @JsonProperty("trackURL")
     private String getFeatureHref(){
-        return Common.getTrackURL(getId());
+        return Constants.getTrackURL(getId());
     }
     
     String eventTrackId;

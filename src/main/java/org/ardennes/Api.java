@@ -5,7 +5,6 @@ import org.apache.log4j.Logger;
 import org.ardennes.pojo.app.Event;
 import org.ardennes.pojo.app.Track;
 import org.ardennes.pojo.app.User;
-import org.ardennes.pojo.osm.Feature;
 import org.elasticsearch.action.get.GetResponse;
 import org.elasticsearch.action.search.SearchResponse;
 import org.elasticsearch.client.transport.TransportClient;
@@ -35,10 +34,10 @@ public class Api {
     private final ObjectMapper mapper;
     
     public Api() {
-        this.mapper = Common.getMapper();
+        this.mapper = Constants.getMapper();
         log.info("Starting up Elastic Search connection");
         Settings settings = ImmutableSettings.settingsBuilder()
-                .put("cluster.name", Common.CLUSTER)
+                .put("cluster.name", Constants.CLUSTER)
                 .put("client.transport.sniff", true)
                 .build();
         this.client = new TransportClient(settings)
@@ -71,8 +70,8 @@ public class Api {
     @RequestMapping(method = RequestMethod.GET, value = "search" )
     public @ResponseBody
     List<Track> search( @RequestParam(required = false) String limit, @RequestParam(required = false) String query ) throws Exception {
-        SearchResponse response = client.prepareSearch(Common.INDEX)
-                .setTypes(Common.TRACK_TYPE)
+        SearchResponse response = client.prepareSearch(Constants.INDEX)
+                .setTypes(Constants.TRACK_TYPE)
                 .execute()
                 .actionGet();
         List<Track> result = new ArrayList<>();
@@ -85,7 +84,7 @@ public class Api {
     @RequestMapping(method = RequestMethod.GET, value = "track/{trackId}" )
 	@ResponseBody
     public Track track(@PathVariable("trackId") String trackId) throws Exception{
-        GetResponse response = client.prepareGet(Common.INDEX, Common.TRACK_TYPE, trackId)
+        GetResponse response = client.prepareGet(Constants.INDEX, Constants.TRACK_TYPE, trackId)
                 .setOperationThreaded(false)
                 .execute()
                 .actionGet();
@@ -98,7 +97,7 @@ public class Api {
     @RequestMapping(method = RequestMethod.GET, value = "user/{userId}" )
     @ResponseBody
     public User user(@PathVariable("userId") String userId) throws Exception{
-        GetResponse response = client.prepareGet(Common.INDEX, Common.USER_TYPE, userId)
+        GetResponse response = client.prepareGet(Constants.INDEX, Constants.USER_TYPE, userId)
                 .setOperationThreaded(false)
                 .execute()
                 .actionGet();
@@ -110,7 +109,7 @@ public class Api {
     @RequestMapping(method = RequestMethod.GET, value = "poi/{poiId}" )
     @ResponseBody
     public Map poi(@PathVariable("userId") String userId) throws Exception{
-        GetResponse response = client.prepareGet(Common.INDEX, Common.POI_TYPE, userId)
+        GetResponse response = client.prepareGet(Constants.INDEX, Constants.POI_TYPE, userId)
                 .setOperationThreaded(false)
                 .execute()
                 .actionGet();
@@ -121,20 +120,20 @@ public class Api {
 
     @RequestMapping(method = RequestMethod.POST, value = "" )
 	public ResponseEntity<Void> addEvent( @RequestBody Event input ) throws Exception {
-        String id = client.prepareIndex(Common.INDEX, Common.EVENT_TYPE)
+        String id = client.prepareIndex(Constants.INDEX, Constants.EVENT_TYPE)
                 .setSource(mapper.writeValueAsString(input))
                 .execute()
                 .actionGet().getId();
 		HttpHeaders responseHeaders = new HttpHeaders();
-		responseHeaders.set("Location", Common.getEventURL(id));
+		responseHeaders.set("Location", Constants.getEventURL(id));
 		return new ResponseEntity<>(responseHeaders, HttpStatus.SEE_OTHER);
 	}
 
 
     public List<Event> getTrackEvents(String id) throws Exception{
         QueryBuilder qb = QueryBuilders.matchQuery("eventTrackId", id);
-        SearchResponse response = client.prepareSearch(Common.INDEX)
-                .setTypes(Common.EVENT_TYPE)
+        SearchResponse response = client.prepareSearch(Constants.INDEX)
+                .setTypes(Constants.EVENT_TYPE)
                 .setQuery(qb)
                 .execute()
                 .actionGet();
@@ -147,8 +146,8 @@ public class Api {
     
     public List<Event> getUserEvents(String id) throws Exception{
         QueryBuilder qb = QueryBuilders.matchQuery("eventUserId", id);
-        SearchResponse response = client.prepareSearch(Common.INDEX)
-                .setTypes(Common.EVENT_TYPE)
+        SearchResponse response = client.prepareSearch(Constants.INDEX)
+                .setTypes(Constants.EVENT_TYPE)
                 .setQuery(qb)
                 .execute()
                 .actionGet();

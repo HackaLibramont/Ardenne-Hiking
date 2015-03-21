@@ -1,13 +1,6 @@
 package org.ardennes.pojo.osm;
 
-import com.fasterxml.jackson.annotation.JsonProperty;
-import org.ardennes.Common;
-import org.ardennes.pojo.app.Event;
-import org.ardennes.pojo.app.User;
 import org.ardennes.pojo.osm.geometry.GeoJsonObjectVisitor;
-
-import java.util.List;
-import java.util.Map;
 
 public class Feature extends org.ardennes.pojo.osm.GeoJsonObject {
 

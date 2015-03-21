@@ -3,7 +3,7 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.SerializationFeature;
 import export.ESWriter;
 import org.apache.log4j.Logger;
-import org.ardennes.Common;
+import org.ardennes.Constants;
 import org.ardennes.pojo.app.Event;
 import org.ardennes.pojo.app.EventEnum;
 import org.ardennes.pojo.app.Track;
@@ -81,20 +81,20 @@ public class InitializeDatabase {
         track2.setPois(Arrays.asList(getRandomPOI(), getRandomPOI(), getRandomPOI()));
         track3.setPois(Arrays.asList(getRandomPOI(), getRandomPOI(), getRandomPOI()));
 
-        writer.write(Common.TRACK_TYPE,track1,track1.getId());
-        writer.write(Common.TRACK_TYPE,track2,track2.getId());
-        writer.write(Common.TRACK_TYPE,track3,track3.getId());
+        writer.write(Constants.TRACK_TYPE,track1,track1.getId());
+        writer.write(Constants.TRACK_TYPE,track2,track2.getId());
+        writer.write(Constants.TRACK_TYPE,track3,track3.getId());
         
         /**
          * Add some users
          */
         User alice = new User();
         alice.setUserName("Alice");
-        String aliceId = writer.write(Common.USER_TYPE,alice,alice.getId());
+        String aliceId = writer.write(Constants.USER_TYPE,alice,alice.getId());
 
         User bob = new User();
         bob.setUserName("Bob");
-        writer.write(Common.USER_TYPE,bob,bob.getId());
+        writer.write(Constants.USER_TYPE,bob,bob.getId());
         /**
          * Add some events
          */
@@ -105,7 +105,7 @@ public class InitializeDatabase {
         aliceStart.setEventTrackId(track1.getId());
         aliceStart.setCoordinates(new Double[]{5.5344497, 49.7075366});
         aliceStart.setEventUserId(aliceId);
-        writer.write(Common.EVENT_TYPE, aliceStart);
+        writer.write(Constants.EVENT_TYPE, aliceStart);
 
     }
 

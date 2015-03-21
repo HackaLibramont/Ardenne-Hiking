@@ -4,10 +4,12 @@ import com.fasterxml.jackson.databind.DeserializationFeature;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.SerializationFeature;
 
+import java.net.InetAddress;
+
 /**
  * Created by cvasquez on 21.03.15.
  */
-public class Common {
+public class Constants {
     public static final String INDEX = "ardennes";
     public static final String CLUSTER = "sniper";
     public static final String USER_TYPE = "user";
@@ -23,8 +25,19 @@ public class Common {
      * you have no idea of the URL that users would be using to access the application -
      * the application server could be behind a web server, a firewall or a load balancer.
      */
-    public static String URIQA = "http://localhost:8080/ardennes-hicking/api";
+    public static String URIQA = "http://"+ getHost()+":8080/ardennes-hicking/api";
 
+    
+    private static String getHost(){
+        try{
+           return InetAddress.getLocalHost().getHostName();
+        } catch (Exception e) {
+            
+        }
+            return "localhost";
+    }
+    
+    
     
     public static ObjectMapper getMapper(){
         ObjectMapper objectMapper = new ObjectMapper();

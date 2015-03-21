@@ -2,7 +2,7 @@ package org.ardennes.pojo.app;
 
 import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonProperty;
-import org.ardennes.Common;
+import org.ardennes.Constants;
 
 import java.util.List;
 
@@ -13,7 +13,7 @@ import java.util.List;
 public class User {
     @JsonProperty("href")
     private String getHref(){
-        return Common.getUserURL(getId());
+        return Constants.getUserURL(getId());
     }
     
     private String type="User";

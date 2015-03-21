@@ -2,7 +2,7 @@ package org.ardennes.pojo.app;
 
 import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonProperty;
-import org.ardennes.Common;
+import org.ardennes.Constants;
 import org.ardennes.pojo.osm.Feature;
 
 import java.util.List;
@@ -25,7 +25,7 @@ public class Track {
 
     @JsonProperty("URL")
     private String getHref(){
-        return Common.getTrackURL(getId());
+        return Constants.getTrackURL(getId());
     }
     
     private String id;

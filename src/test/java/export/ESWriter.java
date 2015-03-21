@@ -2,7 +2,7 @@ package export;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.apache.log4j.Logger;
-import org.ardennes.Common;
+import org.ardennes.Constants;
 import org.elasticsearch.action.admin.indices.delete.DeleteIndexRequest;
 import org.elasticsearch.action.admin.indices.delete.DeleteIndexResponse;
 import org.elasticsearch.action.index.IndexResponse;
@@ -35,13 +35,13 @@ public class ESWriter {
 
 
     public DeleteIndexResponse deleteIndex(){
-        final DeleteIndexRequest deleteIndexRequest=new DeleteIndexRequest(Common.INDEX);
+        final DeleteIndexRequest deleteIndexRequest=new DeleteIndexRequest(Constants.INDEX);
         return this.client.admin().indices().delete(deleteIndexRequest).actionGet();
     }
 
     public String write(String type,Object object,String id) throws Exception{
         ObjectMapper mapper = new ObjectMapper();
-        IndexResponse response = client.prepareIndex(Common.INDEX, type)
+        IndexResponse response = client.prepareIndex(Constants.INDEX, type)
                 .setSource(mapper.writeValueAsString(object))
                 .setId(id)
                 .execute()
@@ -52,7 +52,7 @@ public class ESWriter {
 
     public String write(String type,Object object) throws Exception{
         ObjectMapper mapper = new ObjectMapper();
-        IndexResponse response = client.prepareIndex(Common.INDEX, type)
+        IndexResponse response = client.prepareIndex(Constants.INDEX, type)
                 .setSource(mapper.writeValueAsString(object))
                 .execute()
                 .actionGet();
