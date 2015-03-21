@@ -2,6 +2,7 @@ package org.ardennes.pojo.app;
 
 import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonProperty;
+import org.ardennes.Common;
 
 import java.util.List;
 
@@ -12,10 +13,11 @@ import java.util.List;
 public class User {
     @JsonProperty("href")
     private String getHref(){
-        return org.ardennes.UrlResolver.getUserURL(getId());
+        return Common.getUserURL(getId());
     }
     
     private String type="User";
+    private String userName;
     private String id;
     private List<Event> events;
 
@@ -33,6 +35,14 @@ public class User {
 
     public void setId(String id) {
         this.id = id;
+    }
+
+    public String getUserName() {
+        return userName;
+    }
+
+    public void setUserName(String userName) {
+        this.userName = userName;
     }
 
     public List<Event> getEvents() {

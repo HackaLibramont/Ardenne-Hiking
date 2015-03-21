@@ -1,32 +1,33 @@
 package org.ardennes.pojo.osm;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
-import org.ardennes.pojo.osm.geometry.GeoJsonObjectVisitor;
-import org.ardennes.pojo.app.User;
+import org.ardennes.Common;
 import org.ardennes.pojo.app.Event;
+import org.ardennes.pojo.app.User;
+import org.ardennes.pojo.osm.geometry.GeoJsonObjectVisitor;
 
 import java.util.List;
+import java.util.Map;
 
 public class Feature extends org.ardennes.pojo.osm.GeoJsonObject {
 
-    @JsonProperty("href")
+    @JsonProperty("URL")
     private String getHref(){
-        return org.ardennes.UrlResolver.getFeatureURL(getId());
+        return Common.getFeatureURL(getId());
     }
 
-    private List<User> users;
     private List<Event> events;
-
-    public List<User> getUsers() {
-        return users;
-    }
-
-    public void setUsers(List<User> users) {
-        this.users = users;
-    }
-
     public List<Event> getEvents() {
         return events;
+    }
+    public List<Map<String,String>> pois;
+
+    public List<Map<String, String>> getPois() {
+        return pois;
+    }
+
+    public void setPois(List<Map<String, String>> pois) {
+        this.pois = pois;
     }
 
     public void setEvents(List<Event> events) {

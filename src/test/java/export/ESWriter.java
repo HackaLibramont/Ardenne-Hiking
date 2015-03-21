@@ -1,8 +1,10 @@
 package export;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.fasterxml.jackson.databind.SerializationFeature;
 import org.apache.log4j.Logger;
+import org.ardennes.Common;
+import org.elasticsearch.action.admin.indices.delete.DeleteIndexRequest;
+import org.elasticsearch.action.admin.indices.delete.DeleteIndexResponse;
 import org.elasticsearch.action.index.IndexResponse;
 import org.elasticsearch.client.Client;
 import org.elasticsearch.client.transport.TransportClient;
@@ -32,15 +34,27 @@ public class ESWriter {
     }
 
 
-    public String write(Object object,String type) throws Exception{
-        ObjectMapper mapper = new ObjectMapper();
-        mapper.configure(SerializationFeature.INDENT_OUTPUT, true);
-        return write(mapper.writeValueAsString(object), type);
+    public DeleteIndexResponse deleteIndex(){
+        final DeleteIndexRequest deleteIndexRequest=new DeleteIndexRequest(Common.INDEX);
+        return this.client.admin().indices().delete(deleteIndexRequest).actionGet();
     }
 
-    private String write(final String type, final String json) throws Exception {
-        final IndexResponse response = client
-                .prepareIndex("ardennes", type).setSource(json).execute()
+    public String write(String type,Object object,String id) throws Exception{
+        ObjectMapper mapper = new ObjectMapper();
+        IndexResponse response = client.prepareIndex(Common.INDEX, type)
+                .setSource(mapper.writeValueAsString(object))
+                .setId(id)
+                .execute()
+                .actionGet();
+        return response.getId();
+    }
+
+
+    public String write(String type,Object object) throws Exception{
+        ObjectMapper mapper = new ObjectMapper();
+        IndexResponse response = client.prepareIndex(Common.INDEX, type)
+                .setSource(mapper.writeValueAsString(object))
+                .execute()
                 .actionGet();
         return response.getId();
     }

@@ -2,6 +2,7 @@ package org.ardennes.pojo.app;
 
 import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonProperty;
+import org.ardennes.Common;
 
 import java.util.Date;
 
@@ -11,17 +12,25 @@ import java.util.Date;
 @JsonInclude(JsonInclude.Include.NON_NULL)
 public class Event {
 
-    @JsonProperty("href")
+    @JsonProperty("URL")
     private String getHref(){
-        return org.ardennes.UrlResolver.getEventURL(getId());
+        return Common.getEventURL(getId());
     }
     private String id;
     private String type="Event";
-    Date creationDate;
-    String userId;
-    String featureId;
-    Event eventType;
-    String value;
+    Date eventCreationDate;
+    @JsonProperty("userURL")
+    private String getUserHref(){
+        return Common.getUserURL(getEventUserId());
+    }
+    String eventUserId;
+    @JsonProperty("featureURL")
+    private String getFeatureHref(){
+        return Common.getEventURL(getId());
+    }
+    String eventFeatureId;
+    EventEnum eventType;
+    String eventValue;
     Double[] coordinates;
 
     public String getId() {
@@ -40,44 +49,44 @@ public class Event {
         this.type = type;
     }
 
-    public Date getCreationDate() {
-        return creationDate;
+    public Date getEventCreationDate() {
+        return eventCreationDate;
     }
 
-    public void setCreationDate(Date creationDate) {
-        this.creationDate = creationDate;
+    public void setEventCreationDate(Date eventCreationDate) {
+        this.eventCreationDate = eventCreationDate;
     }
 
-    public String getUserId() {
-        return userId;
+    public String getEventUserId() {
+        return eventUserId;
     }
 
-    public void setUserId(String userId) {
-        this.userId = userId;
+    public void setEventUserId(String eventUserId) {
+        this.eventUserId = eventUserId;
     }
 
-    public String getFeatureId() {
-        return featureId;
+    public String getEventFeatureId() {
+        return eventFeatureId;
     }
 
-    public void setFeatureId(String featureId) {
-        this.featureId = featureId;
+    public void setEventFeatureId(String eventFeatureId) {
+        this.eventFeatureId = eventFeatureId;
     }
 
-    public Event getEventType() {
+    public EventEnum getEventType() {
         return eventType;
     }
 
-    public void setEventType(Event eventType) {
+    public void setEventType(EventEnum eventType) {
         this.eventType = eventType;
     }
 
-    public String getValue() {
-        return value;
+    public String getEventValue() {
+        return eventValue;
     }
 
-    public void setValue(String value) {
-        this.value = value;
+    public void setEventValue(String eventValue) {
+        this.eventValue = eventValue;
     }
 
     public Double[] getCoordinates() {
