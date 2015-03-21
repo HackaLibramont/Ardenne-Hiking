@@ -1,0 +1,12 @@
+{
+  "type": "Event",
+  "eventCreationDate": 1426933467997,
+  "eventUserId": "bob",
+  "eventTrackId": "4708463",
+  "eventType": "COMMENTED",
+  "eventValue": "Maybe you are right",
+  "coordinates": [
+    5.5344497,
+    49.7075366
+  ]
+}

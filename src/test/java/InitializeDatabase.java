@@ -37,33 +37,28 @@ public class InitializeDatabase {
         } catch (Exception e){
 
         }
-        String aliceId = loadUser(writer, "Alice");
-        String bobId = loadUser(writer,"Bob");
+        loadUser(writer, "Alice","alice");
+        loadUser(writer,"Bob","bob");
 
         loadTrack("track1", writer, "4708248");
         loadTrack("track2",writer,"4682511");
         loadTrack("track3",writer,"4708463");
-        loadEvent(writer, "4708463",aliceId);
+        loadEvent(writer, "events/event1.json");
+        loadEvent(writer, "events/event2.json");
+
 
     }
     
-    private static String loadUser(ESWriter writer, String userName)  throws Exception {
+    private static String loadUser(ESWriter writer, String userName,String userId)  throws Exception {
         User alice = new User();
         alice.setUserName(userName);
-        return writer.write(Constants.USER_TYPE,alice,alice.getId());
+        return writer.write(Constants.USER_TYPE,alice,userId);
     }
 
-    private static void loadEvent(ESWriter writer, String trackId, String userId)  throws Exception {
-        /**
-         * Add some events
-         */
-        Event event = new Event();
-        event.setEventType(EventEnum.COMMENTED);
-        event.setEventCreationDate(new Date());
-        event.setEventValue("This is a nice spot");
-        event.setEventTrackId(trackId);
-        event.setCoordinates(new Double[]{5.5344497, 49.7075366});
-        event.setEventUserId(userId);
+    private static void loadEvent(ESWriter writer, String file)  throws Exception {
+        ObjectMapper objectMapper = getMapper();
+        InputStream trackFile = Thread.currentThread().getContextClassLoader().getResourceAsStream(file);
+        Event event = objectMapper.readValue(trackFile, Event.class);
         writer.write(Constants.EVENT_TYPE, event);
     }
 
