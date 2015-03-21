@@ -1,0 +1,1781 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "way/327178363",
+      "properties": {
+        "type": "way",
+        "id": "327178363",
+        "tags": {
+          "bridge": "yes",
+          "highway": "secondary",
+          "layer": "1",
+          "maxspeed": "50",
+          "ref": "N897"
+        },
+        "relations": [
+          {
+            "role": "",
+            "rel": "4708248",
+            "reltags": {
+              "name": "Promenade des Forges de Mellier",
+              "network": "lwn",
+              "osmc:symbol": "blue:white:red_corner",
+              "route": "hiking",
+              "type": "route"
+            }
+          }
+        ],
+        "meta": {
+          "timestamp": "2015-02-09T02:49:06Z",
+          "version": "1",
+          "changeset": "28718816",
+          "user": "Franc9876",
+          "uid": "2419327"
+        }
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.5338504,
+            49.7271575
+          ],
+          [
+            5.5338193,
+            49.7273571
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/327010550",
+      "properties": {
+        "type": "way",
+        "id": "327010550",
+        "tags": {
+          "highway": "secondary",
+          "maxspeed": "50",
+          "name": "Rue de l'Église",
+          "ref": "N897"
+        },
+        "relations": [
+          {
+            "role": "",
+            "rel": "4708248",
+            "reltags": {
+              "name": "Promenade des Forges de Mellier",
+              "network": "lwn",
+              "osmc:symbol": "blue:white:red_corner",
+              "route": "hiking",
+              "type": "route"
+            }
+          }
+        ],
+        "meta": {
+          "timestamp": "2015-02-09T02:49:10Z",
+          "version": "2",
+          "changeset": "28718816",
+          "user": "Franc9876",
+          "uid": "2419327"
+        }
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.5364239,
+            49.7246781
+          ],
+          [
+            5.5362846,
+            49.7247504
+          ],
+          [
+            5.5358001,
+            49.7249614
+          ],
+          [
+            5.5355346,
+            49.7251226
+          ],
+          [
+            5.535301,
+            49.7252624
+          ],
+          [
+            5.5350491,
+            49.7254419
+          ],
+          [
+            5.5345005,
+            49.7258472
+          ],
+          [
+            5.5342988,
+            49.7260187
+          ],
+          [
+            5.5341757,
+            49.7261382
+          ],
+          [
+            5.5340724,
+            49.726282
+          ],
+          [
+            5.534028,
+            49.7263513
+          ],
+          [
+            5.533975,
+            49.7264688
+          ],
+          [
+            5.5339382,
+            49.7265977
+          ],
+          [
+            5.5339014,
+            49.7267572
+          ],
+          [
+            5.5338504,
+            49.7271575
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/327179071",
+      "properties": {
+        "type": "way",
+        "id": "327179071",
+        "tags": {
+          "highway": "residential",
+          "maxspeed": "50",
+          "name": "Rue de Courtel"
+        },
+        "relations": [
+          {
+            "role": "",
+            "rel": "4708248",
+            "reltags": {
+              "name": "Promenade des Forges de Mellier",
+              "network": "lwn",
+              "osmc:symbol": "blue:white:red_corner",
+              "route": "hiking",
+              "type": "route"
+            }
+          }
+        ],
+        "meta": {
+          "timestamp": "2015-02-09T03:23:41Z",
+          "version": "1",
+          "changeset": "28718816",
+          "user": "Franc9876",
+          "uid": "2419327"
+        }
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.5380663,
+            49.7295537
+          ],
+          [
+            5.5380738,
+            49.7294485
+          ],
+          [
+            5.538067,
+            49.7293175
+          ],
+          [
+            5.5379758,
+            49.7288667
+          ],
+          [
+            5.5380225,
+            49.7280782
+          ],
+          [
+            5.5380415,
+            49.7279702
+          ],
+          [
+            5.5380725,
+            49.7278786
+          ],
+          [
+            5.5381086,
+            49.7278003
+          ],
+          [
+            5.5381621,
+            49.7277024
+          ],
+          [
+            5.538246,
+            49.7275977
+          ],
+          [
+            5.538319,
+            49.7274894
+          ],
+          [
+            5.5383441,
+            49.7274113
+          ],
+          [
+            5.5383611,
+            49.7273284
+          ],
+          [
+            5.5384419,
+            49.7268598
+          ],
+          [
+            5.5384817,
+            49.7263775
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/327172458",
+      "properties": {
+        "type": "way",
+        "id": "327172458",
+        "tags": {
+          "highway": "secondary",
+          "maxspeed": "50",
+          "name": "Rue du Chenel",
+          "ref": "N897"
+        },
+        "relations": [
+          {
+            "role": "",
+            "rel": "4708248",
+            "reltags": {
+              "name": "Promenade des Forges de Mellier",
+              "network": "lwn",
+              "osmc:symbol": "blue:white:red_corner",
+              "route": "hiking",
+              "type": "route"
+            }
+          }
+        ],
+        "meta": {
+          "timestamp": "2015-02-09T01:55:54Z",
+          "version": "1",
+          "changeset": "28718816",
+          "user": "Franc9876",
+          "uid": "2419327"
+        }
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.5283097,
+            49.7313023
+          ],
+          [
+            5.528174,
+            49.7314013
+          ],
+          [
+            5.5279598,
+            49.7315592
+          ],
+          [
+            5.5278181,
+            49.7316799
+          ],
+          [
+            5.5276307,
+            49.7318815
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/327172459",
+      "properties": {
+        "type": "way",
+        "id": "327172459",
+        "tags": {
+          "highway": "secondary",
+          "maxspeed": "30",
+          "name": "Rue du Chenel",
+          "ref": "N897"
+        },
+        "relations": [
+          {
+            "role": "",
+            "rel": "4708248",
+            "reltags": {
+              "name": "Promenade des Forges de Mellier",
+              "network": "lwn",
+              "osmc:symbol": "blue:white:red_corner",
+              "route": "hiking",
+              "type": "route"
+            }
+          }
+        ],
+        "meta": {
+          "timestamp": "2015-02-09T01:55:54Z",
+          "version": "1",
+          "changeset": "28718816",
+          "user": "Franc9876",
+          "uid": "2419327"
+        }
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.5298503,
+            49.7304553
+          ],
+          [
+            5.5294998,
+            49.7305756
+          ],
+          [
+            5.529297,
+            49.7306626
+          ],
+          [
+            5.5290638,
+            49.7307868
+          ],
+          [
+            5.52881,
+            49.7309397
+          ],
+          [
+            5.5286337,
+            49.731066
+          ],
+          [
+            5.5283097,
+            49.7313023
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/59988318",
+      "properties": {
+        "type": "way",
+        "id": "59988318",
+        "tags": {
+          "highway": "track",
+          "surface": "gravel",
+          "tracktype": "grade3"
+        },
+        "relations": [
+          {
+            "role": "",
+            "rel": "4708248",
+            "reltags": {
+              "name": "Promenade des Forges de Mellier",
+              "network": "lwn",
+              "osmc:symbol": "blue:white:red_corner",
+              "route": "hiking",
+              "type": "route"
+            }
+          }
+        ],
+        "meta": {
+          "timestamp": "2011-11-08T19:37:43Z",
+          "version": "2",
+          "changeset": "9775972",
+          "user": "Patrick Bous",
+          "uid": "223763"
+        }
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.5283868,
+            49.7438066
+          ],
+          [
+            5.5282913,
+            49.7438765
+          ],
+          [
+            5.5276555,
+            49.7443419
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/59988364",
+      "properties": {
+        "type": "way",
+        "id": "59988364",
+        "tags": {
+          "highway": "track",
+          "surface": "ground",
+          "tracktype": "grade3"
+        },
+        "relations": [
+          {
+            "role": "",
+            "rel": "4708248",
+            "reltags": {
+              "name": "Promenade des Forges de Mellier",
+              "network": "lwn",
+              "osmc:symbol": "blue:white:red_corner",
+              "route": "hiking",
+              "type": "route"
+            }
+          }
+        ],
+        "meta": {
+          "timestamp": "2010-05-22T17:59:27Z",
+          "version": "1",
+          "changeset": "4776718",
+          "user": "Hagebutte",
+          "uid": "82866"
+        }
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.5216634,
+            49.7430134
+          ],
+          [
+            5.5214582,
+            49.7425701
+          ],
+          [
+            5.5214262,
+            49.7412401
+          ],
+          [
+            5.5214647,
+            49.7406601
+          ],
+          [
+            5.5211697,
+            49.739906
+          ],
+          [
+            5.5210031,
+            49.7394834
+          ],
+          [
+            5.5206825,
+            49.7392307
+          ],
+          [
+            5.5207594,
+            49.738489
+          ],
+          [
+            5.520862,
+            49.7379172
+          ],
+          [
+            5.5211185,
+            49.7374697
+          ],
+          [
+            5.5213428,
+            49.7371672
+          ],
+          [
+            5.521548,
+            49.7365126
+          ],
+          [
+            5.5215544,
+            49.7360609
+          ],
+          [
+            5.5221827,
+            49.7354518
+          ],
+          [
+            5.5222917,
+            49.7353606
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/59988338",
+      "properties": {
+        "type": "way",
+        "id": "59988338",
+        "tags": {
+          "highway": "path",
+          "surface": "ground"
+        },
+        "relations": [
+          {
+            "role": "",
+            "rel": "4708248",
+            "reltags": {
+              "name": "Promenade des Forges de Mellier",
+              "network": "lwn",
+              "osmc:symbol": "blue:white:red_corner",
+              "route": "hiking",
+              "type": "route"
+            }
+          }
+        ],
+        "meta": {
+          "timestamp": "2011-11-08T19:37:44Z",
+          "version": "2",
+          "changeset": "9775972",
+          "user": "Patrick Bous",
+          "uid": "223763"
+        }
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.5282913,
+            49.7438765
+          ],
+          [
+            5.5283291,
+            49.743413
+          ],
+          [
+            5.528297,
+            49.7430526
+          ],
+          [
+            5.5283098,
+            49.7423524
+          ],
+          [
+            5.528547,
+            49.7416522
+          ],
+          [
+            5.528515,
+            49.7410225
+          ],
+          [
+            5.5283932,
+            49.7400944
+          ],
+          [
+            5.5290022,
+            49.7391373
+          ],
+          [
+            5.5292202,
+            49.7384661
+          ],
+          [
+            5.5290792,
+            49.7378445
+          ],
+          [
+            5.5292266,
+            49.7374095
+          ],
+          [
+            5.5293613,
+            49.7368294
+          ],
+          [
+            5.5297652,
+            49.7363695
+          ],
+          [
+            5.5302519,
+            49.7358518
+          ],
+          [
+            5.5311087,
+            49.7356142
+          ],
+          [
+            5.5320573,
+            49.735192
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/59988320",
+      "properties": {
+        "type": "way",
+        "id": "59988320",
+        "tags": {
+          "highway": "residential",
+          "name": "Rue de Courtel"
+        },
+        "relations": [
+          {
+            "role": "",
+            "rel": "4708248",
+            "reltags": {
+              "name": "Promenade des Forges de Mellier",
+              "network": "lwn",
+              "osmc:symbol": "blue:white:red_corner",
+              "route": "hiking",
+              "type": "route"
+            }
+          }
+        ],
+        "meta": {
+          "timestamp": "2015-02-09T03:23:42Z",
+          "version": "7",
+          "changeset": "28718816",
+          "user": "Franc9876",
+          "uid": "2419327"
+        }
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.5379881,
+            49.7299067
+          ],
+          [
+            5.5380539,
+            49.7296487
+          ],
+          [
+            5.5380663,
+            49.7295537
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/59988362",
+      "properties": {
+        "type": "way",
+        "id": "59988362",
+        "tags": {
+          "highway": "track",
+          "surface": "gravel",
+          "tracktype": "grade3"
+        },
+        "relations": [
+          {
+            "role": "",
+            "rel": "4708248",
+            "reltags": {
+              "name": "Promenade des Forges de Mellier",
+              "network": "lwn",
+              "osmc:symbol": "blue:white:red_corner",
+              "route": "hiking",
+              "type": "route"
+            }
+          }
+        ],
+        "meta": {
+          "timestamp": "2010-07-19T06:20:41Z",
+          "version": "2",
+          "changeset": "5257856",
+          "user": "Hagebutte",
+          "uid": "82866"
+        }
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.5353677,
+            49.7333952
+          ],
+          [
+            5.5349985,
+            49.7337705
+          ],
+          [
+            5.534746,
+            49.7340307
+          ],
+          [
+            5.5344404,
+            49.7343455
+          ],
+          [
+            5.5340465,
+            49.7346955
+          ],
+          [
+            5.5335706,
+            49.735262
+          ],
+          [
+            5.5331898,
+            49.7355993
+          ],
+          [
+            5.5331012,
+            49.7356163
+          ],
+          [
+            5.5324447,
+            49.7351453
+          ],
+          [
+            5.5320573,
+            49.735192
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/59988373",
+      "properties": {
+        "type": "way",
+        "id": "59988373",
+        "tags": {
+          "highway": "track",
+          "surface": "ground",
+          "tracktype": "grade2"
+        },
+        "relations": [
+          {
+            "role": "",
+            "rel": "4708248",
+            "reltags": {
+              "name": "Promenade des Forges de Mellier",
+              "network": "lwn",
+              "osmc:symbol": "blue:white:red_corner",
+              "route": "hiking",
+              "type": "route"
+            }
+          }
+        ],
+        "meta": {
+          "timestamp": "2015-03-20T14:22:15Z",
+          "version": "3",
+          "changeset": "29616033",
+          "user": "juminet",
+          "uid": "812669"
+        }
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.5276307,
+            49.7318815
+          ],
+          [
+            5.527008,
+            49.7321156
+          ],
+          [
+            5.5265828,
+            49.7322929
+          ],
+          [
+            5.525417,
+            49.7325677
+          ],
+          [
+            5.5244226,
+            49.7331794
+          ],
+          [
+            5.5238054,
+            49.733432
+          ],
+          [
+            5.5236408,
+            49.733698
+          ],
+          [
+            5.5234968,
+            49.7341811
+          ],
+          [
+            5.5228174,
+            49.7350416
+          ],
+          [
+            5.5225033,
+            49.7353151
+          ],
+          [
+            5.5222917,
+            49.7353606
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/89078797",
+      "properties": {
+        "type": "way",
+        "id": "89078797",
+        "tags": {
+          "highway": "track",
+          "surface": "gravel",
+          "tracktype": "grade2"
+        },
+        "relations": [
+          {
+            "role": "",
+            "rel": "4708248",
+            "reltags": {
+              "name": "Promenade des Forges de Mellier",
+              "network": "lwn",
+              "osmc:symbol": "blue:white:red_corner",
+              "route": "hiking",
+              "type": "route"
+            }
+          }
+        ],
+        "meta": {
+          "timestamp": "2010-12-11T17:14:18Z",
+          "version": "1",
+          "changeset": "6626922",
+          "user": "Hagebutte",
+          "uid": "82866"
+        }
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.5262128,
+            49.7500476
+          ],
+          [
+            5.5273129,
+            49.7493754
+          ],
+          [
+            5.5284954,
+            49.748795
+          ],
+          [
+            5.5287952,
+            49.7484962
+          ],
+          [
+            5.5283101,
+            49.7476917
+          ],
+          [
+            5.5282205,
+            49.7472993
+          ],
+          [
+            5.527966,
+            49.7469427
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/89078998",
+      "properties": {
+        "type": "way",
+        "id": "89078998",
+        "tags": {
+          "highway": "track",
+          "layer": "-1",
+          "surface": "gravel",
+          "tracktype": "grade2",
+          "tunnel": "yes"
+        },
+        "relations": [
+          {
+            "role": "",
+            "rel": "4708248",
+            "reltags": {
+              "name": "Promenade des Forges de Mellier",
+              "network": "lwn",
+              "osmc:symbol": "blue:white:red_corner",
+              "route": "hiking",
+              "type": "route"
+            }
+          }
+        ],
+        "meta": {
+          "timestamp": "2010-12-11T17:14:46Z",
+          "version": "1",
+          "changeset": "6626922",
+          "user": "Hagebutte",
+          "uid": "82866"
+        }
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.5258484,
+            49.7499148
+          ],
+          [
+            5.5262128,
+            49.7500476
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/59988356",
+      "properties": {
+        "type": "way",
+        "id": "59988356",
+        "tags": {
+          "highway": "unclassified",
+          "surface": "asphalt",
+          "tracktype": "grade2"
+        },
+        "relations": [
+          {
+            "role": "",
+            "rel": "4708248",
+            "reltags": {
+              "name": "Promenade des Forges de Mellier",
+              "network": "lwn",
+              "osmc:symbol": "blue:white:red_corner",
+              "route": "hiking",
+              "type": "route"
+            }
+          }
+        ],
+        "meta": {
+          "timestamp": "2012-09-15T18:45:33Z",
+          "version": "4",
+          "changeset": "13121687",
+          "user": "juminet",
+          "uid": "812669"
+        }
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.5233617,
+            49.7527085
+          ],
+          [
+            5.5237749,
+            49.7526561
+          ],
+          [
+            5.5239446,
+            49.7524701
+          ],
+          [
+            5.5239004,
+            49.7521984
+          ],
+          [
+            5.5237823,
+            49.7519505
+          ],
+          [
+            5.5241881,
+            49.7511877
+          ],
+          [
+            5.5249555,
+            49.7506728
+          ],
+          [
+            5.5257155,
+            49.7500053
+          ],
+          [
+            5.5258484,
+            49.7499148
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/219949819",
+      "properties": {
+        "type": "way",
+        "id": "219949819",
+        "tags": {
+          "highway": "residential",
+          "maxspeed": "50",
+          "name": "Grand-Rue"
+        },
+        "relations": [
+          {
+            "role": "",
+            "rel": "4708248",
+            "reltags": {
+              "name": "Promenade des Forges de Mellier",
+              "network": "lwn",
+              "osmc:symbol": "blue:white:red_corner",
+              "route": "hiking",
+              "type": "route"
+            }
+          }
+        ],
+        "meta": {
+          "timestamp": "2015-03-18T19:39:18Z",
+          "version": "6",
+          "changeset": "29577503",
+          "user": "juminet",
+          "uid": "812669"
+        }
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.5392364,
+            49.7272159
+          ],
+          [
+            5.5392046,
+            49.7271366
+          ],
+          [
+            5.5391347,
+            49.7270443
+          ],
+          [
+            5.5390912,
+            49.7269931
+          ],
+          [
+            5.5389492,
+            49.7268087
+          ],
+          [
+            5.5387778,
+            49.7266484
+          ],
+          [
+            5.5384817,
+            49.7263775
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/219931295",
+      "properties": {
+        "type": "way",
+        "id": "219931295",
+        "tags": {
+          "highway": "secondary",
+          "maxspeed": "50",
+          "name": "Rue du Chenel",
+          "ref": "N897"
+        },
+        "relations": [
+          {
+            "role": "",
+            "rel": "4708248",
+            "reltags": {
+              "name": "Promenade des Forges de Mellier",
+              "network": "lwn",
+              "osmc:symbol": "blue:white:red_corner",
+              "route": "hiking",
+              "type": "route"
+            }
+          }
+        ],
+        "meta": {
+          "timestamp": "2015-02-09T02:49:08Z",
+          "version": "5",
+          "changeset": "28718816",
+          "user": "Franc9876",
+          "uid": "2419327"
+        }
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.5338193,
+            49.7273571
+          ],
+          [
+            5.5337752,
+            49.7275369
+          ],
+          [
+            5.5337181,
+            49.7277003
+          ],
+          [
+            5.5336432,
+            49.7278254
+          ],
+          [
+            5.5335473,
+            49.727957
+          ],
+          [
+            5.5331669,
+            49.7284101
+          ],
+          [
+            5.532917,
+            49.7287086
+          ],
+          [
+            5.532772,
+            49.7288502
+          ],
+          [
+            5.5326695,
+            49.7289408
+          ],
+          [
+            5.5325412,
+            49.7290483
+          ],
+          [
+            5.5323369,
+            49.7291915
+          ],
+          [
+            5.5322815,
+            49.7292288
+          ],
+          [
+            5.5320007,
+            49.7294256
+          ],
+          [
+            5.5317265,
+            49.729621
+          ],
+          [
+            5.5313441,
+            49.7298876
+          ],
+          [
+            5.5310296,
+            49.7300587
+          ],
+          [
+            5.5308276,
+            49.7301477
+          ],
+          [
+            5.5305549,
+            49.7302391
+          ],
+          [
+            5.5303947,
+            49.7302872
+          ],
+          [
+            5.5298503,
+            49.7304553
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/257341433",
+      "properties": {
+        "type": "way",
+        "id": "257341433",
+        "tags": {
+          "bicycle": "yes",
+          "foot": "yes",
+          "highway": "path",
+          "horse": "yes",
+          "surface": "unpaved",
+          "trail_visibility": "good"
+        },
+        "relations": [
+          {
+            "role": "",
+            "rel": "4708248",
+            "reltags": {
+              "name": "Promenade des Forges de Mellier",
+              "network": "lwn",
+              "osmc:symbol": "blue:white:red_corner",
+              "route": "hiking",
+              "type": "route"
+            }
+          }
+        ],
+        "meta": {
+          "timestamp": "2014-01-19T19:37:26Z",
+          "version": "1",
+          "changeset": "20091617",
+          "user": "juminet",
+          "uid": "812669"
+        }
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.5216634,
+            49.7430134
+          ],
+          [
+            5.5216797,
+            49.7432918
+          ],
+          [
+            5.5216904,
+            49.7435275
+          ],
+          [
+            5.5217226,
+            49.7439019
+          ],
+          [
+            5.5217333,
+            49.7442347
+          ],
+          [
+            5.5216904,
+            49.7446437
+          ],
+          [
+            5.5216797,
+            49.7449002
+          ],
+          [
+            5.5217655,
+            49.7451637
+          ],
+          [
+            5.5218299,
+            49.7453578
+          ],
+          [
+            5.5219694,
+            49.7455381
+          ],
+          [
+            5.5220659,
+            49.7458362
+          ],
+          [
+            5.5220123,
+            49.7461412
+          ],
+          [
+            5.5220445,
+            49.7464047
+          ],
+          [
+            5.522023,
+            49.7466681
+          ],
+          [
+            5.5218835,
+            49.7469038
+          ],
+          [
+            5.5216046,
+            49.7470217
+          ],
+          [
+            5.5212827,
+            49.7471811
+          ],
+          [
+            5.5210252,
+            49.7472712
+          ],
+          [
+            5.5204995,
+            49.7474723
+          ],
+          [
+            5.5202742,
+            49.7475832
+          ],
+          [
+            5.5196841,
+            49.7478744
+          ],
+          [
+            5.5190511,
+            49.7481933
+          ],
+          [
+            5.5176671,
+            49.7488865
+          ],
+          [
+            5.5167766,
+            49.7494827
+          ],
+          [
+            5.5162402,
+            49.7498085
+          ],
+          [
+            5.5156072,
+            49.7500511
+          ],
+          [
+            5.5153282,
+            49.7502868
+          ],
+          [
+            5.5149527,
+            49.7504809
+          ],
+          [
+            5.5148883,
+            49.750675
+          ],
+          [
+            5.5148991,
+            49.7509038
+          ],
+          [
+            5.514942,
+            49.7512296
+          ],
+          [
+            5.5148776,
+            49.7515831
+          ],
+          [
+            5.5148132,
+            49.7519228
+          ],
+          [
+            5.5148025,
+            49.752304
+          ],
+          [
+            5.5146952,
+            49.752609
+          ],
+          [
+            5.5146845,
+            49.7528516
+          ],
+          [
+            5.5146845,
+            49.7532051
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/333481123",
+      "properties": {
+        "type": "way",
+        "id": "333481123",
+        "tags": {
+          "highway": "residential",
+          "maxspeed": "50",
+          "name": "Grand-Rue"
+        },
+        "relations": [
+          {
+            "role": "",
+            "rel": "4708248",
+            "reltags": {
+              "name": "Promenade des Forges de Mellier",
+              "network": "lwn",
+              "osmc:symbol": "blue:white:red_corner",
+              "route": "hiking",
+              "type": "route"
+            }
+          }
+        ],
+        "meta": {
+          "timestamp": "2015-03-18T19:39:14Z",
+          "version": "1",
+          "changeset": "29577503",
+          "user": "juminet",
+          "uid": "812669"
+        }
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.5384817,
+            49.7263775
+          ],
+          [
+            5.5382905,
+            49.7261894
+          ],
+          [
+            5.5371245,
+            49.7251982
+          ],
+          [
+            5.5365512,
+            49.7246987
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/333849640",
+      "properties": {
+        "type": "way",
+        "id": "333849640",
+        "tags": {
+          "highway": "unclassified",
+          "name": "Rue de Courtel"
+        },
+        "relations": [
+          {
+            "role": "",
+            "rel": "4708248",
+            "reltags": {
+              "name": "Promenade des Forges de Mellier",
+              "network": "lwn",
+              "osmc:symbol": "blue:white:red_corner",
+              "route": "hiking",
+              "type": "route"
+            }
+          }
+        ],
+        "meta": {
+          "timestamp": "2015-03-20T14:22:13Z",
+          "version": "1",
+          "changeset": "29616033",
+          "user": "juminet",
+          "uid": "812669"
+        }
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.5353677,
+            49.7333952
+          ],
+          [
+            5.5364357,
+            49.7323343
+          ],
+          [
+            5.5371365,
+            49.7314649
+          ],
+          [
+            5.5375002,
+            49.7309481
+          ],
+          [
+            5.5377508,
+            49.7305369
+          ],
+          [
+            5.5379881,
+            49.7299067
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/333849646",
+      "properties": {
+        "type": "way",
+        "id": "333849646",
+        "tags": {
+          "bicycle": "yes",
+          "foot": "yes",
+          "highway": "path",
+          "horse": "yes",
+          "surface": "unpaved",
+          "trail_visibility": "good"
+        },
+        "relations": [
+          {
+            "role": "",
+            "rel": "4708248",
+            "reltags": {
+              "name": "Promenade des Forges de Mellier",
+              "network": "lwn",
+              "osmc:symbol": "blue:white:red_corner",
+              "route": "hiking",
+              "type": "route"
+            }
+          }
+        ],
+        "meta": {
+          "timestamp": "2015-03-20T14:22:13Z",
+          "version": "1",
+          "changeset": "29616033",
+          "user": "juminet",
+          "uid": "812669"
+        }
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.5146845,
+            49.7532051
+          ],
+          [
+            5.5151458,
+            49.7533576
+          ],
+          [
+            5.5161758,
+            49.7536141
+          ],
+          [
+            5.5170234,
+            49.7538914
+          ],
+          [
+            5.5176134,
+            49.7540369
+          ],
+          [
+            5.5183108,
+            49.7542587
+          ],
+          [
+            5.5192013,
+            49.7545707
+          ],
+          [
+            5.5194588,
+            49.7546538
+          ],
+          [
+            5.5198236,
+            49.7545568
+          ],
+          [
+            5.5203171,
+            49.7543974
+          ],
+          [
+            5.5205424,
+            49.7542587
+          ],
+          [
+            5.5206816,
+            49.7539333
+          ],
+          [
+            5.520982,
+            49.7535174
+          ],
+          [
+            5.5211697,
+            49.7532471
+          ],
+          [
+            5.5213736,
+            49.7530599
+          ],
+          [
+            5.5214245,
+            49.7528589
+          ],
+          [
+            5.5214996,
+            49.7526614
+          ],
+          [
+            5.5216177,
+            49.7525609
+          ],
+          [
+            5.5217242,
+            49.7525503
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/70520443",
+      "properties": {
+        "type": "way",
+        "id": "70520443",
+        "tags": {
+          "highway": "track",
+          "surface": "gravel",
+          "tracktype": "grade2"
+        },
+        "relations": [
+          {
+            "role": "",
+            "rel": "4708248",
+            "reltags": {
+              "name": "Promenade des Forges de Mellier",
+              "network": "lwn",
+              "osmc:symbol": "blue:white:red_corner",
+              "route": "hiking",
+              "type": "route"
+            }
+          }
+        ],
+        "meta": {
+          "timestamp": "2015-03-20T14:22:15Z",
+          "version": "2",
+          "changeset": "29616033",
+          "user": "juminet",
+          "uid": "812669"
+        }
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.5279196,
+            49.7469066
+          ],
+          [
+            5.5276731,
+            49.7467848
+          ],
+          [
+            5.5276134,
+            49.7464311
+          ],
+          [
+            5.5274243,
+            49.7460195
+          ],
+          [
+            5.5274741,
+            49.7456143
+          ],
+          [
+            5.527703,
+            49.7451705
+          ],
+          [
+            5.5276731,
+            49.7447654
+          ],
+          [
+            5.5278354,
+            49.7445357
+          ],
+          [
+            5.5278118,
+            49.7443512
+          ],
+          [
+            5.5276555,
+            49.7443419
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/70520432",
+      "properties": {
+        "type": "way",
+        "id": "70520432",
+        "tags": {
+          "highway": "unclassified"
+        },
+        "relations": [
+          {
+            "role": "",
+            "rel": "4708248",
+            "reltags": {
+              "name": "Promenade des Forges de Mellier",
+              "network": "lwn",
+              "osmc:symbol": "blue:white:red_corner",
+              "route": "hiking",
+              "type": "route"
+            }
+          }
+        ],
+        "meta": {
+          "timestamp": "2015-03-20T14:22:15Z",
+          "version": "4",
+          "changeset": "29616033",
+          "user": "juminet",
+          "uid": "812669"
+        }
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.5217242,
+            49.7525503
+          ],
+          [
+            5.5224763,
+            49.7526179
+          ],
+          [
+            5.5233617,
+            49.7527085
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/637693028",
+      "properties": {
+        "type": "node",
+        "id": "637693028",
+        "tags": {
+          "bus": "yes",
+          "public_transport": "stop_position"
+        },
+        "relations": [],
+        "meta": {
+          "timestamp": "2015-02-08T03:17:28Z",
+          "version": "4",
+          "changeset": "28695044",
+          "user": "Franc9876",
+          "uid": "2419327"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.5320007,
+          49.7294256
+        ]
+      }
+    }
+  ]
+}
