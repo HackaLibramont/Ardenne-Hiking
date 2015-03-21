@@ -43,9 +43,12 @@ public class InitializeDatabase {
         loadTrack("track1", writer, "4708248");
         loadTrack("track2",writer,"4682511");
         loadTrack("track3",writer,"4708463");
-        loadEvent(writer, "events/event1.json");
-        loadEvent(writer, "events/event2.json");
 
+        loadEvent(writer, "events/01_aliceStarts.json");
+        loadEvent(writer, "events/02_bobStarts.json");
+        loadEvent(writer, "events/03_aliceTakeAPhoto.json");
+        loadEvent(writer, "events/04_alicecommented.json");
+        loadEvent(writer, "events/05_bobcommented.json");
 
     }
     
@@ -61,7 +64,6 @@ public class InitializeDatabase {
         Event event = objectMapper.readValue(trackFile, Event.class);
         writer.write(Constants.EVENT_TYPE, event);
     }
-
 
 
     private static void loadTrack(String directory, ESWriter writer, String trackId)  throws Exception {
@@ -89,6 +91,5 @@ public class InitializeDatabase {
         result.put("Attr2",new Random().toString());
         return result;
     }
-
     
 }

@@ -1,0 +1,12 @@
+{
+  "type": "Event",
+  "eventCreationDate": 1426933467996,
+  "eventUserId": "alice",
+  "eventTrackId": "4708463",
+  "eventType": "TOOK_PHOTO_URL",
+  "eventValue": "http://www.ftlb.be/dbimages/visiter/visiter2920_2.jpg",
+  "coordinates": [
+    5.5344497,
+    49.7075366
+  ]
+}

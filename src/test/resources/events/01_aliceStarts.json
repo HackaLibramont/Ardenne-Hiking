@@ -1,0 +1,12 @@
+{
+  "type": "Event",
+  "eventCreationDate": 1426933467996,
+  "eventUserId": "alice",
+  "eventTrackId": "4708463",
+  "eventType": "STARTED_TRACK",
+  "eventValue": "I will start here",
+  "coordinates": [
+    5.5344497,
+    49.7075366
+  ]
+}
