@@ -1,1214 +1,305 @@
 [
-  {
-    "keyword": "bien_etre",
-    "icon": "massage.png"
-  },
-  {
-    "keyword": "expo_galerie",
-    "icon": "museum_art.png"
-  },
-  {
-    "keyword": "expo_perm",
-    "icon": "museum_art.png"
-  },
-  {
-    "keyword": "musee",
-    "icon": "museum_art.png"
-  },
-  {
-    "keyword": "ctr_decouv",
-    "icon": "dinopark.png"
-  },
-  {
-    "keyword": "ferme_kid",
-    "icon": "dinopark.png"
-  },
-  {
-    "keyword": "parc_animal",
-    "icon": "dinopark.png"
-  },
-  {
-    "keyword": "train_tour",
-    "icon": "bustour.png"
-  },
-  {
-    "keyword": "labyrinthe",
-    "icon": "summercamp.png"
-  },
-  {
-    "keyword": "plaine_jeux",
-    "icon": "summercamp.png"
-  },
-  {
-    "keyword": "cinema_theat",
-    "icon": "dance_class.png"
-  },
-  {
-    "keyword": "dance_cinema",
-    "icon": "dance_class.png"
-  },
-  {
-    "keyword": "roller",
-    "icon": "rollerblade.png"
-  },
-  {
-    "keyword": "avion",
-    "icon": "hanggliding.png"
-  },
-  {
-    "keyword": "deltaplane",
-    "icon": "hanggliding.png"
-  },
-  {
-    "keyword": "montgolfier",
-    "icon": "hanggliding.png"
-  },
-  {
-    "keyword": "motoplaneur",
-    "icon": "hanggliding.png"
-  },
-  {
-    "keyword": "paramoteur",
-    "icon": "hanggliding.png"
-  },
-  {
-    "keyword": "parapente",
-    "icon": "hanggliding.png"
-  },
-  {
-    "keyword": "planeur",
-    "icon": "hanggliding.png"
-  },
-  {
-    "keyword": "ulm",
-    "icon": "hanggliding.png"
-  },
-  {
-    "keyword": "voltige",
-    "icon": "hanggliding.png"
-  },
-  {
-    "keyword": "baignade",
-    "icon": "fishing.png"
-  },
-  {
-    "keyword": "piscine",
-    "icon": "fishing.png"
-  },
-  {
-    "keyword": "plongee",
-    "icon": "fishing.png"
-  },
-  {
-    "keyword": "cyclo_lct",
-    "icon": "cycling.png"
-  },
-  {
-    "keyword": "prom_gyropod",
-    "icon": "cycling.png"
-  },
-  {
-    "keyword": "loc_velo_ele",
-    "icon": "cycling.png"
-  },
-  {
-    "keyword": "vtt_lct",
-    "icon": "cycling.png"
-  },
-  {
-    "keyword": "prom_cyclo",
-    "icon": "cycling.png"
-  },
-  {
-    "keyword": "prom_vtt",
-    "icon": "cycling.png"
-  },
-  {
-    "keyword": "agrogolf",
-    "icon": "golfing.png"
-  },
-  {
-    "keyword": "billard",
-    "icon": "golfing.png"
-  },
-  {
-    "keyword": "bowling",
-    "icon": "golfing.png"
-  },
-  {
-    "keyword": "golf",
-    "icon": "golfing.png"
-  },
-  {
-    "keyword": "mini_golf",
-    "icon": "golfing.png"
-  },
-  {
-    "keyword": "paint_laser",
-    "icon": "archery.png"
-  },
-  {
-    "keyword": "petanque",
-    "icon": "archery.png"
-  },
-  {
-    "keyword": "tir",
-    "icon": "archery.png"
-  },
-  {
-    "keyword": "tir_arc",
-    "icon": "archery.png"
-  },
-  {
-    "keyword": "location_ski",
-    "icon": "nordicski.png"
-  },
-  {
-    "keyword": "pst_luge",
-    "icon": "nordicski.png"
-  },
-  {
-    "keyword": "pst_raque",
-    "icon": "nordicski.png"
-  },
-  {
-    "keyword": "pst_ski_alp",
-    "icon": "nordicski.png"
-  },
-  {
-    "keyword": "pst_ski_fon",
-    "icon": "nordicski.png"
-  },
-  {
-    "keyword": "pst_snowb",
-    "icon": "nordicski.png"
-  },
-  {
-    "keyword": "squash",
-    "icon": "tennis.png"
-  },
-  {
-    "keyword": "tennis",
-    "icon": "tennis.png"
-  },
-  {
-    "keyword": "tenni_table",
-    "icon": "tennis.png"
-  },
-  {
-    "keyword": "musculation",
-    "icon": "tennis.png"
-  },
-  {
-    "keyword": "parco_vita",
-    "icon": "tennis.png"
-  },
-  {
-    "keyword": "act_equestre",
-    "icon": "tennis.png"
-  },
-  {
-    "keyword": "peche_etang",
-    "icon": "fishing.png"
-  },
-  {
-    "keyword": "peche_rivier",
-    "icon": "fishing.png"
-  },
-  {
-    "keyword": "peche_sport",
-    "icon": "fishing.png"
-  },
-  {
-    "keyword": "karting",
-    "icon": "atv.png"
-  },
-  {
-    "keyword": "4x4",
-    "icon": "atv.png"
-  },
-  {
-    "keyword": "buggy",
-    "icon": "atv.png"
-  },
-  {
-    "keyword": "quad",
-    "icon": "atv.png"
-  },
-  {
-    "keyword": "scooter",
-    "icon": "atv.png"
-  },
-  {
-    "keyword": "prom_moteur",
-    "icon": "atv.png"
-  },
-  {
-    "keyword": "accrobranch",
-    "icon": "ropescourse.png"
-  },
-  {
-    "keyword": "sport_avent",
-    "icon": "ropescourse.png"
-  },
-  {
-    "keyword": "death_ride",
-    "icon": "ropescourse.png"
-  },
-  {
-    "keyword": "escalade",
-    "icon": "ropescourse.png"
-  },
-  {
-    "keyword": "grimp_arbre",
-    "icon": "ropescourse.png"
-  },
-  {
-    "keyword": "rappel",
-    "icon": "ropescourse.png"
-  },
-  {
-    "keyword": "speleologie",
-    "icon": "ropescourse.png"
-  },
-  {
-    "keyword": "via_ferra",
-    "icon": "ropescourse.png"
-  },
-  {
-    "keyword": "barques",
-    "icon": "rowboat.png"
-  },
-  {
-    "keyword": "canoe_kayak",
-    "icon": "rowboat.png"
-  },
-  {
-    "keyword": "pedalos",
-    "icon": "rowboat.png"
-  },
-  {
-    "keyword": "rafting",
-    "icon": "rowboat.png"
-  },
-  {
-    "keyword": "waterball",
-    "icon": "rowboat.png"
-  },
-  {
-    "keyword": "dropping",
-    "icon": "spelunking.png"
-  },
-  {
-    "keyword": "nordic_walk",
-    "icon": "spelunking.png"
-  },
-  {
-    "keyword": "prom_pedestr",
-    "icon": "spelunking.png"
-  },
-  {
-    "keyword": "rando_pedes",
-    "icon": "spelunking.png"
-  },
-  {
-    "keyword": "trekking",
-    "icon": "spelunking.png"
-  },
-  {
-    "keyword": "clb_aerobic",
-    "icon": "weights.png"
-  },
-  {
-    "keyword": "clb_athletis",
-    "icon": "stadium.png"
-  },
-  {
-    "keyword": "clb_badminto",
-    "icon": "stadium.png"
-  },
-  {
-    "keyword": "clb_baseball",
-    "icon": "stadium.png"
-  },
-  {
-    "keyword": "clb_baskebal",
-    "icon": "stadium.png"
-  },
-  {
-    "keyword": "clb_cyclisme",
-    "icon": "stadium.png"
-  },
-  {
-    "keyword": "clb_equitati",
-    "icon": "stadium.png"
-  },
-  {
-    "keyword": "clb_escrime",
-    "icon": "stadium.png"
-  },
-  {
-    "keyword": "clb_fitness",
-    "icon": "stadium.png"
-  },
-  {
-    "keyword": "clb_football",
-    "icon": "stadium.png"
-  },
-  {
-    "keyword": "clb_footsall",
-    "icon": "stadium.png"
-  },
-  {
-    "keyword": "clb_golf",
-    "icon": "stadium.png"
-  },
-  {
-    "keyword": "clb_gymnasti",
-    "icon": "stadium.png"
-  },
-  {
-    "keyword": "clb_handball",
-    "icon": "stadium.png"
-  },
-  {
-    "keyword": "clb_yoga",
-    "icon": "stadium.png"
-  },
-  {
-    "keyword": "clb_hockey",
-    "icon": "stadium.png"
-  },
-  {
-    "keyword": "clb_ju_jitsu",
-    "icon": "stadium.png"
-  },
-  {
-    "keyword": "clb_judo",
-    "icon": "stadium.png"
-  },
-  {
-    "keyword": "clb_art_mart",
-    "icon": "stadium.png"
-  },
-  {
-    "keyword": "clb_marche",
-    "icon": "stadium.png"
-  },
-  {
-    "keyword": "clb_natation",
-    "icon": "stadium.png"
-  },
-  {
-    "keyword": "clb_orientat",
-    "icon": "stadium.png"
-  },
-  {
-    "keyword": "clb_peche",
-    "icon": "stadium.png"
-  },
-  {
-    "keyword": "clb_petanque",
-    "icon": "stadium.png"
-  },
-  {
-    "keyword": "clb_sauvetag",
-    "icon": "stadium.png"
-  },
-  {
-    "keyword": "socie_peche",
-    "icon": "fishing.png"
-  },
-  {
-    "keyword": "clb_speleo",
-    "icon": "stadium.png"
-  },
-  {
-    "keyword": "clb_squash",
-    "icon": "stadium.png"
-  },
-  {
-    "keyword": "clb_taichi",
-    "icon": "stadium.png"
-  },
-  {
-    "keyword": "clb_tennis",
-    "icon": "stadium.png"
-  },
-  {
-    "keyword": "clb_tenistab",
-    "icon": "stadium.png"
-  },
-  {
-    "keyword": "clb_tir",
-    "icon": "stadium.png"
-  },
-  {
-    "keyword": "clb_tir_arc ",
-    "icon": "stadium.png"
-  },
-  {
-    "keyword": "clb_triathlo",
-    "icon": "stadium.png"
-  },
-  {
-    "keyword": "clb_volleyba",
-    "icon": "stadium.png"
-  },
-  {
-    "keyword": "serv_equestr",
-    "icon": "horseriding.png"
-  },
-  {
-    "keyword": "eques_sn_chx",
-    "icon": "horseriding.png"
-  },
-  {
-    "keyword": "infrastructure",
-    "icon": "jogging.png"
-  },
-  {
-    "keyword": "Promen_carte",
-    "icon": "jogging.png"
-  },
-  {
-    "keyword": "promen_gps",
-    "icon": "jogging.png"
-  },
-  {
-    "keyword": "sentier_dida",
-    "icon": "jogging.png"
-  },
-  {
-    "keyword": "pist_petanqu",
-    "icon": "shootingrange.png"
-  },
-  {
-    "keyword": "skatrol_park",
-    "icon": "shootingrange.png"
-  },
-  {
-    "keyword": "terr_multisp",
-    "icon": "shootingrange.png"
-  },
-  {
-    "keyword": "sport_prest",
-    "icon": "shootingrange.png"
-  },
-  {
-    "keyword": "bowling_infr",
-    "icon": "indoor-arena.png"
-  },
-  {
-    "keyword": "centre_adeps",
-    "icon": "indoor-arena.png"
-  },
-  {
-    "keyword": "centre_aqua",
-    "icon": "indoor-arena.png"
-  },
-  {
-    "keyword": "centr_fitnes",
-    "icon": "indoor-arena.png"
-  },
-  {
-    "keyword": "centr_sporti",
-    "icon": "indoor-arena.png"
-  },
-  {
-    "keyword": "dom_detente",
-    "icon": "indoor-arena.png"
-  },
-  {
-    "keyword": "pecheries",
-    "icon": "indoor-arena.png"
-  },
-  {
-    "keyword": "piscine_infr",
-    "icon": "indoor-arena.png"
-  },
-  {
-    "keyword": "salles_infr",
-    "icon": "indoor-arena.png"
-  },
-  {
-    "keyword": "terrain_spor",
-    "icon": "indoor-arena.png"
-  },
-  {
-    "keyword": "societe_spor",
-    "icon": "indoor-arena.png"
-  },
-  {
-    "keyword": "velociste",
-    "icon": "indoor-arena.png"
-  },
-  {
-    "keyword": "accomodation",
-    "icon": "hostel_0star.png"
-  },
-  {
-    "keyword": "accomo_cotag",
-    "icon": "hostel_0star.png"
-  },
-  {
-    "keyword": "accomo_gite",
-    "icon": "hostel_0star.png"
-  },
-  {
-    "keyword": "accomo_hotel",
-    "icon": "hostel_0star.png"
-  },
-  {
-    "keyword": "annexe_mice",
-    "icon": "hostel_0star.png"
-  },
-  {
-    "keyword": "accomo_semi",
-    "icon": "hostel_0star.png"
-  },
-  {
-    "keyword": "bati_civil",
-    "icon": "castle-2.png"
-  },
-  {
-    "keyword": "cim_mem_civi",
-    "icon": "castle-2.png"
-  },
-  {
-    "keyword": "pont",
-    "icon": "castle-2.png"
-  },
-  {
-    "keyword": "manufacture",
-    "icon": "castle-2.png"
-  },
-  {
-    "keyword": "moulin",
-    "icon": "castle-2.png"
-  },
-  {
-    "keyword": "chateau",
-    "icon": "castle-2.png"
-  },
-  {
-    "keyword": "donjon",
-    "icon": "castle-2.png"
-  },
-  {
-    "keyword": "abbaye",
-    "icon": "church-2.png"
-  },
-  {
-    "keyword": "basilique",
-    "icon": "church-2.png"
-  },
-  {
-    "keyword": "chapelle",
-    "icon": "church-2.png"
-  },
-  {
-    "keyword": "eglise",
-    "icon": "church-2.png"
-  },
-  {
-    "keyword": "ermitage",
-    "icon": "church-2.png"
-  },
-  {
-    "keyword": "arbo_prc_jrd",
-    "icon": "forest.png"
-  },
-  {
-    "keyword": "arbre_remarq",
-    "icon": "forest.png"
-  },
-  {
-    "keyword": "bois_foret",
-    "icon": "forest.png"
-  },
-  {
-    "keyword": "grottes",
-    "icon": "forest.png"
-  },
-  {
-    "keyword": "plan_eau",
-    "icon": "forest.png"
-  },
-  {
-    "keyword": "pt_vue_pano",
-    "icon": "forest.png"
-  },
-  {
-    "keyword": "parc_naturel",
-    "icon": "forest.png"
-  },
-  {
-    "keyword": "rivier_eau",
-    "icon": "forest.png"
-  },
-  {
-    "keyword": "roche_rocher",
-    "icon": "forest.png"
-  },
-  {
-    "keyword": "art_deco",
-    "icon": "statue-2.png"
-  },
-  {
-    "keyword": "ateliers",
-    "icon": "statue-2.png"
-  },
-  {
-    "keyword": "delimitation",
-    "icon": "statue-2.png"
-  },
-  {
-    "keyword": "eclairage",
-    "icon": "statue-2.png"
-  },
-  {
-    "keyword": "faune_flore",
-    "icon": "agritourism.png"
-  },
-  {
-    "keyword": "justic_liber",
-    "icon": "tower.png"
-  },
-  {
-    "keyword": "temps_espace",
-    "icon": "tower.png"
-  },
-  {
-    "keyword": "ornement_fer",
-    "icon": "tower.png"
-  },
-  {
-    "keyword": "outil_ancien",
-    "icon": "tower.png"
-  },
-  {
-    "keyword": "ouverture",
-    "icon": "tower.png"
-  },
-  {
-    "keyword": "milit_comemo",
-    "icon": "tower.png"
-  },
-  {
-    "keyword": "pt_pat_sacre",
-    "icon": "tower.png"
-  },
-  {
-    "keyword": "point_eau",
-    "icon": "tower.png"
-  },
-  {
-    "keyword": "repos",
-    "icon": "tower.png"
-  },
-  {
-    "keyword": "signalisatio",
-    "icon": "tower.png"
-  },
-  {
-    "keyword": "transport",
-    "icon": "tower.png"
-  },
-  {
-    "keyword": "auto_cueille",
-    "icon": "conveniencestore.png"
-  },
-  {
-    "keyword": "boucherie",
-    "icon": "conveniencestore.png"
-  },
-  {
-    "keyword": "boulg_patis",
-    "icon": "bread.png"
-  },
-  {
-    "keyword": "boutique",
-    "icon": "conveniencestore.png"
-  },
-  {
-    "keyword": "epicerie",
-    "icon": "conveniencestore.png"
-  },
-  {
-    "keyword": "gac",
-    "icon": "conveniencestore.png"
-  },
-  {
-    "keyword": "magasin_ferm",
-    "icon": "conveniencestore.png"
-  },
-  {
-    "keyword": "marche_ferme",
-    "icon": "conveniencestore.png"
-  },
-  {
-    "keyword": "march_publi",
-    "icon": "conveniencestore.png"
-  },
-  {
-    "keyword": "magasin",
-    "icon": "conveniencestore.png"
-  },
-  {
-    "keyword": "panier_fr_lg",
-    "icon": "conveniencestore.png"
-  },
-  {
-    "keyword": "ambulant",
-    "icon": "conveniencestore.png"
-  },
-  {
-    "keyword": "vente_online",
-    "icon": "conveniencestore.png"
-  },
-  {
-    "keyword": "artisan",
-    "icon": "conveniencestore.png"
-  },
-  {
-    "keyword": "producteur",
-    "icon": "conveniencestore.png"
-  },
-  {
-    "keyword": "Producteurs",
-    "icon": "conveniencestore.png"
-  },
-  {
-    "keyword": "biere_facon",
-    "icon": "liquor.png"
-  },
-  {
-    "keyword": "biere_arti",
-    "icon": "liquor.png"
-  },
-  {
-    "keyword": "biere_etiqu",
-    "icon": "liquor.png"
-  },
-  {
-    "keyword": "trappiste",
-    "icon": "liquor.png"
-  },
-  {
-    "keyword": "charcu_salai",
-    "icon": "butcher-2.png"
-  },
-  {
-    "keyword": "jambon_artis",
-    "icon": "butcher-2.png"
-  },
-  {
-    "keyword": "jambon_arden",
-    "icon": "butcher-2.png"
-  },
-  {
-    "keyword": "pate_gaume",
-    "icon": "butcher-2.png"
-  },
-  {
-    "keyword": "saucisson",
-    "icon": "butcher-2.png"
-  },
-  {
-    "keyword": "sauci_arden",
-    "icon": "butcher-2.png"
-  },
-  {
-    "keyword": "saucis_gaum",
-    "icon": "butcher-2.png"
-  },
-  {
-    "keyword": "terrine_pate",
-    "icon": "butcher-2.png"
-  },
-  {
-    "keyword": "aut_confis",
-    "icon": "candy.png"
-  },
-  {
-    "keyword": "biscuit",
-    "icon": "candy.png"
-  },
-  {
-    "keyword": "chocola_pral",
-    "icon": "candy.png"
-  },
-  {
-    "keyword": "bonbon",
-    "icon": "candy.png"
-  },
-  {
-    "keyword": "pate_tarti",
-    "icon": "fruits.png"
-  },
-  {
-    "keyword": "epice",
-    "icon": "fruits.png"
-  },
-  {
-    "keyword": "graine",
-    "icon": "fruits.png"
-  },
-  {
-    "keyword": "herbe_aromat",
-    "icon": "fruits.png"
-  },
-  {
-    "keyword": "huile",
-    "icon": "fruits.png"
-  },
-  {
-    "keyword": "plante_fleur",
-    "icon": "fruits.png"
-  },
-  {
-    "keyword": "safran",
-    "icon": "fruits.png"
-  },
-  {
-    "keyword": "tisane",
-    "icon": "fruits.png"
-  },
-  {
-    "keyword": "vinaigre",
-    "icon": "fruits.png"
-  },
-  {
-    "keyword": "chutney",
-    "icon": "fruits.png"
-  },
-  {
-    "keyword": "confit",
-    "icon": "fruits.png"
-  },
-  {
-    "keyword": "confiture",
-    "icon": "fruits.png"
-  },
-  {
-    "keyword": "gelee",
-    "icon": "fruits.png"
-  },
-  {
-    "keyword": "eau",
-    "icon": "liquor.png"
-  },
-  {
-    "keyword": "escargot",
-    "icon": "bread.png"
-  },
-  {
-    "keyword": "cereale",
-    "icon": "bread.png"
-  },
-  {
-    "keyword": "epeautr_ard",
-    "icon": "bread.png"
-  },
-  {
-    "keyword": "farine",
-    "icon": "bread.png"
-  },
-  {
-    "keyword": "champignon",
-    "icon": "fruits.png"
-  },
-  {
-    "keyword": "fruits",
-    "icon": "bread.png"
-  },
-  {
-    "keyword": "frui_leg_con",
-    "icon": "bread.png"
-  },
-  {
-    "keyword": "legumes",
-    "icon": "bread.png"
-  },
-  {
-    "keyword": "petit_fruit",
-    "icon": "bread.png"
-  },
-  {
-    "keyword": "Plate_Floren",
-    "icon": "bread.png"
-  },
-  {
-    "keyword": "pomme_terre",
-    "icon": "bread.png"
-  },
-  {
-    "keyword": "insecte",
-    "icon": "bread.png"
-  },
-  {
-    "keyword": "jus",
-    "icon": "bread.png"
-  },
-  {
-    "keyword": "limonade",
-    "icon": "liquor.png"
-  },
-  {
-    "keyword": "sirop",
-    "icon": "liquor.png"
-  },
-  {
-    "keyword": "pain",
-    "icon": "bread.png"
-  },
-  {
-    "keyword": "patisserie",
-    "icon": "bread.png"
-  },
-  {
-    "keyword": "pate",
-    "icon": "bread.png"
-  },
-  {
-    "keyword": "aut_poisson",
-    "icon": "bread.png"
-  },
-  {
-    "keyword": "truite",
-    "icon": "bread.png"
-  },
-  {
-    "keyword": "prd_ruche",
-    "icon": "bread.png"
-  },
-  {
-    "keyword": "miel_aroma",
-    "icon": "bread.png"
-  },
-  {
-    "keyword": "miel_mono",
-    "icon": "bread.png"
-  },
-  {
-    "keyword": "miel",
-    "icon": "bread.png"
-  },
-  {
-    "keyword": "prd_ruch_der",
-    "icon": "bread.png"
-  },
-  {
-    "keyword": "aut_prd_lait",
-    "icon": "bread.png"
-  },
-  {
-    "keyword": "beurre_arden",
-    "icon": "bread.png"
-  },
-  {
-    "keyword": "beurre",
-    "icon": "bread.png"
-  },
-  {
-    "keyword": "dessert_lact",
-    "icon": "bread.png"
-  },
-  {
-    "keyword": "frmg_brebis",
-    "icon": "bread.png"
-  },
-  {
-    "keyword": "frmg_bufflo",
-    "icon": "bread.png"
-  },
-  {
-    "keyword": "frmg_chevre",
-    "icon": "bread.png"
-  },
-  {
-    "keyword": "frmg_vache",
-    "icon": "bread.png"
-  },
-  {
-    "keyword": "glace",
-    "icon": "bread.png"
-  },
-  {
-    "keyword": "lait",
-    "icon": "bread.png"
-  },
-  {
-    "keyword": "lait_pasteur",
-    "icon": "bread.png"
-  },
-  {
-    "keyword": "prd_lait_ane",
-    "icon": "bread.png"
-  },
-  {
-    "keyword": "yaourt",
-    "icon": "bread.png"
-  },
-  {
-    "keyword": "sapin_noel",
-    "icon": "market.png"
-  },
-  {
-    "keyword": "tabac",
-    "icon": "market.png"
-  },
-  {
-    "keyword": "bison",
-    "icon": "butcher-2.png"
-  },
-  {
-    "keyword": "boeuf",
-    "icon": "butcher-2.png"
-  },
-  {
-    "keyword": "caprin",
-    "icon": "butcher-2.png"
-  },
-  {
-    "keyword": "gibier",
-    "icon": "butcher-2.png"
-  },
-  {
-    "keyword": "lapin",
-    "icon": "butcher-2.png"
-  },
-  {
-    "keyword": "ovin",
-    "icon": "butcher-2.png"
-  },
-  {
-    "keyword": "porc",
-    "icon": "butcher-2.png"
-  },
-  {
-    "keyword": "sanglochon",
-    "icon": "butcher-2.png"
-  },
-  {
-    "keyword": "aperitif",
-    "icon": "liquor.png"
-  },
-  {
-    "keyword": "cidre",
-    "icon": "liquor.png"
-  },
-  {
-    "keyword": "cremant",
-    "icon": "liquor.png"
-  },
-  {
-    "keyword": "digestif",
-    "icon": "liquor.png"
-  },
-  {
-    "keyword": "liqu_alcool",
-    "icon": "liquor.png"
-  },
-  {
-    "keyword": "maitrank",
-    "icon": "liquor.png"
-  },
-  {
-    "keyword": "vin",
-    "icon": "liquor.png"
-  },
-  {
-    "keyword": "vin_fruit",
-    "icon": "liquor.png"
-  },
-  {
-    "keyword": "vin_peti",
-    "icon": "liquor.png"
-  },
-  {
-    "keyword": "aut_volaille",
-    "icon": "butcher-2.png"
-  },
-  {
-    "keyword": "autruche",
-    "icon": "butcher-2.png"
-  },
-  {
-    "keyword": "canard",
-    "icon": "butcher-2.png"
-  },
-  {
-    "keyword": "dinde",
-    "icon": "butcher-2.png"
-  },
-  {
-    "keyword": "foie_gras",
-    "icon": "butcher-2.png"
-  },
-  {
-    "keyword": "oeuf",
-    "icon": "butcher-2.png"
-  },
-  {
-    "keyword": "poulet",
-    "icon": "butcher-2.png"
-  },
-  {
-    "keyword": "guides_touri",
-    "icon": "information.png"
-  },
-  {
-    "keyword": "mt",
-    "icon": "information.png"
-  },
-  {
-    "keyword": "ot",
-    "icon": "information.png"
-  },
-  {
-    "keyword": "sl",
-    "icon": "information.png"
-  },
-  {
-    "keyword": "si",
-    "icon": "information.png"
-  },
-  {
-    "keyword": "barbecue",
-    "icon": "restaurant.png"
-  },
-  {
-    "keyword": "bar_vin",
-    "icon": "restaurant.png"
-  },
-  {
-    "keyword": "brass_bistr",
-    "icon": "restaurant.png"
-  },
-  {
-    "keyword": "cafe_bar",
-    "icon": "restaurant.png"
-  },
-  {
-    "keyword": "pique_nique",
-    "icon": "restaurant.png"
-  },
-  {
-    "keyword": "restaurant",
-    "icon": "restaurant.png"
-  },
-  {
-    "keyword": "resto_rapide",
-    "icon": "restaurant.png"
-  },
-  {
-    "keyword": "salon_degus",
-    "icon": "restaurant.png"
-  },
-  {
-    "keyword": "traiteur",
-    "icon": "restaurant.png"
-  }
+  {"bien_etre": "massage.png"},
+  {"expo_galerie": "museum_art.png"},
+  {"expo_perm": "museum_art.png"},
+  {"musee": "museum_art.png"},
+  {"ctr_decouv": "dinopark.png"},
+  {"ferme_kid": "dinopark.png"},
+  {"parc_animal": "dinopark.png"},
+  {"train_tour": "bustour.png"},
+  {"labyrinthe": "summercamp.png"},
+  {"plaine_jeux": "summercamp.png"},
+  {"cinema_theat": "dance_class.png"},
+  {"dance_cinema": "dance_class.png"},
+  {"roller": "rollerblade.png"},
+  {"avion": "hanggliding.png"},
+  {"deltaplane": "hanggliding.png"},
+  {"montgolfier": "hanggliding.png"},
+  {"motoplaneur": "hanggliding.png"},
+  {"paramoteur": "hanggliding.png"},
+  {"parapente": "hanggliding.png"},
+  {"planeur": "hanggliding.png"},
+  {"ulm": "hanggliding.png"},
+  {"voltige": "hanggliding.png"},
+  {"baignade": "fishing.png"},
+  {"piscine": "fishing.png"},
+  {"plongee": "fishing.png"},
+  {"cyclo_lct": "cycling.png"},
+  {"prom_gyropod": "cycling.png"},
+  {"loc_velo_ele": "cycling.png"},
+  {"vtt_lct": "cycling.png"},
+  {"prom_cyclo": "cycling.png"},
+  {"prom_vtt": "cycling.png"},
+  {"agrogolf": "golfing.png"},
+  {"billard": "golfing.png"},
+  {"bowling": "golfing.png"},
+  {"golf": "golfing.png"},
+  {"mini_golf": "golfing.png"},
+  {"paint_laser": "archery.png"},
+  {"petanque": "archery.png"},
+  {"tir": "archery.png"},
+  {"tir_arc": "archery.png"},
+  {"location_ski": "nordicski.png"},
+  {"pst_luge": "nordicski.png"},
+  {"pst_raque": "nordicski.png"},
+  {"pst_ski_alp": "nordicski.png"},
+  {"pst_ski_fon": "nordicski.png"},
+  {"pst_snowb": "nordicski.png"},
+  {"squash": "tennis.png"},
+  {"tennis": "tennis.png"},
+  {"tenni_table": "tennis.png"},
+  {"musculation": "tennis.png"},
+  {"parco_vita": "tennis.png"},
+  {"act_equestre": "tennis.png"},
+  {"peche_etang": "fishing.png"},
+  {"peche_rivier": "fishing.png"},
+  {"peche_sport": "fishing.png"},
+  {"karting": "atv.png"},
+  {"4x4": "atv.png"},
+  {"buggy": "atv.png"},
+  {"quad": "atv.png"},
+  {"scooter": "atv.png"},
+  {"prom_moteur": "atv.png"},
+  {"accrobranch": "ropescourse.png"},
+  {"sport_avent": "ropescourse.png"},
+  {"death_ride": "ropescourse.png"},
+  {"escalade": "ropescourse.png"},
+  {"grimp_arbre": "ropescourse.png"},
+  {"rappel": "ropescourse.png"},
+  {"speleologie": "ropescourse.png"},
+  {"via_ferra": "ropescourse.png"},
+  {"barques": "rowboat.png"},
+  {"canoe_kayak": "rowboat.png"},
+  {"pedalos": "rowboat.png"},
+  {"rafting": "rowboat.png"},
+  {"waterball": "rowboat.png"},
+  {"dropping": "spelunking.png"},
+  {"nordic_walk": "spelunking.png"},
+  {"prom_pedestr": "spelunking.png"},
+  {"rando_pedes": "spelunking.png"},
+  {"trekking": "spelunking.png"},
+  {"clb_aerobic": "weights.png"},
+  {"clb_athletis": "stadium.png"},
+  {"clb_badminto": "stadium.png"},
+  {"clb_baseball": "stadium.png"},
+  {"clb_baskebal": "stadium.png"},
+  {"clb_cyclisme": "stadium.png"},
+  {"clb_equitati": "stadium.png"},
+  {"clb_escrime": "stadium.png"},
+  {"clb_fitness": "stadium.png"},
+  {"clb_football": "stadium.png"},
+  {"clb_footsall": "stadium.png"},
+  {"clb_golf": "stadium.png"},
+  {"clb_gymnasti": "stadium.png"},
+  {"clb_handball": "stadium.png"},
+  {"clb_yoga": "stadium.png"},
+  {"clb_hockey": "stadium.png"},
+  {"clb_ju_jitsu": "stadium.png"},
+  {"clb_judo": "stadium.png"},
+  {"clb_art_mart": "stadium.png"},
+  {"clb_marche": "stadium.png"},
+  {"clb_natation": "stadium.png"},
+  {"clb_orientat": "stadium.png"},
+  {"clb_peche": "stadium.png"},
+  {"clb_petanque": "stadium.png"},
+  {"clb_sauvetag": "stadium.png"},
+  {"socie_peche": "fishing.png"},
+  {"clb_speleo": "stadium.png"},
+  {"clb_squash": "stadium.png"},
+  {"clb_taichi": "stadium.png"},
+  {"clb_tennis": "stadium.png"},
+  {"clb_tenistab": "stadium.png"},
+  {"clb_tir": "stadium.png"},
+  {"clb_tir_arc ": "stadium.png"},
+  {"clb_triathlo": "stadium.png"},
+  {"clb_volleyba": "stadium.png"},
+  {"serv_equestr": "horseriding.png"},
+  {"eques_sn_chx": "horseriding.png"},
+  {"infrastructure": "jogging.png"},
+  {"Promen_carte": "jogging.png"},
+  {"promen_gps": "jogging.png"},
+  {"sentier_dida": "jogging.png"},
+  {"pist_petanqu": "shootingrange.png"},
+  {"skatrol_park": "shootingrange.png"},
+  {"terr_multisp": "shootingrange.png"},
+  {"sport_prest": "shootingrange.png"},
+  {"bowling_infr": "indoor-arena.png"},
+  {"centre_adeps": "indoor-arena.png"},
+  {"centre_aqua": "indoor-arena.png"},
+  {"centr_fitnes": "indoor-arena.png"},
+  {"centr_sporti": "indoor-arena.png"},
+  {"dom_detente": "indoor-arena.png"},
+  {"pecheries": "indoor-arena.png"},
+  {"piscine_infr": "indoor-arena.png"},
+  {"salles_infr": "indoor-arena.png"},
+  {"terrain_spor": "indoor-arena.png"},
+  {"societe_spor": "indoor-arena.png"},
+  {"velociste": "indoor-arena.png"},
+  {"accomodation": "hostel_0star.png"},
+  {"accomo_cotag": "hostel_0star.png"},
+  {"accomo_gite": "hostel_0star.png"},
+  {"accomo_hotel": "hostel_0star.png"},
+  {"annexe_mice": "hostel_0star.png"},
+  {"accomo_semi": "hostel_0star.png"},
+  {"bati_civil": "castle-2.png"},
+  {"cim_mem_civi": "castle-2.png"},
+  {"pont": "castle-2.png"},
+  {"manufacture": "castle-2.png"},
+  {"moulin": "castle-2.png"},
+  {"chateau": "castle-2.png"},
+  {"donjon": "castle-2.png"},
+  {"abbaye": "church-2.png"},
+  {"basilique": "church-2.png"},
+  {"chapelle": "church-2.png"},
+  {"eglise": "church-2.png"},
+  {"ermitage": "church-2.png"},
+  {"arbo_prc_jrd": "forest.png"},
+  {"arbre_remarq": "forest.png"},
+  {"bois_foret": "forest.png"},
+  {"grottes": "forest.png"},
+  {"plan_eau": "forest.png"},
+  {"pt_vue_pano": "forest.png"},
+  {"parc_naturel": "forest.png"},
+  {"rivier_eau": "forest.png"},
+  {"roche_rocher": "forest.png"},
+  {"art_deco": "statue-2.png"},
+  {"ateliers": "statue-2.png"},
+  {"delimitation": "statue-2.png"},
+  {"eclairage": "statue-2.png"},
+  {"faune_flore": "agritourism.png"},
+  {"justic_liber": "tower.png"},
+  {"temps_espace": "tower.png"},
+  {"ornement_fer": "tower.png"},
+  {"outil_ancien": "tower.png"},
+  {"ouverture": "tower.png"},
+  {"milit_comemo": "tower.png"},
+  {"pt_pat_sacre": "tower.png"},
+  {"point_eau": "tower.png"},
+  {"repos": "tower.png"},
+  {"signalisatio": "tower.png"},
+  {"transport": "tower.png"},
+  {"auto_cueille": "conveniencestore.png"},
+  {"boucherie": "conveniencestore.png"},
+  {"boulg_patis": "bread.png"},
+  {"boutique": "conveniencestore.png"},
+  {"epicerie": "conveniencestore.png"},
+  {"gac": "conveniencestore.png"},
+  {"magasin_ferm": "conveniencestore.png"},
+  {"marche_ferme": "conveniencestore.png"},
+  {"march_publi": "conveniencestore.png"},
+  {"magasin": "conveniencestore.png"},
+  {"panier_fr_lg": "conveniencestore.png"},
+  {"ambulant": "conveniencestore.png"},
+  {"vente_online": "conveniencestore.png"},
+  {"artisan": "conveniencestore.png"},
+  {"producteur": "conveniencestore.png"},
+  {"Producteurs": "conveniencestore.png"},
+  {"biere_facon": "liquor.png"},
+  {"biere_arti": "liquor.png"},
+  {"biere_etiqu": "liquor.png"},
+  {"trappiste": "liquor.png"},
+  {"charcu_salai": "butcher-2.png"},
+  {"jambon_artis": "butcher-2.png"},
+  {"jambon_arden": "butcher-2.png"},
+  {"pate_gaume": "butcher-2.png"},
+  {"saucisson": "butcher-2.png"},
+  {"sauci_arden": "butcher-2.png"},
+  {"saucis_gaum": "butcher-2.png"},
+  {"terrine_pate": "butcher-2.png"},
+  {"aut_confis": "candy.png"},
+  {"biscuit": "candy.png"},
+  {"chocola_pral": "candy.png"},
+  {"bonbon": "candy.png"},
+  {"pate_tarti": "fruits.png"},
+  {"epice": "fruits.png"},
+  {"graine": "fruits.png"},
+  {"herbe_aromat": "fruits.png"},
+  {"huile": "fruits.png"},
+  {"plante_fleur": "fruits.png"},
+  {"safran": "fruits.png"},
+  {"tisane": "fruits.png"},
+  {"vinaigre": "fruits.png"},
+  {"chutney": "fruits.png"},
+  {"confit": "fruits.png"},
+  {"confiture": "fruits.png"},
+  {"gelee": "fruits.png"},
+  {"eau": "liquor.png"},
+  {"escargot": "bread.png"},
+  {"cereale": "bread.png"},
+  {"epeautr_ard": "bread.png"},
+  {"farine": "bread.png"},
+  {"champignon": "fruits.png"},
+  {"fruits": "bread.png"},
+  {"frui_leg_con": "bread.png"},
+  {"legumes": "bread.png"},
+  {"petit_fruit": "bread.png"},
+  {"Plate_Floren": "bread.png"},
+  {"pomme_terre": "bread.png"},
+  {"insecte": "bread.png"},
+  {"jus": "bread.png"},
+  {"limonade": "liquor.png"},
+  {"sirop": "liquor.png"},
+  {"pain": "bread.png"},
+  {"patisserie": "bread.png"},
+  {"pate": "bread.png"},
+  {"aut_poisson": "bread.png"},
+  {"truite": "bread.png"},
+  {"prd_ruche": "bread.png"},
+  {"miel_aroma": "bread.png"},
+  {"miel_mono": "bread.png"},
+  {"miel": "bread.png"},
+  {"prd_ruch_der": "bread.png"},
+  {"aut_prd_lait": "bread.png"},
+  {"beurre_arden": "bread.png"},
+  {"beurre": "bread.png"},
+  {"dessert_lact": "bread.png"},
+  {"frmg_brebis": "bread.png"},
+  {"frmg_bufflo": "bread.png"},
+  {"frmg_chevre": "bread.png"},
+  {"frmg_vache": "bread.png"},
+  {"glace": "bread.png"},
+  {"lait": "bread.png"},
+  {"lait_pasteur": "bread.png"},
+  {"prd_lait_ane": "bread.png"},
+  {"yaourt": "bread.png"},
+  {"sapin_noel": "market.png"},
+  {"tabac": "market.png"},
+  {"bison": "butcher-2.png"},
+  {"boeuf": "butcher-2.png"},
+  {"caprin": "butcher-2.png"},
+  {"gibier": "butcher-2.png"},
+  {"lapin": "butcher-2.png"},
+  {"ovin": "butcher-2.png"},
+  {"porc": "butcher-2.png"},
+  {"sanglochon": "butcher-2.png"},
+  {"aperitif": "liquor.png"},
+  {"cidre": "liquor.png"},
+  {"cremant": "liquor.png"},
+  {"digestif": "liquor.png"},
+  {"liqu_alcool": "liquor.png"},
+  {"maitrank": "liquor.png"},
+  {"vin": "liquor.png"},
+  {"vin_fruit": "liquor.png"},
+  {"vin_peti": "liquor.png"},
+  {"aut_volaille": "butcher-2.png"},
+  {"autruche": "butcher-2.png"},
+  {"canard": "butcher-2.png"},
+  {"dinde": "butcher-2.png"},
+  {"foie_gras": "butcher-2.png"},
+  {"oeuf": "butcher-2.png"},
+  {"poulet": "butcher-2.png"},
+  {"guides_touri": "information.png"},
+  {"mt": "information.png"},
+  {"ot": "information.png"},
+  {"sl": "information.png"},
+  {"si": "information.png"},
+  {"barbecue": "restaurant.png"},
+  {"bar_vin": "restaurant.png"},
+  {"brass_bistr": "restaurant.png"},
+  {"cafe_bar": "restaurant.png"},
+  {"pique_nique": "restaurant.png"},
+  {"restaurant": "restaurant.png"},
+  {"resto_rapide": "restaurant.png"},
+  {"salon_degus": "restaurant.png"},
+  {"traiteur": "restaurant.png"}
 ]
