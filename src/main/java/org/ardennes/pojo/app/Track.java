@@ -19,6 +19,14 @@ public class Track {
         return type;
     }
 
+    public Map<String, String> getInfo() {
+        return info;
+    }
+
+    public void setInfo(Map<String, String> info) {
+        this.info = info;
+    }
+
     public void setType(String type) {
         this.type = type;
     }
@@ -52,6 +60,7 @@ public class Track {
         return events;
     }
     public List<Map<String,String>> pois;
+    public Map<String, String> info;
 
     public List<Map<String, String>> getPois() {
         return pois;
@@ -65,5 +74,4 @@ public class Track {
         this.events = events;
     }
 
-    
 }
