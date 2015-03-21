@@ -1,0 +1,1 @@
+Contents to be loaded to elastic search as initial state

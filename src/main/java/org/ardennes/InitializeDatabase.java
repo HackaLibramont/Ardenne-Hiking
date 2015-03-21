@@ -1,17 +1,19 @@
+package org.ardennes;
+
 import com.fasterxml.jackson.databind.DeserializationFeature;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.SerializationFeature;
-import export.ESWriter;
 import org.apache.log4j.Logger;
-import org.ardennes.Constants;
 import org.ardennes.pojo.app.Event;
-import org.ardennes.pojo.app.EventEnum;
 import org.ardennes.pojo.app.Track;
 import org.ardennes.pojo.app.User;
 import org.ardennes.pojo.osm.FeatureCollection;
 
 import java.io.InputStream;
-import java.util.*;
+import java.util.Arrays;
+import java.util.HashMap;
+import java.util.Map;
+import java.util.Random;
 
 /**
  * Created by cvasquez on 20.03.15.
@@ -42,7 +44,7 @@ public class InitializeDatabase {
 
         loadTrack("track1", writer, "4708248");
         loadTrack("track2",writer,"4682511");
-        loadTrack("track3",writer,"4708463");
+        loadTrack("track3", writer, "4708463");
 
         loadEvent(writer, "events/01_aliceStarts.json");
         loadEvent(writer, "events/02_bobStarts.json");

@@ -1,8 +1,7 @@
-package export;
+package org.ardennes;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.apache.log4j.Logger;
-import org.ardennes.Constants;
 import org.elasticsearch.action.admin.indices.delete.DeleteIndexRequest;
 import org.elasticsearch.action.admin.indices.delete.DeleteIndexResponse;
 import org.elasticsearch.action.index.IndexResponse;
@@ -13,7 +12,7 @@ import org.elasticsearch.common.settings.Settings;
 import org.elasticsearch.common.transport.InetSocketTransportAddress;
 
 /**
- * Created by cvasquez on 20.03.15.
+ * Created by cvasquez on 21.03.15.
  */
 public class ESWriter {
 
@@ -24,7 +23,7 @@ public class ESWriter {
     public ESWriter() {
         log.info("Starting up Elastic Search connection");
         Settings settings = ImmutableSettings.settingsBuilder()
-                .put("cluster.name", "sniper")
+                .put("cluster.name",Constants.CLUSTER)
                 .put("client.transport.sniff", true)
                 .build();
 
@@ -32,7 +31,6 @@ public class ESWriter {
                 .addTransportAddress(new InetSocketTransportAddress(
                         "localhost", 9300));
     }
-
 
     public DeleteIndexResponse deleteIndex(){
         final DeleteIndexRequest deleteIndexRequest=new DeleteIndexRequest(Constants.INDEX);
@@ -59,4 +57,5 @@ public class ESWriter {
         return response.getId();
     }
 
+    
 }
