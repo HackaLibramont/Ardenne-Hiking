@@ -33,7 +33,7 @@ result = {
             "role": "",
             "rel": 4708463,
             "reltags": {
-              "name": "Promenade Maurice Grevisse",
+              "name": "Stars Trail Rulles 20 km",
               "network": "lwn",
               "osmc:symbol": "blue:white:cross",
               "route": "hiking",
