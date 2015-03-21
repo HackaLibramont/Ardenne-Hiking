@@ -11,28 +11,7 @@ import java.util.Map;
 
 public class Feature extends org.ardennes.pojo.osm.GeoJsonObject {
 
-    @JsonProperty("URL")
-    private String getHref(){
-        return Common.getFeatureURL(getId());
-    }
-
-    private List<Event> events;
-    public List<Event> getEvents() {
-        return events;
-    }
-    public List<Map<String,String>> pois;
-
-    public List<Map<String, String>> getPois() {
-        return pois;
-    }
-
-    public void setPois(List<Map<String, String>> pois) {
-        this.pois = pois;
-    }
-
-    public void setEvents(List<Event> events) {
-        this.events = events;
-    }
+    private String type="Feature";
 
     private GeoJsonObject geometry;
 	private String id;

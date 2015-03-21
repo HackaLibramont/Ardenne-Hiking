@@ -11,7 +11,7 @@ public class Common {
     public static final String INDEX = "ardennes";
     public static final String CLUSTER = "sniper";
     public static final String USER_TYPE = "user";
-    public static final String FEATURE_TYPE = "feature";
+    public static final String TRACK_TYPE = "track";
     public static final String EVENT_TYPE = "event";
     public static final String POI_TYPE = "poi";
 
@@ -46,11 +46,11 @@ public class Common {
 
         return URIQA+"/"+USER_TYPE+"/"+id;
     }
-    public static String getFeatureURL(String id){
+    public static String getTrackURL(String id){
         if (id==null){
             return null;
         }
-        return URIQA+"/"+FEATURE_TYPE+"/"+id;
+        return URIQA+"/"+ TRACK_TYPE +"/"+id;
     }
 
 }

@@ -18,17 +18,20 @@ public class Event {
     }
     private String id;
     private String type="Event";
-    Date eventCreationDate;
+    private Date eventCreationDate;
+    
     @JsonProperty("userURL")
     private String getUserHref(){
         return Common.getUserURL(getEventUserId());
     }
     String eventUserId;
-    @JsonProperty("featureURL")
+    
+    @JsonProperty("trackURL")
     private String getFeatureHref(){
-        return Common.getEventURL(getId());
+        return Common.getTrackURL(getId());
     }
-    String eventFeatureId;
+    
+    String eventTrackId;
     EventEnum eventType;
     String eventValue;
     Double[] coordinates;
@@ -65,12 +68,12 @@ public class Event {
         this.eventUserId = eventUserId;
     }
 
-    public String getEventFeatureId() {
-        return eventFeatureId;
+    public String getEventTrackId() {
+        return eventTrackId;
     }
 
-    public void setEventFeatureId(String eventFeatureId) {
-        this.eventFeatureId = eventFeatureId;
+    public void setEventTrackId(String eventTrackId) {
+        this.eventTrackId = eventTrackId;
     }
 
     public EventEnum getEventType() {

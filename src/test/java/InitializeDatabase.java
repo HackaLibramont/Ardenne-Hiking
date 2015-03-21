@@ -6,6 +6,7 @@ import org.apache.log4j.Logger;
 import org.ardennes.Common;
 import org.ardennes.pojo.app.Event;
 import org.ardennes.pojo.app.EventEnum;
+import org.ardennes.pojo.app.Track;
 import org.ardennes.pojo.app.User;
 import org.ardennes.pojo.osm.Feature;
 import org.ardennes.pojo.osm.FeatureCollection;
@@ -28,8 +29,7 @@ public class InitializeDatabase {
     
     public static void main(String [] args) throws Exception
     {
-        final String EXAMPLE_TRACK_ID= "169308891";
-        
+
         InputStream input = Thread.currentThread().getContextClassLoader().getResourceAsStream("3tracks.geojson");
         ObjectMapper objectMapper = getMapper();
         FeatureCollection features = objectMapper.readValue(input, FeatureCollection.class);
@@ -38,15 +38,53 @@ public class InitializeDatabase {
         /**
          * Clean
          */
-        writer.deleteIndex();
+        try{
+            writer.deleteIndex();
+        } catch (Exception e){
+            
+        }
         /**
          * Add some tracks
          */
+
+        Track track1 = new Track();
+        Track track2 = new Track();
+        Track track3 = new Track();
+
+        List<Feature> features1 = new ArrayList<>();
+        List<Feature> features2 = new ArrayList<>();
+        List<Feature> features3 = new ArrayList<>();
+
+        track1.setId("4708248");
+        track2.setId("4708463");
+        track3.setId("4682511");
+        
         for(Feature current:features.getFeatures()) {
-            current.setId(current.getId().replaceAll("way/",""));
-            current.setPois(Arrays.asList(getRandomPOI(),getRandomPOI(),getRandomPOI()));
-            writer.write(Common.FEATURE_TYPE,current,current.getId());
+            
+            String thing = objectMapper.writeValueAsString(current);
+            if (thing.contains(track1.getId())){
+                features1.add(current);
+            }
+            if (thing.contains(track2.getId())){
+                features2.add(current);
+            }
+            if (thing.contains(track3.getId())){
+                features3.add(current);
+            }
         }
+
+        track1.setFeatures(features1);
+        track2.setFeatures(features2);
+        track3.setFeatures(features3);
+
+        track1.setPois(Arrays.asList(getRandomPOI(), getRandomPOI(), getRandomPOI()));
+        track2.setPois(Arrays.asList(getRandomPOI(), getRandomPOI(), getRandomPOI()));
+        track3.setPois(Arrays.asList(getRandomPOI(), getRandomPOI(), getRandomPOI()));
+
+        writer.write(Common.TRACK_TYPE,track1,track1.getId());
+        writer.write(Common.TRACK_TYPE,track2,track2.getId());
+        writer.write(Common.TRACK_TYPE,track3,track3.getId());
+        
         /**
          * Add some users
          */
@@ -64,7 +102,7 @@ public class InitializeDatabase {
         aliceStart.setEventType(EventEnum.COMMENTED);
         aliceStart.setEventCreationDate(new Date());
         aliceStart.setEventValue("This is a nice spot");
-        aliceStart.setEventFeatureId(EXAMPLE_TRACK_ID);
+        aliceStart.setEventTrackId(track1.getId());
         aliceStart.setCoordinates(new Double[]{5.5344497, 49.7075366});
         aliceStart.setEventUserId(aliceId);
         writer.write(Common.EVENT_TYPE, aliceStart);

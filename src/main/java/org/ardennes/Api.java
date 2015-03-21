@@ -3,6 +3,7 @@ package org.ardennes;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.apache.log4j.Logger;
 import org.ardennes.pojo.app.Event;
+import org.ardennes.pojo.app.Track;
 import org.ardennes.pojo.app.User;
 import org.ardennes.pojo.osm.Feature;
 import org.elasticsearch.action.get.GetResponse;
@@ -69,30 +70,27 @@ public class Api {
     
     @RequestMapping(method = RequestMethod.GET, value = "search" )
     public @ResponseBody
-    List<Feature> search( @RequestParam(required = false) String limit, @RequestParam(required = false) String query ) throws Exception {
-        /**
-         * This can be done directly to elastic search, but I want to add some stuff after
-         */
+    List<Track> search( @RequestParam(required = false) String limit, @RequestParam(required = false) String query ) throws Exception {
         SearchResponse response = client.prepareSearch(Common.INDEX)
-                .setTypes(Common.FEATURE_TYPE)
+                .setTypes(Common.TRACK_TYPE)
                 .execute()
                 .actionGet();
-        List<Feature> result = new ArrayList<>();
+        List<Track> result = new ArrayList<>();
         for(SearchHit current:response.getHits()){
-            result.add(mapper.readValue(current.getSourceAsString(), org.ardennes.pojo.osm.Feature.class));
+            result.add(mapper.readValue(current.getSourceAsString(), Track.class));
         }
         return result;
     }
     
-    @RequestMapping(method = RequestMethod.GET, value = "feature/{featureId}" )
+    @RequestMapping(method = RequestMethod.GET, value = "track/{trackId}" )
 	@ResponseBody
-    public Feature way(@PathVariable("featureId") String featureId) throws Exception{
-        GetResponse response = client.prepareGet(Common.INDEX, Common.FEATURE_TYPE, featureId)
+    public Track track(@PathVariable("trackId") String trackId) throws Exception{
+        GetResponse response = client.prepareGet(Common.INDEX, Common.TRACK_TYPE, trackId)
                 .setOperationThreaded(false)
                 .execute()
                 .actionGet();
-        Feature current = mapper.readValue(response.getSourceAsString(), Feature.class);
-        current.setEvents(getFeatureEvents(featureId));
+        Track current = mapper.readValue(response.getSourceAsString(), Track.class);
+        current.setEvents(getTrackEvents(trackId));
         return current;
 	}
 
@@ -133,8 +131,8 @@ public class Api {
 	}
 
 
-    public List<Event> getFeatureEvents(String id) throws Exception{
-        QueryBuilder qb = QueryBuilders.matchQuery("eventFeatureId", id);
+    public List<Event> getTrackEvents(String id) throws Exception{
+        QueryBuilder qb = QueryBuilders.matchQuery("eventTrackId", id);
         SearchResponse response = client.prepareSearch(Common.INDEX)
                 .setTypes(Common.EVENT_TYPE)
                 .setQuery(qb)
