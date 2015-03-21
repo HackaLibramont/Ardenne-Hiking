@@ -12,7 +12,7 @@ import java.util.List;
 @JsonInclude(JsonInclude.Include.NON_NULL)
 public class User {
     @JsonProperty("href")
-    private String getHref(){
+    public String getHref(){
         return Constants.getUserURL(getId());
     }
     

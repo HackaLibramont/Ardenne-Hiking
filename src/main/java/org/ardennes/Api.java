@@ -69,7 +69,7 @@ public class Api {
     
     @RequestMapping(method = RequestMethod.GET, value = "search" )
     public @ResponseBody
-    List<Track> search( @RequestParam(required = false) String limit, @RequestParam(required = false) String query ) throws Exception {
+    List<Track> search( ) throws Exception {
         SearchResponse response = client.prepareSearch(Constants.INDEX)
                 .setTypes(Constants.TRACK_TYPE)
                 .execute()
@@ -83,12 +83,13 @@ public class Api {
     
     @RequestMapping(method = RequestMethod.GET, value = "track/{trackId}" )
 	@ResponseBody
-    public Track track(@PathVariable("trackId") String trackId) throws Exception{
+    public Track getTrack(@PathVariable("trackId") String trackId) throws Exception{
         GetResponse response = client.prepareGet(Constants.INDEX, Constants.TRACK_TYPE, trackId)
                 .setOperationThreaded(false)
                 .execute()
                 .actionGet();
         Track current = mapper.readValue(response.getSourceAsString(), Track.class);
+        current.setId(trackId);
         current.setEvents(getTrackEvents(trackId));
         return current;
 	}
@@ -96,7 +97,7 @@ public class Api {
     
     @RequestMapping(method = RequestMethod.GET, value = "user/{userId}" )
     @ResponseBody
-    public User user(@PathVariable("userId") String userId) throws Exception{
+    public User getUser(@PathVariable("userId") String userId) throws Exception{
         GetResponse response = client.prepareGet(Constants.INDEX, Constants.USER_TYPE, userId)
                 .setOperationThreaded(false)
                 .execute()
@@ -108,7 +109,7 @@ public class Api {
 
     @RequestMapping(method = RequestMethod.GET, value = "poi/{poiId}" )
     @ResponseBody
-    public Map poi(@PathVariable("userId") String userId) throws Exception{
+    public Map getPoi(@PathVariable("userId") String userId) throws Exception{
         GetResponse response = client.prepareGet(Constants.INDEX, Constants.POI_TYPE, userId)
                 .setOperationThreaded(false)
                 .execute()
@@ -139,7 +140,9 @@ public class Api {
                 .actionGet();
         List<Event> result = new ArrayList<>();
         for(SearchHit current:response.getHits()){
-            result.add(mapper.readValue(current.getSourceAsString(), Event.class));
+            Event event = mapper.readValue(current.getSourceAsString(), Event.class);
+            event.setId(current.getId());
+            result.add(event);
         }
         return result;
     }

@@ -32,7 +32,7 @@ public class Track {
     }
 
     @JsonProperty("URL")
-    private String getHref(){
+    public String getHref(){
         return Constants.getTrackURL(getId());
     }
     

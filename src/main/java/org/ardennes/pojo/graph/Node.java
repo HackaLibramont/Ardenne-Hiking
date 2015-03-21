@@ -8,6 +8,11 @@ public class Node {
     Integer y; 
     Integer size;
 
+    public Node(String id, String label) {
+        this.id = id;
+        this.label = label;
+    }
+
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;

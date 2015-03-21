@@ -13,7 +13,7 @@ import java.util.Date;
 public class Event {
 
     @JsonProperty("URL")
-    private String getHref(){
+    public String getHref(){
         return Constants.getEventURL(getId());
     }
     private String id;
@@ -21,13 +21,13 @@ public class Event {
     private Date eventCreationDate;
     
     @JsonProperty("userURL")
-    private String getUserHref(){
+    public String getUserHref(){
         return Constants.getUserURL(getEventUserId());
     }
     String eventUserId;
     
     @JsonProperty("trackURL")
-    private String getFeatureHref(){
+    public String getTrackHref(){
         return Constants.getTrackURL(getId());
     }
     
