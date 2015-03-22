@@ -1,0 +1,5748 @@
+[
+  {
+    "type": "Track",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "type": "way",
+          "id": "104387619",
+          "tags": {
+            "highway": "track",
+            "surface": "ground",
+            "tracktype": "grade3"
+          },
+          "relations": [
+            {
+              "role": "",
+              "rel": "4682511",
+              "reltags": {
+                "name": "Promenade des 4 fils Aymon",
+                "network": "lwn",
+                "operator": "tarpan",
+                "osmc:symbol": "red:white:red_corner",
+                "route": "hiking",
+                "type": "route"
+              }
+            }
+          ],
+          "meta": {
+            "timestamp": "2014-09-22T12:00:29Z",
+            "version": "3",
+            "changeset": "25601394",
+            "user": "juminet",
+            "uid": "812669"
+          }
+        },
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              5.5474384,
+              49.7462609
+            ],
+            [
+              5.5473754,
+              49.7460505
+            ],
+            [
+              5.5472572,
+              49.7451851
+            ],
+            [
+              5.5471259,
+              49.7441445
+            ],
+            [
+              5.5467644,
+              49.7436247
+            ],
+            [
+              5.5462281,
+              49.7430972
+            ],
+            [
+              5.5461129,
+              49.7430244
+            ],
+            [
+              5.5457034,
+              49.7427657
+            ],
+            [
+              5.5451906,
+              49.7421408
+            ],
+            [
+              5.5446994,
+              49.7410753
+            ],
+            [
+              5.5437446,
+              49.7398648
+            ],
+            [
+              5.543663,
+              49.7391867
+            ],
+            [
+              5.5440811,
+              49.7387927
+            ],
+            [
+              5.5441725,
+              49.7381547
+            ],
+            [
+              5.5445702,
+              49.737551
+            ],
+            [
+              5.5455815,
+              49.7367225
+            ],
+            [
+              5.5457247,
+              49.7365872
+            ]
+          ]
+        },
+        "id": "way/104387619"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "type": "way",
+          "id": "327179071",
+          "tags": {
+            "highway": "residential",
+            "maxspeed": "50",
+            "name": "Rue de Courtel"
+          },
+          "relations": [
+            {
+              "role": "",
+              "rel": "4682511",
+              "reltags": {
+                "name": "Promenade des 4 fils Aymon",
+                "network": "lwn",
+                "operator": "tarpan",
+                "osmc:symbol": "red:white:red_corner",
+                "route": "hiking",
+                "type": "route"
+              }
+            }
+          ],
+          "meta": {
+            "timestamp": "2015-02-09T03:23:41Z",
+            "version": "1",
+            "changeset": "28718816",
+            "user": "Franc9876",
+            "uid": "2419327"
+          }
+        },
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              5.5380663,
+              49.7295537
+            ],
+            [
+              5.5380738,
+              49.7294485
+            ],
+            [
+              5.538067,
+              49.7293175
+            ],
+            [
+              5.5379758,
+              49.7288667
+            ],
+            [
+              5.5380225,
+              49.7280782
+            ],
+            [
+              5.5380415,
+              49.7279702
+            ],
+            [
+              5.5380725,
+              49.7278786
+            ],
+            [
+              5.5381086,
+              49.7278003
+            ],
+            [
+              5.5381621,
+              49.7277024
+            ],
+            [
+              5.538246,
+              49.7275977
+            ],
+            [
+              5.538319,
+              49.7274894
+            ],
+            [
+              5.5383441,
+              49.7274113
+            ],
+            [
+              5.5383611,
+              49.7273284
+            ],
+            [
+              5.5384419,
+              49.7268598
+            ],
+            [
+              5.5384817,
+              49.7263775
+            ]
+          ]
+        },
+        "id": "way/327179071"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "type": "way",
+          "id": "59988320",
+          "tags": {
+            "highway": "residential",
+            "name": "Rue de Courtel"
+          },
+          "relations": [
+            {
+              "role": "",
+              "rel": "4682511",
+              "reltags": {
+                "name": "Promenade des 4 fils Aymon",
+                "network": "lwn",
+                "operator": "tarpan",
+                "osmc:symbol": "red:white:red_corner",
+                "route": "hiking",
+                "type": "route"
+              }
+            }
+          ],
+          "meta": {
+            "timestamp": "2015-02-09T03:23:42Z",
+            "version": "7",
+            "changeset": "28718816",
+            "user": "Franc9876",
+            "uid": "2419327"
+          }
+        },
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              5.5379881,
+              49.7299067
+            ],
+            [
+              5.5380539,
+              49.7296487
+            ],
+            [
+              5.5380663,
+              49.7295537
+            ]
+          ]
+        },
+        "id": "way/59988320"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "type": "way",
+          "id": "60097810",
+          "tags": {
+            "highway": "track",
+            "surface": "ground",
+            "tracktype": "grade3"
+          },
+          "relations": [
+            {
+              "role": "",
+              "rel": "4682511",
+              "reltags": {
+                "name": "Promenade des 4 fils Aymon",
+                "network": "lwn",
+                "operator": "tarpan",
+                "osmc:symbol": "red:white:red_corner",
+                "route": "hiking",
+                "type": "route"
+              }
+            }
+          ],
+          "meta": {
+            "timestamp": "2011-03-16T17:08:19Z",
+            "version": "2",
+            "changeset": "7577491",
+            "user": "pat176",
+            "uid": "271313"
+          }
+        },
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              5.5639238,
+              49.7314572
+            ],
+            [
+              5.5620794,
+              49.7310268
+            ],
+            [
+              5.5616123,
+              49.730773
+            ],
+            [
+              5.5610097,
+              49.7298777
+            ]
+          ]
+        },
+        "id": "way/60097810"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "type": "way",
+          "id": "60097865",
+          "tags": {
+            "highway": "track",
+            "surface": "gravel",
+            "tracktype": "grade2"
+          },
+          "relations": [
+            {
+              "role": "",
+              "rel": "4682511",
+              "reltags": {
+                "name": "Promenade des 4 fils Aymon",
+                "network": "lwn",
+                "operator": "tarpan",
+                "osmc:symbol": "red:white:red_corner",
+                "route": "hiking",
+                "type": "route"
+              }
+            }
+          ],
+          "meta": {
+            "timestamp": "2015-02-08T04:02:39Z",
+            "version": "2",
+            "changeset": "28695044",
+            "user": "Franc9876",
+            "uid": "2419327"
+          }
+        },
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              5.5576886,
+              49.7277159
+            ],
+            [
+              5.5591105,
+              49.7281114
+            ],
+            [
+              5.5597706,
+              49.7282922
+            ],
+            [
+              5.5599283,
+              49.7283472
+            ],
+            [
+              5.5600333,
+              49.7284126
+            ],
+            [
+              5.5601624,
+              49.7285061
+            ],
+            [
+              5.5608562,
+              49.7293478
+            ]
+          ]
+        },
+        "id": "way/60097865"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "type": "way",
+          "id": "60097899",
+          "tags": {
+            "highway": "path",
+            "surface": "ground"
+          },
+          "relations": [
+            {
+              "role": "",
+              "rel": "4682511",
+              "reltags": {
+                "name": "Promenade des 4 fils Aymon",
+                "network": "lwn",
+                "operator": "tarpan",
+                "osmc:symbol": "red:white:red_corner",
+                "route": "hiking",
+                "type": "route"
+              }
+            }
+          ],
+          "meta": {
+            "timestamp": "2011-03-16T15:46:37Z",
+            "version": "2",
+            "changeset": "7576880",
+            "user": "pat176",
+            "uid": "271313"
+          }
+        },
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              5.5534316,
+              49.7518481
+            ],
+            [
+              5.5544013,
+              49.752477
+            ],
+            [
+              5.5558442,
+              49.7529367
+            ],
+            [
+              5.5562747,
+              49.7536297
+            ],
+            [
+              5.5566632,
+              49.7541717
+            ],
+            [
+              5.5572249,
+              49.7545888
+            ],
+            [
+              5.5577934,
+              49.7546217
+            ],
+            [
+              5.5583232,
+              49.7546617
+            ],
+            [
+              5.5588454,
+              49.7548361
+            ]
+          ]
+        },
+        "id": "way/60097899"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "type": "way",
+          "id": "60097880",
+          "tags": {
+            "highway": "track",
+            "surface": "ground",
+            "tracktype": "grade3"
+          },
+          "relations": [
+            {
+              "role": "",
+              "rel": "4682511",
+              "reltags": {
+                "name": "Promenade des 4 fils Aymon",
+                "network": "lwn",
+                "operator": "tarpan",
+                "osmc:symbol": "red:white:red_corner",
+                "route": "hiking",
+                "type": "route"
+              }
+            }
+          ],
+          "meta": {
+            "timestamp": "2015-03-18T19:39:18Z",
+            "version": "2",
+            "changeset": "29577503",
+            "user": "juminet",
+            "uid": "812669"
+          }
+        },
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              5.5704484,
+              49.7349453
+            ],
+            [
+              5.570045,
+              49.7350613
+            ],
+            [
+              5.5699845,
+              49.7352374
+            ],
+            [
+              5.5696818,
+              49.7355309
+            ],
+            [
+              5.5690058,
+              49.7360134
+            ],
+            [
+              5.5685215,
+              49.7364634
+            ],
+            [
+              5.5683398,
+              49.736809
+            ],
+            [
+              5.5669676,
+              49.7378197
+            ],
+            [
+              5.5648488,
+              49.7392869
+            ],
+            [
+              5.564304,
+              49.7397433
+            ],
+            [
+              5.5628707,
+              49.7404288
+            ]
+          ]
+        },
+        "id": "way/60097880"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "type": "way",
+          "id": "60097894",
+          "tags": {
+            "highway": "track",
+            "surface": "ground",
+            "tracktype": "grade3"
+          },
+          "relations": [
+            {
+              "role": "",
+              "rel": "4682511",
+              "reltags": {
+                "name": "Promenade des 4 fils Aymon",
+                "network": "lwn",
+                "operator": "tarpan",
+                "osmc:symbol": "red:white:red_corner",
+                "route": "hiking",
+                "type": "route"
+              }
+            }
+          ],
+          "meta": {
+            "timestamp": "2010-05-23T19:15:31Z",
+            "version": "1",
+            "changeset": "4786628",
+            "user": "Hagebutte",
+            "uid": "82866"
+          }
+        },
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              5.5679581,
+              49.7449468
+            ],
+            [
+              5.5674944,
+              49.745097
+            ],
+            [
+              5.5671509,
+              49.7453328
+            ],
+            [
+              5.5667957,
+              49.7456405
+            ],
+            [
+              5.5664971,
+              49.7458075
+            ],
+            [
+              5.5662953,
+              49.7460474
+            ],
+            [
+              5.5662146,
+              49.7463134
+            ]
+          ]
+        },
+        "id": "way/60097894"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "type": "way",
+          "id": "60097905",
+          "tags": {
+            "highway": "path",
+            "surface": "ground"
+          },
+          "relations": [
+            {
+              "role": "",
+              "rel": "4682511",
+              "reltags": {
+                "name": "Promenade des 4 fils Aymon",
+                "network": "lwn",
+                "operator": "tarpan",
+                "osmc:symbol": "red:white:red_corner",
+                "route": "hiking",
+                "type": "route"
+              }
+            }
+          ],
+          "meta": {
+            "timestamp": "2010-05-23T19:15:32Z",
+            "version": "1",
+            "changeset": "4786628",
+            "user": "Hagebutte",
+            "uid": "82866"
+          }
+        },
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              5.5669173,
+              49.7514474
+            ],
+            [
+              5.5658271,
+              49.7511638
+            ],
+            [
+              5.565359,
+              49.7509395
+            ],
+            [
+              5.5651733,
+              49.7507622
+            ],
+            [
+              5.5649069,
+              49.7506423
+            ],
+            [
+              5.5646648,
+              49.7504545
+            ],
+            [
+              5.5646164,
+              49.7502042
+            ],
+            [
+              5.5647294,
+              49.7498391
+            ],
+            [
+              5.5646244,
+              49.7496148
+            ],
+            [
+              5.5647052,
+              49.7493384
+            ],
+            [
+              5.5647455,
+              49.7488117
+            ],
+            [
+              5.5648504,
+              49.7483996
+            ],
+            [
+              5.5651249,
+              49.748191
+            ],
+            [
+              5.5652702,
+              49.7477842
+            ],
+            [
+              5.565367,
+              49.7476538
+            ],
+            [
+              5.5654558,
+              49.747054
+            ],
+            [
+              5.5657706,
+              49.7467306
+            ],
+            [
+              5.5661823,
+              49.746522
+            ],
+            [
+              5.5662146,
+              49.7463134
+            ]
+          ]
+        },
+        "id": "way/60097905"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "type": "way",
+          "id": "50163763",
+          "tags": {
+            "highway": "track",
+            "surface": "ground",
+            "tracktype": "grade3"
+          },
+          "relations": [
+            {
+              "role": "",
+              "rel": "4682511",
+              "reltags": {
+                "name": "Promenade des 4 fils Aymon",
+                "network": "lwn",
+                "operator": "tarpan",
+                "osmc:symbol": "red:white:red_corner",
+                "route": "hiking",
+                "type": "route"
+              }
+            }
+          ],
+          "meta": {
+            "timestamp": "2015-03-18T19:39:19Z",
+            "version": "5",
+            "changeset": "29577503",
+            "user": "juminet",
+            "uid": "812669"
+          }
+        },
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              5.5704484,
+              49.7349453
+            ],
+            [
+              5.5696714,
+              49.7345578
+            ],
+            [
+              5.5685762,
+              49.7344
+            ],
+            [
+              5.5672415,
+              49.7341784
+            ],
+            [
+              5.5668676,
+              49.7340134
+            ],
+            [
+              5.5656539,
+              49.7326567
+            ],
+            [
+              5.5639238,
+              49.7314572
+            ]
+          ]
+        },
+        "id": "way/50163763"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "type": "way",
+          "id": "59988348",
+          "tags": {
+            "highway": "track",
+            "surface": "ground",
+            "tracktype": "grade3"
+          },
+          "relations": [
+            {
+              "role": "",
+              "rel": "4682511",
+              "reltags": {
+                "name": "Promenade des 4 fils Aymon",
+                "network": "lwn",
+                "operator": "tarpan",
+                "osmc:symbol": "red:white:red_corner",
+                "route": "hiking",
+                "type": "route"
+              }
+            }
+          ],
+          "meta": {
+            "timestamp": "2014-10-19T15:10:21Z",
+            "version": "3",
+            "changeset": "26194077",
+            "user": "eMerzh",
+            "uid": "15399"
+          }
+        },
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              5.5572919,
+              49.727099
+            ],
+            [
+              5.5556991,
+              49.7300956
+            ],
+            [
+              5.5555027,
+              49.7303894
+            ],
+            [
+              5.5524652,
+              49.7296047
+            ],
+            [
+              5.5522502,
+              49.7295993
+            ],
+            [
+              5.5520599,
+              49.7296583
+            ],
+            [
+              5.5509176,
+              49.730665
+            ],
+            [
+              5.5507191,
+              49.7309103
+            ],
+            [
+              5.5505612,
+              49.7313314
+            ],
+            [
+              5.5503391,
+              49.7318819
+            ],
+            [
+              5.5502967,
+              49.7322666
+            ],
+            [
+              5.5503946,
+              49.7328188
+            ],
+            [
+              5.5502703,
+              49.7333847
+            ],
+            [
+              5.5500613,
+              49.7339608
+            ],
+            [
+              5.5499397,
+              49.7341762
+            ],
+            [
+              5.5496434,
+              49.7344087
+            ],
+            [
+              5.5494424,
+              49.7346309
+            ],
+            [
+              5.5493763,
+              49.7348754
+            ],
+            [
+              5.5492546,
+              49.7351318
+            ],
+            [
+              5.5491859,
+              49.7354651
+            ],
+            [
+              5.5491488,
+              49.7357728
+            ],
+            [
+              5.5491753,
+              49.735925
+            ],
+            [
+              5.549252,
+              49.7362241
+            ],
+            [
+              5.5493869,
+              49.7364412
+            ],
+            [
+              5.5497836,
+              49.7368447
+            ],
+            [
+              5.5497387,
+              49.7369609
+            ],
+            [
+              5.5495482,
+              49.737043
+            ],
+            [
+              5.5490906,
+              49.7371336
+            ],
+            [
+              5.548514,
+              49.737484
+            ],
+            [
+              5.5483633,
+              49.7375917
+            ],
+            [
+              5.5477973,
+              49.7378071
+            ],
+            [
+              5.5474614,
+              49.7379609
+            ],
+            [
+              5.5470091,
+              49.7381096
+            ],
+            [
+              5.5464959,
+              49.73819
+            ],
+            [
+              5.5462605,
+              49.7381917
+            ],
+            [
+              5.5459987,
+              49.7382395
+            ],
+            [
+              5.5459484,
+              49.7381113
+            ],
+            [
+              5.5458823,
+              49.7378806
+            ],
+            [
+              5.5456416,
+              49.7374413
+            ],
+            [
+              5.5456405,
+              49.737225
+            ],
+            [
+              5.5457181,
+              49.7366753
+            ],
+            [
+              5.5457247,
+              49.7365872
+            ]
+          ]
+        },
+        "id": "way/59988348"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "type": "way",
+          "id": "219949819",
+          "tags": {
+            "highway": "residential",
+            "maxspeed": "50",
+            "name": "Grand-Rue"
+          },
+          "relations": [
+            {
+              "role": "",
+              "rel": "4682511",
+              "reltags": {
+                "name": "Promenade des 4 fils Aymon",
+                "network": "lwn",
+                "operator": "tarpan",
+                "osmc:symbol": "red:white:red_corner",
+                "route": "hiking",
+                "type": "route"
+              }
+            }
+          ],
+          "meta": {
+            "timestamp": "2015-03-18T19:39:18Z",
+            "version": "6",
+            "changeset": "29577503",
+            "user": "juminet",
+            "uid": "812669"
+          }
+        },
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              5.5392364,
+              49.7272159
+            ],
+            [
+              5.5392046,
+              49.7271366
+            ],
+            [
+              5.5391347,
+              49.7270443
+            ],
+            [
+              5.5390912,
+              49.7269931
+            ],
+            [
+              5.5389492,
+              49.7268087
+            ],
+            [
+              5.5387778,
+              49.7266484
+            ],
+            [
+              5.5384817,
+              49.7263775
+            ]
+          ]
+        },
+        "id": "way/219949819"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "type": "way",
+          "id": "104387620",
+          "tags": {
+            "highway": "track",
+            "surface": "ground",
+            "tracktype": "grade3"
+          },
+          "relations": [
+            {
+              "role": "",
+              "rel": "4682511",
+              "reltags": {
+                "name": "Promenade des 4 fils Aymon",
+                "network": "lwn",
+                "operator": "tarpan",
+                "osmc:symbol": "red:white:red_corner",
+                "route": "hiking",
+                "type": "route"
+              }
+            }
+          ],
+          "meta": {
+            "timestamp": "2013-10-08T07:00:53Z",
+            "version": "2",
+            "changeset": "18241679",
+            "user": "juminet",
+            "uid": "812669"
+          }
+        },
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              5.5534316,
+              49.7518481
+            ],
+            [
+              5.5533394,
+              49.7509165
+            ],
+            [
+              5.5523163,
+              49.7500267
+            ],
+            [
+              5.5511145,
+              49.7495207
+            ],
+            [
+              5.5503555,
+              49.7487142
+            ],
+            [
+              5.5499918,
+              49.747718
+            ],
+            [
+              5.5496443,
+              49.7473917
+            ],
+            [
+              5.5491063,
+              49.7470697
+            ],
+            [
+              5.5487815,
+              49.7469397
+            ],
+            [
+              5.547907,
+              49.7467815
+            ],
+            [
+              5.5477306,
+              49.7467376
+            ],
+            [
+              5.547499,
+              49.746578
+            ],
+            [
+              5.5474384,
+              49.7462609
+            ]
+          ]
+        },
+        "id": "way/104387620"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "type": "way",
+          "id": "183820980",
+          "tags": {
+            "highway": "track",
+            "surface": "gravel"
+          },
+          "relations": [
+            {
+              "role": "",
+              "rel": "4682511",
+              "reltags": {
+                "name": "Promenade des 4 fils Aymon",
+                "network": "lwn",
+                "operator": "tarpan",
+                "osmc:symbol": "red:white:red_corner",
+                "route": "hiking",
+                "type": "route"
+              }
+            }
+          ],
+          "meta": {
+            "timestamp": "2015-03-18T17:19:02Z",
+            "version": "2",
+            "changeset": "29574253",
+            "user": "juminet",
+            "uid": "812669"
+          }
+        },
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              5.5385131,
+              49.7321635
+            ],
+            [
+              5.5395345,
+              49.7323866
+            ],
+            [
+              5.5403534,
+              49.7326114
+            ],
+            [
+              5.5414563,
+              49.7329228
+            ]
+          ]
+        },
+        "id": "way/183820980"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "type": "way",
+          "id": "333481129",
+          "tags": {
+            "highway": "track",
+            "surface": "ground",
+            "tracktype": "grade3"
+          },
+          "relations": [
+            {
+              "role": "",
+              "rel": "4682511",
+              "reltags": {
+                "name": "Promenade des 4 fils Aymon",
+                "network": "lwn",
+                "operator": "tarpan",
+                "osmc:symbol": "red:white:red_corner",
+                "route": "hiking",
+                "type": "route"
+              }
+            }
+          ],
+          "meta": {
+            "timestamp": "2015-03-18T19:39:15Z",
+            "version": "1",
+            "changeset": "29577503",
+            "user": "juminet",
+            "uid": "812669"
+          }
+        },
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              5.5588454,
+              49.7548361
+            ],
+            [
+              5.5641554,
+              49.7558589
+            ]
+          ]
+        },
+        "id": "way/333481129"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "type": "way",
+          "id": "333481130",
+          "tags": {
+            "highway": "unclassified",
+            "surface": "paved",
+            "tracktype": "grade1"
+          },
+          "relations": [
+            {
+              "role": "",
+              "rel": "4682511",
+              "reltags": {
+                "name": "Promenade des 4 fils Aymon",
+                "network": "lwn",
+                "operator": "tarpan",
+                "osmc:symbol": "red:white:red_corner",
+                "route": "hiking",
+                "type": "route"
+              }
+            }
+          ],
+          "meta": {
+            "timestamp": "2015-03-18T19:39:15Z",
+            "version": "1",
+            "changeset": "29577503",
+            "user": "juminet",
+            "uid": "812669"
+          }
+        },
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              5.5414563,
+              49.7329228
+            ],
+            [
+              5.5414,
+              49.7330539
+            ]
+          ]
+        },
+        "id": "way/333481130"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "type": "way",
+          "id": "333481132",
+          "tags": {
+            "highway": "tertiary"
+          },
+          "relations": [
+            {
+              "role": "",
+              "rel": "4682511",
+              "reltags": {
+                "name": "Promenade des 4 fils Aymon",
+                "network": "lwn",
+                "operator": "tarpan",
+                "osmc:symbol": "red:white:red_corner",
+                "route": "hiking",
+                "type": "route"
+              }
+            }
+          ],
+          "meta": {
+            "timestamp": "2015-03-18T19:39:15Z",
+            "version": "1",
+            "changeset": "29577503",
+            "user": "juminet",
+            "uid": "812669"
+          }
+        },
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              5.5576886,
+              49.7277159
+            ],
+            [
+              5.5572919,
+              49.727099
+            ]
+          ]
+        },
+        "id": "way/333481132"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "type": "way",
+          "id": "333481138",
+          "tags": {
+            "highway": "track",
+            "surface": "gravel",
+            "tracktype": "grade2"
+          },
+          "relations": [
+            {
+              "role": "",
+              "rel": "4682511",
+              "reltags": {
+                "name": "Promenade des 4 fils Aymon",
+                "network": "lwn",
+                "operator": "tarpan",
+                "osmc:symbol": "red:white:red_corner",
+                "route": "hiking",
+                "type": "route"
+              }
+            }
+          ],
+          "meta": {
+            "timestamp": "2015-03-18T19:39:16Z",
+            "version": "1",
+            "changeset": "29577503",
+            "user": "juminet",
+            "uid": "812669"
+          }
+        },
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              5.5669173,
+              49.7514474
+            ],
+            [
+              5.5657567,
+              49.753305
+            ],
+            [
+              5.5651306,
+              49.7543385
+            ],
+            [
+              5.5641554,
+              49.7558589
+            ]
+          ]
+        },
+        "id": "way/333481138"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "type": "way",
+          "id": "333481144",
+          "tags": {
+            "highway": "tertiary"
+          },
+          "relations": [
+            {
+              "role": "",
+              "rel": "4682511",
+              "reltags": {
+                "name": "Promenade des 4 fils Aymon",
+                "network": "lwn",
+                "operator": "tarpan",
+                "osmc:symbol": "red:white:red_corner",
+                "route": "hiking",
+                "type": "route"
+              }
+            }
+          ],
+          "meta": {
+            "timestamp": "2015-03-18T19:39:16Z",
+            "version": "1",
+            "changeset": "29577503",
+            "user": "juminet",
+            "uid": "812669"
+          }
+        },
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              5.5674944,
+              49.745097
+            ],
+            [
+              5.5669966,
+              49.7445844
+            ],
+            [
+              5.5663774,
+              49.7439555
+            ],
+            [
+              5.5653049,
+              49.7428911
+            ],
+            [
+              5.5644672,
+              49.7420529
+            ],
+            [
+              5.563585,
+              49.741165
+            ],
+            [
+              5.5628707,
+              49.7404288
+            ]
+          ]
+        },
+        "id": "way/333481144"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "type": "way",
+          "id": "60097872",
+          "tags": {
+            "highway": "residential",
+            "surface": "paved"
+          },
+          "relations": [
+            {
+              "role": "",
+              "rel": "4682511",
+              "reltags": {
+                "name": "Promenade des 4 fils Aymon",
+                "network": "lwn",
+                "operator": "tarpan",
+                "osmc:symbol": "red:white:red_corner",
+                "route": "hiking",
+                "type": "route"
+              }
+            }
+          ],
+          "meta": {
+            "timestamp": "2015-03-18T19:39:19Z",
+            "version": "5",
+            "changeset": "29577503",
+            "user": "juminet",
+            "uid": "812669"
+          }
+        },
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              5.5610097,
+              49.7298777
+            ],
+            [
+              5.5608454,
+              49.7295015
+            ],
+            [
+              5.5608562,
+              49.7293478
+            ]
+          ]
+        },
+        "id": "way/60097872"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "type": "way",
+          "id": "59988322",
+          "tags": {
+            "highway": "unclassified"
+          },
+          "relations": [
+            {
+              "role": "",
+              "rel": "4682511",
+              "reltags": {
+                "name": "Promenade des 4 fils Aymon",
+                "network": "lwn",
+                "operator": "tarpan",
+                "osmc:symbol": "red:white:red_corner",
+                "route": "hiking",
+                "type": "route"
+              }
+            }
+          ],
+          "meta": {
+            "timestamp": "2015-03-18T19:39:19Z",
+            "version": "3",
+            "changeset": "29577503",
+            "user": "juminet",
+            "uid": "812669"
+          }
+        },
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              5.5382477,
+              49.7325019
+            ],
+            [
+              5.5383044,
+              49.7323613
+            ],
+            [
+              5.5385131,
+              49.7321635
+            ]
+          ]
+        },
+        "id": "way/59988322"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "type": "way",
+          "id": "333849640",
+          "tags": {
+            "highway": "unclassified",
+            "name": "Rue de Courtel"
+          },
+          "relations": [
+            {
+              "role": "",
+              "rel": "4682511",
+              "reltags": {
+                "name": "Promenade des 4 fils Aymon",
+                "network": "lwn",
+                "operator": "tarpan",
+                "osmc:symbol": "red:white:red_corner",
+                "route": "hiking",
+                "type": "route"
+              }
+            }
+          ],
+          "meta": {
+            "timestamp": "2015-03-20T14:22:13Z",
+            "version": "1",
+            "changeset": "29616033",
+            "user": "juminet",
+            "uid": "812669"
+          }
+        },
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              5.5353677,
+              49.7333952
+            ],
+            [
+              5.5364357,
+              49.7323343
+            ],
+            [
+              5.5371365,
+              49.7314649
+            ],
+            [
+              5.5375002,
+              49.7309481
+            ],
+            [
+              5.5377508,
+              49.7305369
+            ],
+            [
+              5.5379881,
+              49.7299067
+            ]
+          ]
+        },
+        "id": "way/333849640"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "type": "way",
+          "id": "333481125",
+          "tags": {
+            "highway": "unclassified",
+            "name": "Rue de Courtel"
+          },
+          "relations": [
+            {
+              "role": "",
+              "rel": "4682511",
+              "reltags": {
+                "name": "Promenade des 4 fils Aymon",
+                "network": "lwn",
+                "operator": "tarpan",
+                "osmc:symbol": "red:white:red_corner",
+                "route": "hiking",
+                "type": "route"
+              }
+            }
+          ],
+          "meta": {
+            "timestamp": "2015-03-20T14:22:15Z",
+            "version": "2",
+            "changeset": "29616033",
+            "user": "juminet",
+            "uid": "812669"
+          }
+        },
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              5.5382477,
+              49.7325019
+            ],
+            [
+              5.5381122,
+              49.7325242
+            ],
+            [
+              5.5379867,
+              49.7325856
+            ],
+            [
+              5.5378248,
+              49.7327086
+            ],
+            [
+              5.5372461,
+              49.7331415
+            ],
+            [
+              5.5364772,
+              49.7337117
+            ],
+            [
+              5.5363699,
+              49.7337693
+            ],
+            [
+              5.5362182,
+              49.7338033
+            ],
+            [
+              5.5360725,
+              49.7337941
+            ],
+            [
+              5.5359531,
+              49.7337653
+            ],
+            [
+              5.5356435,
+              49.7336293
+            ],
+            [
+              5.5354715,
+              49.733543
+            ],
+            [
+              5.5353677,
+              49.7333952
+            ]
+          ]
+        },
+        "id": "way/333481125"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "type": "way",
+          "id": "59988324",
+          "tags": {
+            "highway": "track",
+            "surface": "gravel",
+            "tracktype": "grade3"
+          },
+          "relations": [
+            {
+              "role": "",
+              "rel": "4682511",
+              "reltags": {
+                "name": "Promenade des 4 fils Aymon",
+                "network": "lwn",
+                "operator": "tarpan",
+                "osmc:symbol": "red:white:red_corner",
+                "route": "hiking",
+                "type": "route"
+              }
+            }
+          ],
+          "meta": {
+            "timestamp": "2014-03-02T16:59:53Z",
+            "version": "2",
+            "changeset": "20868116",
+            "user": "juminet",
+            "uid": "812669"
+          }
+        },
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              5.5414,
+              49.7330539
+            ],
+            [
+              5.5415759,
+              49.7331966
+            ],
+            [
+              5.5419976,
+              49.7336177
+            ],
+            [
+              5.5423808,
+              49.7339169
+            ],
+            [
+              5.5429749,
+              49.7344016
+            ],
+            [
+              5.5434156,
+              49.7347168
+            ],
+            [
+              5.5435139,
+              49.734774
+            ],
+            [
+              5.5436653,
+              49.7348622
+            ],
+            [
+              5.5438467,
+              49.7349298
+            ],
+            [
+              5.5440105,
+              49.734974
+            ],
+            [
+              5.5445554,
+              49.7351605
+            ],
+            [
+              5.5451156,
+              49.7353431
+            ],
+            [
+              5.5456497,
+              49.7355786
+            ],
+            [
+              5.545769,
+              49.7359419
+            ],
+            [
+              5.5457334,
+              49.7361802
+            ],
+            [
+              5.5457331,
+              49.7364079
+            ]
+          ]
+        },
+        "id": "way/59988324"
+      }
+    ],
+    "pois": [
+      {
+        "Attr2": "java.util.Random@79fe3f51",
+        "Attr1": "java.util.Random@3cc25398"
+      },
+      {
+        "Attr2": "java.util.Random@73ea6a",
+        "Attr1": "java.util.Random@22ef1d69"
+      },
+      {
+        "Attr2": "java.util.Random@44e6f118",
+        "Attr1": "java.util.Random@3a22d561"
+      }
+    ],
+    "info": {
+      "title": "Promenade des 4 fils Aymon",
+      "webpageURL": "http://www.ftlb.be/fr/attractions/fiche.php?avi_id=2781",
+      "description": "En route pour 13km au cœur de la forêt de Rulles, ses essences feuillues et résineuses, ses ruisseaux d'eau claire, ses arbres tous plus remarquables les uns que l'autre avec comme clou du spectacle le « Chêne des Quatre Fils Aymon ».",
+      "pic1": "http://www.ftlb.be/dbimages/visiter/visiter2783_3.jpg"
+    }
+  },
+  {
+    "type": "Track",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "type": "way",
+          "id": "50163752",
+          "tags": {
+            "highway": "path"
+          },
+          "relations": [
+            {
+              "role": "",
+              "rel": "4708463",
+              "reltags": {
+                "name": "Promenade Maurice Grevisse",
+                "network": "lwn",
+                "osmc:symbol": "blue:white:cross",
+                "route": "hiking",
+                "type": "route"
+              }
+            }
+          ],
+          "meta": {
+            "timestamp": "2013-05-04T13:29:07Z",
+            "version": "4",
+            "changeset": "15971400",
+            "user": "Krunch_",
+            "uid": "1386763"
+          }
+        },
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              5.5503713,
+              49.7053089
+            ],
+            [
+              5.5552065,
+              49.7064096
+            ],
+            [
+              5.5562509,
+              49.7065347
+            ],
+            [
+              5.5571631,
+              49.7063293
+            ]
+          ]
+        },
+        "id": "way/50163752"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "type": "way",
+          "id": "50163767",
+          "tags": {
+            "highway": "track",
+            "tracktype": "grade1"
+          },
+          "relations": [
+            {
+              "role": "",
+              "rel": "4708463",
+              "reltags": {
+                "name": "Promenade Maurice Grevisse",
+                "network": "lwn",
+                "osmc:symbol": "blue:white:cross",
+                "route": "hiking",
+                "type": "route"
+              }
+            }
+          ],
+          "meta": {
+            "timestamp": "2012-08-17T13:48:59Z",
+            "version": "3",
+            "changeset": "12762682",
+            "user": "juminet",
+            "uid": "812669"
+          }
+        },
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              5.5658617,
+              49.7115738
+            ],
+            [
+              5.5649348,
+              49.7124153
+            ],
+            [
+              5.5638662,
+              49.7130897
+            ],
+            [
+              5.5636613,
+              49.7131619
+            ],
+            [
+              5.5634902,
+              49.7132221
+            ],
+            [
+              5.5630453,
+              49.7133788
+            ]
+          ]
+        },
+        "id": "way/50163767"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "type": "way",
+          "id": "88021203",
+          "tags": {
+            "highway": "track",
+            "surface": "cobblestone",
+            "tracktype": "grade1"
+          },
+          "relations": [
+            {
+              "role": "",
+              "rel": "4708463",
+              "reltags": {
+                "name": "Promenade Maurice Grevisse",
+                "network": "lwn",
+                "osmc:symbol": "blue:white:cross",
+                "route": "hiking",
+                "type": "route"
+              }
+            }
+          ],
+          "meta": {
+            "timestamp": "2012-08-17T13:44:02Z",
+            "version": "3",
+            "changeset": "12762682",
+            "user": "juminet",
+            "uid": "812669"
+          }
+        },
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              5.5628227,
+              49.7134938
+            ],
+            [
+              5.5624165,
+              49.7138253
+            ],
+            [
+              5.5621526,
+              49.7140182
+            ]
+          ]
+        },
+        "id": "way/88021203"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "type": "way",
+          "id": "143482792",
+          "tags": {
+            "highway": "track",
+            "source": "survey 4 May 2013"
+          },
+          "relations": [
+            {
+              "role": "",
+              "rel": "4708463",
+              "reltags": {
+                "name": "Promenade Maurice Grevisse",
+                "network": "lwn",
+                "osmc:symbol": "blue:white:cross",
+                "route": "hiking",
+                "type": "route"
+              }
+            }
+          ],
+          "meta": {
+            "timestamp": "2013-05-04T12:34:18Z",
+            "version": "3",
+            "changeset": "15970729",
+            "user": "Krunch_",
+            "uid": "1386763"
+          }
+        },
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              5.5484011,
+              49.7123048
+            ],
+            [
+              5.5485093,
+              49.7123557
+            ],
+            [
+              5.5497008,
+              49.7124309
+            ],
+            [
+              5.5507897,
+              49.7124688
+            ]
+          ]
+        },
+        "id": "way/143482792"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "type": "way",
+          "id": "115889674",
+          "tags": {
+            "highway": "track"
+          },
+          "relations": [
+            {
+              "role": "",
+              "rel": "4708463",
+              "reltags": {
+                "name": "Promenade Maurice Grevisse",
+                "network": "lwn",
+                "osmc:symbol": "blue:white:cross",
+                "route": "hiking",
+                "type": "route"
+              }
+            }
+          ],
+          "meta": {
+            "timestamp": "2011-06-01T19:35:33Z",
+            "version": "1",
+            "changeset": "8313282",
+            "user": "Toi",
+            "uid": "8323"
+          }
+        },
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              5.5636278,
+              49.7075929
+            ],
+            [
+              5.563349,
+              49.707425
+            ],
+            [
+              5.5630587,
+              49.7072595
+            ],
+            [
+              5.562864,
+              49.7071879
+            ],
+            [
+              5.562589,
+              49.7070909
+            ],
+            [
+              5.5623063,
+              49.707018
+            ],
+            [
+              5.5619338,
+              49.7070213
+            ],
+            [
+              5.5615974,
+              49.7070219
+            ],
+            [
+              5.5612903,
+              49.7070989
+            ],
+            [
+              5.5607327,
+              49.7072496
+            ]
+          ]
+        },
+        "id": "way/115889674"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "type": "way",
+          "id": "143482826",
+          "tags": {
+            "highway": "residential",
+            "maxspeed": "50",
+            "name": "Rue de la Haisse"
+          },
+          "relations": [
+            {
+              "role": "",
+              "rel": "4708463",
+              "reltags": {
+                "name": "Promenade Maurice Grevisse",
+                "network": "lwn",
+                "osmc:symbol": "blue:white:cross",
+                "route": "hiking",
+                "type": "route"
+              }
+            }
+          ],
+          "meta": {
+            "timestamp": "2015-01-19T03:19:01Z",
+            "version": "6",
+            "changeset": "28244508",
+            "user": "Franc9876",
+            "uid": "2419327"
+          }
+        },
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              5.5544586,
+              49.7138919
+            ],
+            [
+              5.5545961,
+              49.714032
+            ],
+            [
+              5.5548325,
+              49.7141976
+            ],
+            [
+              5.5560149,
+              49.7148504
+            ],
+            [
+              5.5571471,
+              49.715471
+            ]
+          ]
+        },
+        "id": "way/143482826"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "type": "way",
+          "id": "220004576",
+          "tags": {
+            "highway": "path",
+            "source": "survey 4 May 2013"
+          },
+          "relations": [
+            {
+              "role": "",
+              "rel": "4708463",
+              "reltags": {
+                "name": "Promenade Maurice Grevisse",
+                "network": "lwn",
+                "osmc:symbol": "blue:white:cross",
+                "route": "hiking",
+                "type": "route"
+              }
+            }
+          ],
+          "meta": {
+            "timestamp": "2013-05-04T12:34:17Z",
+            "version": "1",
+            "changeset": "15970729",
+            "user": "Krunch_",
+            "uid": "1386763"
+          }
+        },
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              5.5481526,
+              49.7122321
+            ],
+            [
+              5.5481031,
+              49.7121734
+            ],
+            [
+              5.5480741,
+              49.7120372
+            ],
+            [
+              5.5479371,
+              49.7118398
+            ],
+            [
+              5.5476534,
+              49.7114302
+            ],
+            [
+              5.5471949,
+              49.7107517
+            ],
+            [
+              5.5468607,
+              49.7102768
+            ],
+            [
+              5.5466003,
+              49.7100506
+            ],
+            [
+              5.546406,
+              49.709925
+            ],
+            [
+              5.5461052,
+              49.7096931
+            ]
+          ]
+        },
+        "id": "way/220004576"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "type": "way",
+          "id": "220004577",
+          "tags": {
+            "highway": "track",
+            "source": "survey 4 May 2013",
+            "tunnel": "yes"
+          },
+          "relations": [
+            {
+              "role": "",
+              "rel": "4708463",
+              "reltags": {
+                "name": "Promenade Maurice Grevisse",
+                "network": "lwn",
+                "osmc:symbol": "blue:white:cross",
+                "route": "hiking",
+                "type": "route"
+              }
+            }
+          ],
+          "meta": {
+            "timestamp": "2013-05-04T12:34:18Z",
+            "version": "1",
+            "changeset": "15970729",
+            "user": "Krunch_",
+            "uid": "1386763"
+          }
+        },
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              5.5507897,
+              49.7124688
+            ],
+            [
+              5.5512829,
+              49.7124562
+            ]
+          ]
+        },
+        "id": "way/220004577"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "type": "way",
+          "id": "220004578",
+          "tags": {
+            "highway": "track",
+            "source": "survey 4 May 2013"
+          },
+          "relations": [
+            {
+              "role": "",
+              "rel": "4708463",
+              "reltags": {
+                "name": "Promenade Maurice Grevisse",
+                "network": "lwn",
+                "osmc:symbol": "blue:white:cross",
+                "route": "hiking",
+                "type": "route"
+              }
+            }
+          ],
+          "meta": {
+            "timestamp": "2014-12-08T05:59:54Z",
+            "version": "2",
+            "changeset": "27326787",
+            "user": "Franc9876",
+            "uid": "2419327"
+          }
+        },
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              5.5512829,
+              49.7124562
+            ],
+            [
+              5.5517388,
+              49.7126378
+            ],
+            [
+              5.5522192,
+              49.7127491
+            ],
+            [
+              5.5527557,
+              49.7128955
+            ],
+            [
+              5.5535941,
+              49.7131829
+            ],
+            [
+              5.553821,
+              49.7132648
+            ],
+            [
+              5.554192,
+              49.7135279
+            ],
+            [
+              5.5544586,
+              49.7138919
+            ]
+          ]
+        },
+        "id": "way/220004578"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "type": "way",
+          "id": "220004580",
+          "tags": {
+            "highway": "path"
+          },
+          "relations": [
+            {
+              "role": "",
+              "rel": "4708463",
+              "reltags": {
+                "name": "Promenade Maurice Grevisse",
+                "network": "lwn",
+                "osmc:symbol": "blue:white:cross",
+                "route": "hiking",
+                "type": "route"
+              }
+            }
+          ],
+          "meta": {
+            "timestamp": "2013-05-04T12:34:18Z",
+            "version": "1",
+            "changeset": "15970729",
+            "user": "Krunch_",
+            "uid": "1386763"
+          }
+        },
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              5.5485093,
+              49.7123557
+            ],
+            [
+              5.5482931,
+              49.7123123
+            ]
+          ]
+        },
+        "id": "way/220004580"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "type": "way",
+          "id": "220011562",
+          "tags": {
+            "highway": "path",
+            "source": "survey 4 May 2013"
+          },
+          "relations": [
+            {
+              "role": "",
+              "rel": "4708463",
+              "reltags": {
+                "name": "Promenade Maurice Grevisse",
+                "network": "lwn",
+                "osmc:symbol": "blue:white:cross",
+                "route": "hiking",
+                "type": "route"
+              }
+            }
+          ],
+          "meta": {
+            "timestamp": "2013-05-04T13:28:27Z",
+            "version": "1",
+            "changeset": "15971393",
+            "user": "Krunch_",
+            "uid": "1386763"
+          }
+        },
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              5.5483749,
+              49.70479
+            ],
+            [
+              5.5485364,
+              49.7048128
+            ],
+            [
+              5.5488123,
+              49.7048824
+            ],
+            [
+              5.549568,
+              49.7050816
+            ],
+            [
+              5.5503713,
+              49.7053089
+            ]
+          ]
+        },
+        "id": "way/220011562"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "type": "way",
+          "id": "220011563",
+          "tags": {
+            "highway": "track",
+            "source": "survey 4 May 2013"
+          },
+          "relations": [
+            {
+              "role": "",
+              "rel": "4708463",
+              "reltags": {
+                "name": "Promenade Maurice Grevisse",
+                "network": "lwn",
+                "osmc:symbol": "blue:white:cross",
+                "route": "hiking",
+                "type": "route"
+              }
+            }
+          ],
+          "meta": {
+            "timestamp": "2013-05-04T13:28:27Z",
+            "version": "1",
+            "changeset": "15971393",
+            "user": "Krunch_",
+            "uid": "1386763"
+          }
+        },
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              5.5466181,
+              49.7015778
+            ],
+            [
+              5.5468994,
+              49.7021606
+            ],
+            [
+              5.5472539,
+              49.702902
+            ],
+            [
+              5.5475485,
+              49.7033426
+            ],
+            [
+              5.5478661,
+              49.7038487
+            ],
+            [
+              5.5480779,
+              49.7042357
+            ],
+            [
+              5.5482851,
+              49.7046481
+            ],
+            [
+              5.5483749,
+              49.70479
+            ],
+            [
+              5.5485336,
+              49.7049741
+            ]
+          ]
+        },
+        "id": "way/220011563"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "type": "way",
+          "id": "220011868",
+          "tags": {
+            "highway": "track",
+            "source": "survey 4 May 2013"
+          },
+          "relations": [
+            {
+              "role": "",
+              "rel": "4708463",
+              "reltags": {
+                "name": "Promenade Maurice Grevisse",
+                "network": "lwn",
+                "osmc:symbol": "blue:white:cross",
+                "route": "hiking",
+                "type": "route"
+              }
+            }
+          ],
+          "meta": {
+            "timestamp": "2013-05-04T13:31:54Z",
+            "version": "1",
+            "changeset": "15971438",
+            "user": "Krunch_",
+            "uid": "1386763"
+          }
+        },
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              5.5573236,
+              49.7061285
+            ],
+            [
+              5.557621,
+              49.7061924
+            ],
+            [
+              5.5604972,
+              49.7071978
+            ],
+            [
+              5.5607327,
+              49.7072496
+            ]
+          ]
+        },
+        "id": "way/220011868"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "type": "way",
+          "id": "169308891",
+          "tags": {
+            "highway": "residential",
+            "maxspeed": "50",
+            "name": "Rue du Ridé",
+            "source": "bing"
+          },
+          "relations": [
+            {
+              "role": "",
+              "rel": "4708463",
+              "reltags": {
+                "name": "Promenade Maurice Grevisse",
+                "network": "lwn",
+                "osmc:symbol": "blue:white:cross",
+                "route": "hiking",
+                "type": "route"
+              }
+            }
+          ],
+          "meta": {
+            "timestamp": "2014-11-18T04:19:15Z",
+            "version": "6",
+            "changeset": "26856796",
+            "user": "Franc9876",
+            "uid": "2419327"
+          }
+        },
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              5.5344497,
+              49.7075366
+            ],
+            [
+              5.5365982,
+              49.7062541
+            ],
+            [
+              5.5381959,
+              49.7058414
+            ],
+            [
+              5.5383472,
+              49.7057774
+            ],
+            [
+              5.5385194,
+              49.7056869
+            ]
+          ]
+        },
+        "id": "way/169308891"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "type": "way",
+          "id": "176498526",
+          "tags": {
+            "highway": "path"
+          },
+          "relations": [
+            {
+              "role": "",
+              "rel": "4708463",
+              "reltags": {
+                "name": "Promenade Maurice Grevisse",
+                "network": "lwn",
+                "osmc:symbol": "blue:white:cross",
+                "route": "hiking",
+                "type": "route"
+              }
+            }
+          ],
+          "meta": {
+            "timestamp": "2012-08-17T13:48:59Z",
+            "version": "1",
+            "changeset": "12762682",
+            "user": "juminet",
+            "uid": "812669"
+          }
+        },
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              5.5624165,
+              49.7138253
+            ],
+            [
+              5.5625903,
+              49.7138074
+            ],
+            [
+              5.562652,
+              49.7137536
+            ],
+            [
+              5.5628585,
+              49.713568
+            ],
+            [
+              5.562888,
+              49.7135489
+            ],
+            [
+              5.5629369,
+              49.7135173
+            ]
+          ]
+        },
+        "id": "way/176498526"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "type": "way",
+          "id": "176498527",
+          "tags": {
+            "highway": "path"
+          },
+          "relations": [
+            {
+              "role": "",
+              "rel": "4708463",
+              "reltags": {
+                "name": "Promenade Maurice Grevisse",
+                "network": "lwn",
+                "osmc:symbol": "blue:white:cross",
+                "route": "hiking",
+                "type": "route"
+              }
+            }
+          ],
+          "meta": {
+            "timestamp": "2012-08-17T13:48:59Z",
+            "version": "1",
+            "changeset": "12762682",
+            "user": "juminet",
+            "uid": "812669"
+          }
+        },
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              5.5630812,
+              49.7134241
+            ],
+            [
+              5.563277,
+              49.7133373
+            ],
+            [
+              5.5634459,
+              49.7132593
+            ],
+            [
+              5.5634902,
+              49.7132221
+            ]
+          ]
+        },
+        "id": "way/176498527"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "type": "way",
+          "id": "176498524",
+          "tags": {
+            "bridge": "yes",
+            "highway": "path",
+            "layer": "1",
+            "surface": "paved"
+          },
+          "relations": [
+            {
+              "role": "",
+              "rel": "4708463",
+              "reltags": {
+                "name": "Promenade Maurice Grevisse",
+                "network": "lwn",
+                "osmc:symbol": "blue:white:cross",
+                "route": "hiking",
+                "type": "route"
+              }
+            }
+          ],
+          "meta": {
+            "timestamp": "2013-09-08T15:19:27Z",
+            "version": "2",
+            "changeset": "17734807",
+            "user": "badpap",
+            "uid": "163973"
+          }
+        },
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              5.5629369,
+              49.7135173
+            ],
+            [
+              5.5630812,
+              49.7134241
+            ]
+          ]
+        },
+        "id": "way/176498524"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "type": "way",
+          "id": "205651131",
+          "tags": {
+            "highway": "residential",
+            "maxspeed": "50",
+            "name": "Rue de la Prairie",
+            "source": "Bing"
+          },
+          "relations": [
+            {
+              "role": "",
+              "rel": "4708463",
+              "reltags": {
+                "name": "Promenade Maurice Grevisse",
+                "network": "lwn",
+                "osmc:symbol": "blue:white:cross",
+                "route": "hiking",
+                "type": "route"
+              }
+            }
+          ],
+          "meta": {
+            "timestamp": "2014-11-18T04:19:15Z",
+            "version": "4",
+            "changeset": "26856796",
+            "user": "Franc9876",
+            "uid": "2419327"
+          }
+        },
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              5.5326485,
+              49.709139
+            ],
+            [
+              5.5331074,
+              49.7093216
+            ]
+          ]
+        },
+        "id": "way/205651131"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "type": "way",
+          "id": "220004581",
+          "tags": {
+            "bridge": "yes",
+            "highway": "path",
+            "layer": "1",
+            "name": "passerelle du Rémi"
+          },
+          "relations": [
+            {
+              "role": "",
+              "rel": "4708463",
+              "reltags": {
+                "name": "Promenade Maurice Grevisse",
+                "network": "lwn",
+                "osmc:symbol": "blue:white:cross",
+                "route": "hiking",
+                "type": "route"
+              }
+            }
+          ],
+          "meta": {
+            "timestamp": "2013-09-08T15:19:26Z",
+            "version": "2",
+            "changeset": "17734807",
+            "user": "badpap",
+            "uid": "163973"
+          }
+        },
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              5.5482931,
+              49.7123123
+            ],
+            [
+              5.5481526,
+              49.7122321
+            ]
+          ]
+        },
+        "id": "way/220004581"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "type": "way",
+          "id": "143482817",
+          "tags": {
+            "highway": "residential",
+            "maxspeed": "50",
+            "name": "Rue Saint-Maximin"
+          },
+          "relations": [
+            {
+              "role": "",
+              "rel": "4708463",
+              "reltags": {
+                "name": "Promenade Maurice Grevisse",
+                "network": "lwn",
+                "osmc:symbol": "blue:white:cross",
+                "route": "hiking",
+                "type": "route"
+              }
+            }
+          ],
+          "meta": {
+            "timestamp": "2015-02-08T03:17:38Z",
+            "version": "4",
+            "changeset": "28695044",
+            "user": "Franc9876",
+            "uid": "2419327"
+          }
+        },
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              5.5596885,
+              49.7172837
+            ],
+            [
+              5.559854,
+              49.7179667
+            ]
+          ]
+        },
+        "id": "way/143482817"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "type": "way",
+          "id": "176496267",
+          "tags": {
+            "highway": "residential",
+            "maxspeed": "50",
+            "name": "Rue de la Fosse",
+            "tracktype": "grade1"
+          },
+          "relations": [
+            {
+              "role": "",
+              "rel": "4708463",
+              "reltags": {
+                "name": "Promenade Maurice Grevisse",
+                "network": "lwn",
+                "osmc:symbol": "blue:white:cross",
+                "route": "hiking",
+                "type": "route"
+              }
+            }
+          ],
+          "meta": {
+            "timestamp": "2015-01-19T03:05:06Z",
+            "version": "7",
+            "changeset": "28244508",
+            "user": "Franc9876",
+            "uid": "2419327"
+          }
+        },
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              5.5621526,
+              49.7140182
+            ],
+            [
+              5.5619417,
+              49.714208
+            ],
+            [
+              5.5618427,
+              49.7143128
+            ],
+            [
+              5.5616537,
+              49.71455
+            ],
+            [
+              5.5609795,
+              49.7155332
+            ],
+            [
+              5.5609011,
+              49.7156927
+            ],
+            [
+              5.5608493,
+              49.7158817
+            ]
+          ]
+        },
+        "id": "way/176496267"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "type": "way",
+          "id": "50163766",
+          "tags": {
+            "highway": "residential",
+            "maxspeed": "50",
+            "name": "Rue de la Fosse"
+          },
+          "relations": [
+            {
+              "role": "",
+              "rel": "4708463",
+              "reltags": {
+                "name": "Promenade Maurice Grevisse",
+                "network": "lwn",
+                "osmc:symbol": "blue:white:cross",
+                "route": "hiking",
+                "type": "route"
+              }
+            }
+          ],
+          "meta": {
+            "timestamp": "2015-01-19T03:05:08Z",
+            "version": "8",
+            "changeset": "28244508",
+            "user": "Franc9876",
+            "uid": "2419327"
+          }
+        },
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              5.5608493,
+              49.7158817
+            ],
+            [
+              5.5608043,
+              49.7162145
+            ],
+            [
+              5.5608115,
+              49.7163921
+            ],
+            [
+              5.560759,
+              49.717061
+            ],
+            [
+              5.5607105,
+              49.7172092
+            ],
+            [
+              5.5605111,
+              49.7176277
+            ],
+            [
+              5.5604856,
+              49.7177071
+            ],
+            [
+              5.560484,
+              49.717786
+            ]
+          ]
+        },
+        "id": "way/50163766"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "type": "way",
+          "id": "333852425",
+          "tags": {
+            "highway": "secondary",
+            "maxspeed": "50",
+            "name": "Rue Maurice Grevisse",
+            "ref": "N897"
+          },
+          "relations": [
+            {
+              "role": "",
+              "rel": "4708463",
+              "reltags": {
+                "name": "Promenade Maurice Grevisse",
+                "network": "lwn",
+                "osmc:symbol": "blue:white:cross",
+                "route": "hiking",
+                "type": "route"
+              }
+            }
+          ],
+          "meta": {
+            "timestamp": "2015-03-20T14:33:40Z",
+            "version": "1",
+            "changeset": "29616295",
+            "user": "juminet",
+            "uid": "812669"
+          }
+        },
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              5.560484,
+              49.717786
+            ],
+            [
+              5.5602571,
+              49.7178309
+            ],
+            [
+              5.5599527,
+              49.7179296
+            ],
+            [
+              5.559854,
+              49.7179667
+            ],
+            [
+              5.5596976,
+              49.7180347
+            ],
+            [
+              5.5594648,
+              49.7181416
+            ]
+          ]
+        },
+        "id": "way/333852425"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "type": "way",
+          "id": "333852426",
+          "tags": {
+            "highway": "residential",
+            "maxspeed": "50",
+            "name": "Rue Saint-Maximin"
+          },
+          "relations": [
+            {
+              "role": "",
+              "rel": "4708463",
+              "reltags": {
+                "name": "Promenade Maurice Grevisse",
+                "network": "lwn",
+                "osmc:symbol": "blue:white:cross",
+                "route": "hiking",
+                "type": "route"
+              }
+            }
+          ],
+          "meta": {
+            "timestamp": "2015-03-20T14:33:40Z",
+            "version": "1",
+            "changeset": "29616295",
+            "user": "juminet",
+            "uid": "812669"
+          }
+        },
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              5.5599998,
+              49.716732
+            ],
+            [
+              5.5599456,
+              49.7167978
+            ],
+            [
+              5.5598537,
+              49.7169709
+            ],
+            [
+              5.5596885,
+              49.7172837
+            ]
+          ]
+        },
+        "id": "way/333852426"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "type": "way",
+          "id": "333852428",
+          "tags": {
+            "highway": "secondary",
+            "maxspeed": "50",
+            "name": "Rue de Grimodé",
+            "oneway": "no",
+            "ref": "N879"
+          },
+          "relations": [
+            {
+              "role": "",
+              "rel": "4708463",
+              "reltags": {
+                "name": "Promenade Maurice Grevisse",
+                "network": "lwn",
+                "osmc:symbol": "blue:white:cross",
+                "route": "hiking",
+                "type": "route"
+              }
+            }
+          ],
+          "meta": {
+            "timestamp": "2015-03-20T14:33:40Z",
+            "version": "1",
+            "changeset": "29616295",
+            "user": "juminet",
+            "uid": "812669"
+          }
+        },
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              5.5344497,
+              49.7075366
+            ],
+            [
+              5.5343568,
+              49.7076145
+            ],
+            [
+              5.5329626,
+              49.7085328
+            ],
+            [
+              5.5328653,
+              49.7085995
+            ],
+            [
+              5.5328022,
+              49.7086614
+            ],
+            [
+              5.5327528,
+              49.7087238
+            ],
+            [
+              5.5327144,
+              49.7088009
+            ],
+            [
+              5.532682,
+              49.7088888
+            ],
+            [
+              5.5326589,
+              49.7090463
+            ]
+          ]
+        },
+        "id": "way/333852428"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "type": "way",
+          "id": "333852429",
+          "tags": {
+            "highway": "tertiary",
+            "name": "Rue du 18ème Chasseurs Français",
+            "surface": "paved",
+            "tracktype": "grade1"
+          },
+          "relations": [
+            {
+              "role": "",
+              "rel": "4708463",
+              "reltags": {
+                "name": "Promenade Maurice Grevisse",
+                "network": "lwn",
+                "osmc:symbol": "blue:white:cross",
+                "route": "hiking",
+                "type": "route"
+              }
+            }
+          ],
+          "meta": {
+            "timestamp": "2015-03-20T14:33:41Z",
+            "version": "1",
+            "changeset": "29616295",
+            "user": "juminet",
+            "uid": "812669"
+          }
+        },
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              5.5658386,
+              49.7093209
+            ],
+            [
+              5.5657152,
+              49.7094551
+            ],
+            [
+              5.5656082,
+              49.7096274
+            ],
+            [
+              5.5655677,
+              49.7098237
+            ],
+            [
+              5.5658617,
+              49.7115738
+            ]
+          ]
+        },
+        "id": "way/333852429"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "type": "way",
+          "id": "333852436",
+          "tags": {
+            "highway": "track",
+            "source": "Bing",
+            "tracktype": "grade3"
+          },
+          "relations": [
+            {
+              "role": "",
+              "rel": "4708463",
+              "reltags": {
+                "name": "Promenade Maurice Grevisse",
+                "network": "lwn",
+                "osmc:symbol": "blue:white:cross",
+                "route": "hiking",
+                "type": "route"
+              }
+            }
+          ],
+          "meta": {
+            "timestamp": "2015-03-20T14:33:41Z",
+            "version": "1",
+            "changeset": "29616295",
+            "user": "juminet",
+            "uid": "812669"
+          }
+        },
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              5.5636278,
+              49.7075929
+            ],
+            [
+              5.5638129,
+              49.7078024
+            ],
+            [
+              5.5650055,
+              49.7086833
+            ],
+            [
+              5.5656882,
+              49.7092706
+            ],
+            [
+              5.5658386,
+              49.7093209
+            ]
+          ]
+        },
+        "id": "way/333852436"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "type": "way",
+          "id": "220011606",
+          "tags": {
+            "highway": "track"
+          },
+          "relations": [
+            {
+              "role": "",
+              "rel": "4708463",
+              "reltags": {
+                "name": "Promenade Maurice Grevisse",
+                "network": "lwn",
+                "osmc:symbol": "blue:white:cross",
+                "route": "hiking",
+                "type": "route"
+              }
+            }
+          ],
+          "meta": {
+            "timestamp": "2015-03-20T14:33:44Z",
+            "version": "3",
+            "changeset": "29616295",
+            "user": "juminet",
+            "uid": "812669"
+          }
+        },
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              5.5571631,
+              49.7063293
+            ],
+            [
+              5.5573236,
+              49.7061285
+            ]
+          ]
+        },
+        "id": "way/220011606"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "type": "way",
+          "id": "256620773",
+          "tags": {
+            "highway": "unclassified",
+            "source": "bing"
+          },
+          "relations": [
+            {
+              "role": "",
+              "rel": "4708463",
+              "reltags": {
+                "name": "Promenade Maurice Grevisse",
+                "network": "lwn",
+                "osmc:symbol": "blue:white:cross",
+                "route": "hiking",
+                "type": "route"
+              }
+            }
+          ],
+          "meta": {
+            "timestamp": "2015-03-20T14:33:44Z",
+            "version": "3",
+            "changeset": "29616295",
+            "user": "juminet",
+            "uid": "812669"
+          }
+        },
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              5.5423581,
+              49.7036615
+            ],
+            [
+              5.5456741,
+              49.7019606
+            ],
+            [
+              5.5464069,
+              49.7016635
+            ],
+            [
+              5.5465363,
+              49.701611
+            ],
+            [
+              5.5466181,
+              49.7015778
+            ]
+          ]
+        },
+        "id": "way/256620773"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "type": "way",
+          "id": "313331197",
+          "tags": {
+            "highway": "unclassified",
+            "name": "Rue du Ridé",
+            "source": "bing"
+          },
+          "relations": [
+            {
+              "role": "",
+              "rel": "4708463",
+              "reltags": {
+                "name": "Promenade Maurice Grevisse",
+                "network": "lwn",
+                "osmc:symbol": "blue:white:cross",
+                "route": "hiking",
+                "type": "route"
+              }
+            }
+          ],
+          "meta": {
+            "timestamp": "2014-11-18T04:19:14Z",
+            "version": "1",
+            "changeset": "26856796",
+            "user": "Franc9876",
+            "uid": "2419327"
+          }
+        },
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              5.5385194,
+              49.7056869
+            ],
+            [
+              5.5407289,
+              49.704366
+            ],
+            [
+              5.5423581,
+              49.7036615
+            ]
+          ]
+        },
+        "id": "way/313331197"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "type": "way",
+          "id": "313331198",
+          "tags": {
+            "highway": "track",
+            "name": "Rue de la Prairie",
+            "source": "Bing"
+          },
+          "relations": [
+            {
+              "role": "",
+              "rel": "4708463",
+              "reltags": {
+                "name": "Promenade Maurice Grevisse",
+                "network": "lwn",
+                "osmc:symbol": "blue:white:cross",
+                "route": "hiking",
+                "type": "route"
+              }
+            }
+          ],
+          "meta": {
+            "timestamp": "2014-11-18T04:19:14Z",
+            "version": "1",
+            "changeset": "26856796",
+            "user": "Franc9876",
+            "uid": "2419327"
+          }
+        },
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              5.5331074,
+              49.7093216
+            ],
+            [
+              5.5339012,
+              49.7095787
+            ],
+            [
+              5.5342113,
+              49.7096617
+            ],
+            [
+              5.535532,
+              49.7097729
+            ],
+            [
+              5.5358753,
+              49.7097521
+            ],
+            [
+              5.5361703,
+              49.7096689
+            ],
+            [
+              5.5367873,
+              49.7095301
+            ],
+            [
+              5.537211,
+              49.7094572
+            ],
+            [
+              5.5377421,
+              49.7094711
+            ],
+            [
+              5.5383,
+              49.7094746
+            ],
+            [
+              5.5386219,
+              49.7094642
+            ],
+            [
+              5.5398772,
+              49.7093705
+            ],
+            [
+              5.541567,
+              49.7096862
+            ],
+            [
+              5.5421667,
+              49.7097554
+            ],
+            [
+              5.5427568,
+              49.7097519
+            ],
+            [
+              5.5431065,
+              49.7098076
+            ],
+            [
+              5.5438307,
+              49.7099811
+            ],
+            [
+              5.5443768,
+              49.7100676
+            ],
+            [
+              5.5446086,
+              49.7100157
+            ],
+            [
+              5.545086,
+              49.709825
+            ],
+            [
+              5.5454454,
+              49.7097313
+            ],
+            [
+              5.5457877,
+              49.7097034
+            ],
+            [
+              5.5461052,
+              49.7096931
+            ]
+          ]
+        },
+        "id": "way/313331198"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "type": "way",
+          "id": "313331194",
+          "tags": {
+            "highway": "secondary",
+            "name": "Rue de Grimodé",
+            "oneway": "no",
+            "ref": "N879"
+          },
+          "relations": [
+            {
+              "role": "",
+              "rel": "4708463",
+              "reltags": {
+                "name": "Promenade Maurice Grevisse",
+                "network": "lwn",
+                "osmc:symbol": "blue:white:cross",
+                "route": "hiking",
+                "type": "route"
+              }
+            }
+          ],
+          "meta": {
+            "timestamp": "2015-03-20T14:33:43Z",
+            "version": "3",
+            "changeset": "29616295",
+            "user": "juminet",
+            "uid": "812669"
+          }
+        },
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              5.5326589,
+              49.7090463
+            ],
+            [
+              5.5326485,
+              49.709139
+            ]
+          ]
+        },
+        "id": "way/313331194"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "type": "way",
+          "id": "322993925",
+          "tags": {
+            "highway": "residential",
+            "maxspeed": "50",
+            "name": "Rue de la Haisse"
+          },
+          "relations": [
+            {
+              "role": "",
+              "rel": "4708463",
+              "reltags": {
+                "name": "Promenade Maurice Grevisse",
+                "network": "lwn",
+                "osmc:symbol": "blue:white:cross",
+                "route": "hiking",
+                "type": "route"
+              }
+            }
+          ],
+          "meta": {
+            "timestamp": "2015-01-19T03:19:00Z",
+            "version": "1",
+            "changeset": "28244508",
+            "user": "Franc9876",
+            "uid": "2419327"
+          }
+        },
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              5.559409,
+              49.7165038
+            ],
+            [
+              5.5598392,
+              49.7166597
+            ],
+            [
+              5.5599998,
+              49.716732
+            ]
+          ]
+        },
+        "id": "way/322993925"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "type": "way",
+          "id": "322993926",
+          "tags": {
+            "highway": "residential",
+            "maxspeed": "30",
+            "name": "Rue de la Haisse"
+          },
+          "relations": [
+            {
+              "role": "",
+              "rel": "4708463",
+              "reltags": {
+                "name": "Promenade Maurice Grevisse",
+                "network": "lwn",
+                "osmc:symbol": "blue:white:cross",
+                "route": "hiking",
+                "type": "route"
+              }
+            }
+          ],
+          "meta": {
+            "timestamp": "2015-01-19T03:19:01Z",
+            "version": "1",
+            "changeset": "28244508",
+            "user": "Franc9876",
+            "uid": "2419327"
+          }
+        },
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              5.5571471,
+              49.715471
+            ],
+            [
+              5.557445,
+              49.7156242
+            ],
+            [
+              5.5577081,
+              49.7157607
+            ],
+            [
+              5.5583965,
+              49.7160814
+            ],
+            [
+              5.5585575,
+              49.7161729
+            ],
+            [
+              5.5587978,
+              49.7162846
+            ],
+            [
+              5.558925,
+              49.7163438
+            ],
+            [
+              5.559409,
+              49.7165038
+            ]
+          ]
+        },
+        "id": "way/322993926"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "type": "node",
+          "id": "2291329568",
+          "tags": {
+            "railway": "level_crossing"
+          },
+          "relations": [],
+          "meta": {
+            "timestamp": "2013-05-04T13:20:51Z",
+            "version": "1",
+            "changeset": "15971320",
+            "user": "Krunch_",
+            "uid": "1386763"
+          }
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            5.5465363,
+            49.701611
+          ]
+        },
+        "id": "node/2291329568"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "type": "node",
+          "id": "1308070002",
+          "tags": {
+            "name": "Au Gibet",
+            "place": "locality"
+          },
+          "relations": [],
+          "meta": {
+            "timestamp": "2015-01-19T03:05:00Z",
+            "version": "3",
+            "changeset": "28244508",
+            "user": "Franc9876",
+            "uid": "2419327"
+          }
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            5.5607327,
+            49.7072496
+          ]
+        },
+        "id": "node/1308070002"
+      }
+    ],
+    "pois": [
+      {
+        "Attr2": "java.util.Random@26c2c84c",
+        "Attr1": "java.util.Random@1df69162"
+      },
+      {
+        "Attr2": "java.util.Random@53610015",
+        "Attr1": "java.util.Random@3dec0975"
+      },
+      {
+        "Attr2": "java.util.Random@64db8258",
+        "Attr1": "java.util.Random@54c8d77"
+      }
+    ],
+    "info": {
+      "title": "Circuit Maurice Grevisse",
+      "webpageURL": "http://www.ftlb.be/fr/attractions/fiche.php?avi_id=2783",
+      "description": "Au départ du village de Rulles, la promenade vous emmène à travers la campagne à la découverte des forêts ardennaises et des villages gaumais. Au programme : le lavoir classé du petit village de Harinsart, la ligne de crête entre Harinsart et Houdemont et les paysages remarquables de notre région et vous parcourrez le village natal de Maurice Grevisse.",
+      "pic1": "http://www.ftlb.be/dbimages/visiter/visiter2783.jpg",
+      "pic2": "http://www.ftlb.be/dbimages/visiter/visiter2783_2.jpg",
+      "pic3": "http://www.ftlb.be/dbimages/visiter/visiter2783_3.jpg"
+    }
+  },
+  {
+    "type": "Track",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "type": "way",
+          "id": "327178363",
+          "tags": {
+            "bridge": "yes",
+            "highway": "secondary",
+            "layer": "1",
+            "maxspeed": "50",
+            "ref": "N897"
+          },
+          "relations": [
+            {
+              "role": "",
+              "rel": "4708248",
+              "reltags": {
+                "name": "Promenade des Forges de Mellier",
+                "network": "lwn",
+                "osmc:symbol": "blue:white:red_corner",
+                "route": "hiking",
+                "type": "route"
+              }
+            }
+          ],
+          "meta": {
+            "timestamp": "2015-02-09T02:49:06Z",
+            "version": "1",
+            "changeset": "28718816",
+            "user": "Franc9876",
+            "uid": "2419327"
+          }
+        },
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              5.5338504,
+              49.7271575
+            ],
+            [
+              5.5338193,
+              49.7273571
+            ]
+          ]
+        },
+        "id": "way/327178363"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "type": "way",
+          "id": "327010550",
+          "tags": {
+            "highway": "secondary",
+            "maxspeed": "50",
+            "name": "Rue de l'Église",
+            "ref": "N897"
+          },
+          "relations": [
+            {
+              "role": "",
+              "rel": "4708248",
+              "reltags": {
+                "name": "Promenade des Forges de Mellier",
+                "network": "lwn",
+                "osmc:symbol": "blue:white:red_corner",
+                "route": "hiking",
+                "type": "route"
+              }
+            }
+          ],
+          "meta": {
+            "timestamp": "2015-02-09T02:49:10Z",
+            "version": "2",
+            "changeset": "28718816",
+            "user": "Franc9876",
+            "uid": "2419327"
+          }
+        },
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              5.5364239,
+              49.7246781
+            ],
+            [
+              5.5362846,
+              49.7247504
+            ],
+            [
+              5.5358001,
+              49.7249614
+            ],
+            [
+              5.5355346,
+              49.7251226
+            ],
+            [
+              5.535301,
+              49.7252624
+            ],
+            [
+              5.5350491,
+              49.7254419
+            ],
+            [
+              5.5345005,
+              49.7258472
+            ],
+            [
+              5.5342988,
+              49.7260187
+            ],
+            [
+              5.5341757,
+              49.7261382
+            ],
+            [
+              5.5340724,
+              49.726282
+            ],
+            [
+              5.534028,
+              49.7263513
+            ],
+            [
+              5.533975,
+              49.7264688
+            ],
+            [
+              5.5339382,
+              49.7265977
+            ],
+            [
+              5.5339014,
+              49.7267572
+            ],
+            [
+              5.5338504,
+              49.7271575
+            ]
+          ]
+        },
+        "id": "way/327010550"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "type": "way",
+          "id": "327179071",
+          "tags": {
+            "highway": "residential",
+            "maxspeed": "50",
+            "name": "Rue de Courtel"
+          },
+          "relations": [
+            {
+              "role": "",
+              "rel": "4708248",
+              "reltags": {
+                "name": "Promenade des Forges de Mellier",
+                "network": "lwn",
+                "osmc:symbol": "blue:white:red_corner",
+                "route": "hiking",
+                "type": "route"
+              }
+            }
+          ],
+          "meta": {
+            "timestamp": "2015-02-09T03:23:41Z",
+            "version": "1",
+            "changeset": "28718816",
+            "user": "Franc9876",
+            "uid": "2419327"
+          }
+        },
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              5.5380663,
+              49.7295537
+            ],
+            [
+              5.5380738,
+              49.7294485
+            ],
+            [
+              5.538067,
+              49.7293175
+            ],
+            [
+              5.5379758,
+              49.7288667
+            ],
+            [
+              5.5380225,
+              49.7280782
+            ],
+            [
+              5.5380415,
+              49.7279702
+            ],
+            [
+              5.5380725,
+              49.7278786
+            ],
+            [
+              5.5381086,
+              49.7278003
+            ],
+            [
+              5.5381621,
+              49.7277024
+            ],
+            [
+              5.538246,
+              49.7275977
+            ],
+            [
+              5.538319,
+              49.7274894
+            ],
+            [
+              5.5383441,
+              49.7274113
+            ],
+            [
+              5.5383611,
+              49.7273284
+            ],
+            [
+              5.5384419,
+              49.7268598
+            ],
+            [
+              5.5384817,
+              49.7263775
+            ]
+          ]
+        },
+        "id": "way/327179071"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "type": "way",
+          "id": "327172458",
+          "tags": {
+            "highway": "secondary",
+            "maxspeed": "50",
+            "name": "Rue du Chenel",
+            "ref": "N897"
+          },
+          "relations": [
+            {
+              "role": "",
+              "rel": "4708248",
+              "reltags": {
+                "name": "Promenade des Forges de Mellier",
+                "network": "lwn",
+                "osmc:symbol": "blue:white:red_corner",
+                "route": "hiking",
+                "type": "route"
+              }
+            }
+          ],
+          "meta": {
+            "timestamp": "2015-02-09T01:55:54Z",
+            "version": "1",
+            "changeset": "28718816",
+            "user": "Franc9876",
+            "uid": "2419327"
+          }
+        },
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              5.5283097,
+              49.7313023
+            ],
+            [
+              5.528174,
+              49.7314013
+            ],
+            [
+              5.5279598,
+              49.7315592
+            ],
+            [
+              5.5278181,
+              49.7316799
+            ],
+            [
+              5.5276307,
+              49.7318815
+            ]
+          ]
+        },
+        "id": "way/327172458"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "type": "way",
+          "id": "327172459",
+          "tags": {
+            "highway": "secondary",
+            "maxspeed": "30",
+            "name": "Rue du Chenel",
+            "ref": "N897"
+          },
+          "relations": [
+            {
+              "role": "",
+              "rel": "4708248",
+              "reltags": {
+                "name": "Promenade des Forges de Mellier",
+                "network": "lwn",
+                "osmc:symbol": "blue:white:red_corner",
+                "route": "hiking",
+                "type": "route"
+              }
+            }
+          ],
+          "meta": {
+            "timestamp": "2015-02-09T01:55:54Z",
+            "version": "1",
+            "changeset": "28718816",
+            "user": "Franc9876",
+            "uid": "2419327"
+          }
+        },
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              5.5298503,
+              49.7304553
+            ],
+            [
+              5.5294998,
+              49.7305756
+            ],
+            [
+              5.529297,
+              49.7306626
+            ],
+            [
+              5.5290638,
+              49.7307868
+            ],
+            [
+              5.52881,
+              49.7309397
+            ],
+            [
+              5.5286337,
+              49.731066
+            ],
+            [
+              5.5283097,
+              49.7313023
+            ]
+          ]
+        },
+        "id": "way/327172459"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "type": "way",
+          "id": "59988318",
+          "tags": {
+            "highway": "track",
+            "surface": "gravel",
+            "tracktype": "grade3"
+          },
+          "relations": [
+            {
+              "role": "",
+              "rel": "4708248",
+              "reltags": {
+                "name": "Promenade des Forges de Mellier",
+                "network": "lwn",
+                "osmc:symbol": "blue:white:red_corner",
+                "route": "hiking",
+                "type": "route"
+              }
+            }
+          ],
+          "meta": {
+            "timestamp": "2011-11-08T19:37:43Z",
+            "version": "2",
+            "changeset": "9775972",
+            "user": "Patrick Bous",
+            "uid": "223763"
+          }
+        },
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              5.5283868,
+              49.7438066
+            ],
+            [
+              5.5282913,
+              49.7438765
+            ],
+            [
+              5.5276555,
+              49.7443419
+            ]
+          ]
+        },
+        "id": "way/59988318"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "type": "way",
+          "id": "59988364",
+          "tags": {
+            "highway": "track",
+            "surface": "ground",
+            "tracktype": "grade3"
+          },
+          "relations": [
+            {
+              "role": "",
+              "rel": "4708248",
+              "reltags": {
+                "name": "Promenade des Forges de Mellier",
+                "network": "lwn",
+                "osmc:symbol": "blue:white:red_corner",
+                "route": "hiking",
+                "type": "route"
+              }
+            }
+          ],
+          "meta": {
+            "timestamp": "2010-05-22T17:59:27Z",
+            "version": "1",
+            "changeset": "4776718",
+            "user": "Hagebutte",
+            "uid": "82866"
+          }
+        },
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              5.5216634,
+              49.7430134
+            ],
+            [
+              5.5214582,
+              49.7425701
+            ],
+            [
+              5.5214262,
+              49.7412401
+            ],
+            [
+              5.5214647,
+              49.7406601
+            ],
+            [
+              5.5211697,
+              49.739906
+            ],
+            [
+              5.5210031,
+              49.7394834
+            ],
+            [
+              5.5206825,
+              49.7392307
+            ],
+            [
+              5.5207594,
+              49.738489
+            ],
+            [
+              5.520862,
+              49.7379172
+            ],
+            [
+              5.5211185,
+              49.7374697
+            ],
+            [
+              5.5213428,
+              49.7371672
+            ],
+            [
+              5.521548,
+              49.7365126
+            ],
+            [
+              5.5215544,
+              49.7360609
+            ],
+            [
+              5.5221827,
+              49.7354518
+            ],
+            [
+              5.5222917,
+              49.7353606
+            ]
+          ]
+        },
+        "id": "way/59988364"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "type": "way",
+          "id": "59988338",
+          "tags": {
+            "highway": "path",
+            "surface": "ground"
+          },
+          "relations": [
+            {
+              "role": "",
+              "rel": "4708248",
+              "reltags": {
+                "name": "Promenade des Forges de Mellier",
+                "network": "lwn",
+                "osmc:symbol": "blue:white:red_corner",
+                "route": "hiking",
+                "type": "route"
+              }
+            }
+          ],
+          "meta": {
+            "timestamp": "2011-11-08T19:37:44Z",
+            "version": "2",
+            "changeset": "9775972",
+            "user": "Patrick Bous",
+            "uid": "223763"
+          }
+        },
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              5.5282913,
+              49.7438765
+            ],
+            [
+              5.5283291,
+              49.743413
+            ],
+            [
+              5.528297,
+              49.7430526
+            ],
+            [
+              5.5283098,
+              49.7423524
+            ],
+            [
+              5.528547,
+              49.7416522
+            ],
+            [
+              5.528515,
+              49.7410225
+            ],
+            [
+              5.5283932,
+              49.7400944
+            ],
+            [
+              5.5290022,
+              49.7391373
+            ],
+            [
+              5.5292202,
+              49.7384661
+            ],
+            [
+              5.5290792,
+              49.7378445
+            ],
+            [
+              5.5292266,
+              49.7374095
+            ],
+            [
+              5.5293613,
+              49.7368294
+            ],
+            [
+              5.5297652,
+              49.7363695
+            ],
+            [
+              5.5302519,
+              49.7358518
+            ],
+            [
+              5.5311087,
+              49.7356142
+            ],
+            [
+              5.5320573,
+              49.735192
+            ]
+          ]
+        },
+        "id": "way/59988338"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "type": "way",
+          "id": "59988320",
+          "tags": {
+            "highway": "residential",
+            "name": "Rue de Courtel"
+          },
+          "relations": [
+            {
+              "role": "",
+              "rel": "4708248",
+              "reltags": {
+                "name": "Promenade des Forges de Mellier",
+                "network": "lwn",
+                "osmc:symbol": "blue:white:red_corner",
+                "route": "hiking",
+                "type": "route"
+              }
+            }
+          ],
+          "meta": {
+            "timestamp": "2015-02-09T03:23:42Z",
+            "version": "7",
+            "changeset": "28718816",
+            "user": "Franc9876",
+            "uid": "2419327"
+          }
+        },
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              5.5379881,
+              49.7299067
+            ],
+            [
+              5.5380539,
+              49.7296487
+            ],
+            [
+              5.5380663,
+              49.7295537
+            ]
+          ]
+        },
+        "id": "way/59988320"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "type": "way",
+          "id": "59988362",
+          "tags": {
+            "highway": "track",
+            "surface": "gravel",
+            "tracktype": "grade3"
+          },
+          "relations": [
+            {
+              "role": "",
+              "rel": "4708248",
+              "reltags": {
+                "name": "Promenade des Forges de Mellier",
+                "network": "lwn",
+                "osmc:symbol": "blue:white:red_corner",
+                "route": "hiking",
+                "type": "route"
+              }
+            }
+          ],
+          "meta": {
+            "timestamp": "2010-07-19T06:20:41Z",
+            "version": "2",
+            "changeset": "5257856",
+            "user": "Hagebutte",
+            "uid": "82866"
+          }
+        },
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              5.5353677,
+              49.7333952
+            ],
+            [
+              5.5349985,
+              49.7337705
+            ],
+            [
+              5.534746,
+              49.7340307
+            ],
+            [
+              5.5344404,
+              49.7343455
+            ],
+            [
+              5.5340465,
+              49.7346955
+            ],
+            [
+              5.5335706,
+              49.735262
+            ],
+            [
+              5.5331898,
+              49.7355993
+            ],
+            [
+              5.5331012,
+              49.7356163
+            ],
+            [
+              5.5324447,
+              49.7351453
+            ],
+            [
+              5.5320573,
+              49.735192
+            ]
+          ]
+        },
+        "id": "way/59988362"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "type": "way",
+          "id": "59988373",
+          "tags": {
+            "highway": "track",
+            "surface": "ground",
+            "tracktype": "grade2"
+          },
+          "relations": [
+            {
+              "role": "",
+              "rel": "4708248",
+              "reltags": {
+                "name": "Promenade des Forges de Mellier",
+                "network": "lwn",
+                "osmc:symbol": "blue:white:red_corner",
+                "route": "hiking",
+                "type": "route"
+              }
+            }
+          ],
+          "meta": {
+            "timestamp": "2015-03-20T14:22:15Z",
+            "version": "3",
+            "changeset": "29616033",
+            "user": "juminet",
+            "uid": "812669"
+          }
+        },
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              5.5276307,
+              49.7318815
+            ],
+            [
+              5.527008,
+              49.7321156
+            ],
+            [
+              5.5265828,
+              49.7322929
+            ],
+            [
+              5.525417,
+              49.7325677
+            ],
+            [
+              5.5244226,
+              49.7331794
+            ],
+            [
+              5.5238054,
+              49.733432
+            ],
+            [
+              5.5236408,
+              49.733698
+            ],
+            [
+              5.5234968,
+              49.7341811
+            ],
+            [
+              5.5228174,
+              49.7350416
+            ],
+            [
+              5.5225033,
+              49.7353151
+            ],
+            [
+              5.5222917,
+              49.7353606
+            ]
+          ]
+        },
+        "id": "way/59988373"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "type": "way",
+          "id": "89078797",
+          "tags": {
+            "highway": "track",
+            "surface": "gravel",
+            "tracktype": "grade2"
+          },
+          "relations": [
+            {
+              "role": "",
+              "rel": "4708248",
+              "reltags": {
+                "name": "Promenade des Forges de Mellier",
+                "network": "lwn",
+                "osmc:symbol": "blue:white:red_corner",
+                "route": "hiking",
+                "type": "route"
+              }
+            }
+          ],
+          "meta": {
+            "timestamp": "2010-12-11T17:14:18Z",
+            "version": "1",
+            "changeset": "6626922",
+            "user": "Hagebutte",
+            "uid": "82866"
+          }
+        },
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              5.5262128,
+              49.7500476
+            ],
+            [
+              5.5273129,
+              49.7493754
+            ],
+            [
+              5.5284954,
+              49.748795
+            ],
+            [
+              5.5287952,
+              49.7484962
+            ],
+            [
+              5.5283101,
+              49.7476917
+            ],
+            [
+              5.5282205,
+              49.7472993
+            ],
+            [
+              5.527966,
+              49.7469427
+            ]
+          ]
+        },
+        "id": "way/89078797"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "type": "way",
+          "id": "89078998",
+          "tags": {
+            "highway": "track",
+            "layer": "-1",
+            "surface": "gravel",
+            "tracktype": "grade2",
+            "tunnel": "yes"
+          },
+          "relations": [
+            {
+              "role": "",
+              "rel": "4708248",
+              "reltags": {
+                "name": "Promenade des Forges de Mellier",
+                "network": "lwn",
+                "osmc:symbol": "blue:white:red_corner",
+                "route": "hiking",
+                "type": "route"
+              }
+            }
+          ],
+          "meta": {
+            "timestamp": "2010-12-11T17:14:46Z",
+            "version": "1",
+            "changeset": "6626922",
+            "user": "Hagebutte",
+            "uid": "82866"
+          }
+        },
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              5.5258484,
+              49.7499148
+            ],
+            [
+              5.5262128,
+              49.7500476
+            ]
+          ]
+        },
+        "id": "way/89078998"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "type": "way",
+          "id": "59988356",
+          "tags": {
+            "highway": "unclassified",
+            "surface": "asphalt",
+            "tracktype": "grade2"
+          },
+          "relations": [
+            {
+              "role": "",
+              "rel": "4708248",
+              "reltags": {
+                "name": "Promenade des Forges de Mellier",
+                "network": "lwn",
+                "osmc:symbol": "blue:white:red_corner",
+                "route": "hiking",
+                "type": "route"
+              }
+            }
+          ],
+          "meta": {
+            "timestamp": "2012-09-15T18:45:33Z",
+            "version": "4",
+            "changeset": "13121687",
+            "user": "juminet",
+            "uid": "812669"
+          }
+        },
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              5.5233617,
+              49.7527085
+            ],
+            [
+              5.5237749,
+              49.7526561
+            ],
+            [
+              5.5239446,
+              49.7524701
+            ],
+            [
+              5.5239004,
+              49.7521984
+            ],
+            [
+              5.5237823,
+              49.7519505
+            ],
+            [
+              5.5241881,
+              49.7511877
+            ],
+            [
+              5.5249555,
+              49.7506728
+            ],
+            [
+              5.5257155,
+              49.7500053
+            ],
+            [
+              5.5258484,
+              49.7499148
+            ]
+          ]
+        },
+        "id": "way/59988356"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "type": "way",
+          "id": "219949819",
+          "tags": {
+            "highway": "residential",
+            "maxspeed": "50",
+            "name": "Grand-Rue"
+          },
+          "relations": [
+            {
+              "role": "",
+              "rel": "4708248",
+              "reltags": {
+                "name": "Promenade des Forges de Mellier",
+                "network": "lwn",
+                "osmc:symbol": "blue:white:red_corner",
+                "route": "hiking",
+                "type": "route"
+              }
+            }
+          ],
+          "meta": {
+            "timestamp": "2015-03-18T19:39:18Z",
+            "version": "6",
+            "changeset": "29577503",
+            "user": "juminet",
+            "uid": "812669"
+          }
+        },
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              5.5392364,
+              49.7272159
+            ],
+            [
+              5.5392046,
+              49.7271366
+            ],
+            [
+              5.5391347,
+              49.7270443
+            ],
+            [
+              5.5390912,
+              49.7269931
+            ],
+            [
+              5.5389492,
+              49.7268087
+            ],
+            [
+              5.5387778,
+              49.7266484
+            ],
+            [
+              5.5384817,
+              49.7263775
+            ]
+          ]
+        },
+        "id": "way/219949819"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "type": "way",
+          "id": "219931295",
+          "tags": {
+            "highway": "secondary",
+            "maxspeed": "50",
+            "name": "Rue du Chenel",
+            "ref": "N897"
+          },
+          "relations": [
+            {
+              "role": "",
+              "rel": "4708248",
+              "reltags": {
+                "name": "Promenade des Forges de Mellier",
+                "network": "lwn",
+                "osmc:symbol": "blue:white:red_corner",
+                "route": "hiking",
+                "type": "route"
+              }
+            }
+          ],
+          "meta": {
+            "timestamp": "2015-02-09T02:49:08Z",
+            "version": "5",
+            "changeset": "28718816",
+            "user": "Franc9876",
+            "uid": "2419327"
+          }
+        },
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              5.5338193,
+              49.7273571
+            ],
+            [
+              5.5337752,
+              49.7275369
+            ],
+            [
+              5.5337181,
+              49.7277003
+            ],
+            [
+              5.5336432,
+              49.7278254
+            ],
+            [
+              5.5335473,
+              49.727957
+            ],
+            [
+              5.5331669,
+              49.7284101
+            ],
+            [
+              5.532917,
+              49.7287086
+            ],
+            [
+              5.532772,
+              49.7288502
+            ],
+            [
+              5.5326695,
+              49.7289408
+            ],
+            [
+              5.5325412,
+              49.7290483
+            ],
+            [
+              5.5323369,
+              49.7291915
+            ],
+            [
+              5.5322815,
+              49.7292288
+            ],
+            [
+              5.5320007,
+              49.7294256
+            ],
+            [
+              5.5317265,
+              49.729621
+            ],
+            [
+              5.5313441,
+              49.7298876
+            ],
+            [
+              5.5310296,
+              49.7300587
+            ],
+            [
+              5.5308276,
+              49.7301477
+            ],
+            [
+              5.5305549,
+              49.7302391
+            ],
+            [
+              5.5303947,
+              49.7302872
+            ],
+            [
+              5.5298503,
+              49.7304553
+            ]
+          ]
+        },
+        "id": "way/219931295"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "type": "way",
+          "id": "257341433",
+          "tags": {
+            "bicycle": "yes",
+            "foot": "yes",
+            "highway": "path",
+            "horse": "yes",
+            "surface": "unpaved",
+            "trail_visibility": "good"
+          },
+          "relations": [
+            {
+              "role": "",
+              "rel": "4708248",
+              "reltags": {
+                "name": "Promenade des Forges de Mellier",
+                "network": "lwn",
+                "osmc:symbol": "blue:white:red_corner",
+                "route": "hiking",
+                "type": "route"
+              }
+            }
+          ],
+          "meta": {
+            "timestamp": "2014-01-19T19:37:26Z",
+            "version": "1",
+            "changeset": "20091617",
+            "user": "juminet",
+            "uid": "812669"
+          }
+        },
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              5.5216634,
+              49.7430134
+            ],
+            [
+              5.5216797,
+              49.7432918
+            ],
+            [
+              5.5216904,
+              49.7435275
+            ],
+            [
+              5.5217226,
+              49.7439019
+            ],
+            [
+              5.5217333,
+              49.7442347
+            ],
+            [
+              5.5216904,
+              49.7446437
+            ],
+            [
+              5.5216797,
+              49.7449002
+            ],
+            [
+              5.5217655,
+              49.7451637
+            ],
+            [
+              5.5218299,
+              49.7453578
+            ],
+            [
+              5.5219694,
+              49.7455381
+            ],
+            [
+              5.5220659,
+              49.7458362
+            ],
+            [
+              5.5220123,
+              49.7461412
+            ],
+            [
+              5.5220445,
+              49.7464047
+            ],
+            [
+              5.522023,
+              49.7466681
+            ],
+            [
+              5.5218835,
+              49.7469038
+            ],
+            [
+              5.5216046,
+              49.7470217
+            ],
+            [
+              5.5212827,
+              49.7471811
+            ],
+            [
+              5.5210252,
+              49.7472712
+            ],
+            [
+              5.5204995,
+              49.7474723
+            ],
+            [
+              5.5202742,
+              49.7475832
+            ],
+            [
+              5.5196841,
+              49.7478744
+            ],
+            [
+              5.5190511,
+              49.7481933
+            ],
+            [
+              5.5176671,
+              49.7488865
+            ],
+            [
+              5.5167766,
+              49.7494827
+            ],
+            [
+              5.5162402,
+              49.7498085
+            ],
+            [
+              5.5156072,
+              49.7500511
+            ],
+            [
+              5.5153282,
+              49.7502868
+            ],
+            [
+              5.5149527,
+              49.7504809
+            ],
+            [
+              5.5148883,
+              49.750675
+            ],
+            [
+              5.5148991,
+              49.7509038
+            ],
+            [
+              5.514942,
+              49.7512296
+            ],
+            [
+              5.5148776,
+              49.7515831
+            ],
+            [
+              5.5148132,
+              49.7519228
+            ],
+            [
+              5.5148025,
+              49.752304
+            ],
+            [
+              5.5146952,
+              49.752609
+            ],
+            [
+              5.5146845,
+              49.7528516
+            ],
+            [
+              5.5146845,
+              49.7532051
+            ]
+          ]
+        },
+        "id": "way/257341433"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "type": "way",
+          "id": "333481123",
+          "tags": {
+            "highway": "residential",
+            "maxspeed": "50",
+            "name": "Grand-Rue"
+          },
+          "relations": [
+            {
+              "role": "",
+              "rel": "4708248",
+              "reltags": {
+                "name": "Promenade des Forges de Mellier",
+                "network": "lwn",
+                "osmc:symbol": "blue:white:red_corner",
+                "route": "hiking",
+                "type": "route"
+              }
+            }
+          ],
+          "meta": {
+            "timestamp": "2015-03-18T19:39:14Z",
+            "version": "1",
+            "changeset": "29577503",
+            "user": "juminet",
+            "uid": "812669"
+          }
+        },
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              5.5384817,
+              49.7263775
+            ],
+            [
+              5.5382905,
+              49.7261894
+            ],
+            [
+              5.5371245,
+              49.7251982
+            ],
+            [
+              5.5365512,
+              49.7246987
+            ]
+          ]
+        },
+        "id": "way/333481123"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "type": "way",
+          "id": "333849640",
+          "tags": {
+            "highway": "unclassified",
+            "name": "Rue de Courtel"
+          },
+          "relations": [
+            {
+              "role": "",
+              "rel": "4708248",
+              "reltags": {
+                "name": "Promenade des Forges de Mellier",
+                "network": "lwn",
+                "osmc:symbol": "blue:white:red_corner",
+                "route": "hiking",
+                "type": "route"
+              }
+            }
+          ],
+          "meta": {
+            "timestamp": "2015-03-20T14:22:13Z",
+            "version": "1",
+            "changeset": "29616033",
+            "user": "juminet",
+            "uid": "812669"
+          }
+        },
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              5.5353677,
+              49.7333952
+            ],
+            [
+              5.5364357,
+              49.7323343
+            ],
+            [
+              5.5371365,
+              49.7314649
+            ],
+            [
+              5.5375002,
+              49.7309481
+            ],
+            [
+              5.5377508,
+              49.7305369
+            ],
+            [
+              5.5379881,
+              49.7299067
+            ]
+          ]
+        },
+        "id": "way/333849640"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "type": "way",
+          "id": "333849646",
+          "tags": {
+            "bicycle": "yes",
+            "foot": "yes",
+            "highway": "path",
+            "horse": "yes",
+            "surface": "unpaved",
+            "trail_visibility": "good"
+          },
+          "relations": [
+            {
+              "role": "",
+              "rel": "4708248",
+              "reltags": {
+                "name": "Promenade des Forges de Mellier",
+                "network": "lwn",
+                "osmc:symbol": "blue:white:red_corner",
+                "route": "hiking",
+                "type": "route"
+              }
+            }
+          ],
+          "meta": {
+            "timestamp": "2015-03-20T14:22:13Z",
+            "version": "1",
+            "changeset": "29616033",
+            "user": "juminet",
+            "uid": "812669"
+          }
+        },
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              5.5146845,
+              49.7532051
+            ],
+            [
+              5.5151458,
+              49.7533576
+            ],
+            [
+              5.5161758,
+              49.7536141
+            ],
+            [
+              5.5170234,
+              49.7538914
+            ],
+            [
+              5.5176134,
+              49.7540369
+            ],
+            [
+              5.5183108,
+              49.7542587
+            ],
+            [
+              5.5192013,
+              49.7545707
+            ],
+            [
+              5.5194588,
+              49.7546538
+            ],
+            [
+              5.5198236,
+              49.7545568
+            ],
+            [
+              5.5203171,
+              49.7543974
+            ],
+            [
+              5.5205424,
+              49.7542587
+            ],
+            [
+              5.5206816,
+              49.7539333
+            ],
+            [
+              5.520982,
+              49.7535174
+            ],
+            [
+              5.5211697,
+              49.7532471
+            ],
+            [
+              5.5213736,
+              49.7530599
+            ],
+            [
+              5.5214245,
+              49.7528589
+            ],
+            [
+              5.5214996,
+              49.7526614
+            ],
+            [
+              5.5216177,
+              49.7525609
+            ],
+            [
+              5.5217242,
+              49.7525503
+            ]
+          ]
+        },
+        "id": "way/333849646"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "type": "way",
+          "id": "70520443",
+          "tags": {
+            "highway": "track",
+            "surface": "gravel",
+            "tracktype": "grade2"
+          },
+          "relations": [
+            {
+              "role": "",
+              "rel": "4708248",
+              "reltags": {
+                "name": "Promenade des Forges de Mellier",
+                "network": "lwn",
+                "osmc:symbol": "blue:white:red_corner",
+                "route": "hiking",
+                "type": "route"
+              }
+            }
+          ],
+          "meta": {
+            "timestamp": "2015-03-20T14:22:15Z",
+            "version": "2",
+            "changeset": "29616033",
+            "user": "juminet",
+            "uid": "812669"
+          }
+        },
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              5.5279196,
+              49.7469066
+            ],
+            [
+              5.5276731,
+              49.7467848
+            ],
+            [
+              5.5276134,
+              49.7464311
+            ],
+            [
+              5.5274243,
+              49.7460195
+            ],
+            [
+              5.5274741,
+              49.7456143
+            ],
+            [
+              5.527703,
+              49.7451705
+            ],
+            [
+              5.5276731,
+              49.7447654
+            ],
+            [
+              5.5278354,
+              49.7445357
+            ],
+            [
+              5.5278118,
+              49.7443512
+            ],
+            [
+              5.5276555,
+              49.7443419
+            ]
+          ]
+        },
+        "id": "way/70520443"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "type": "way",
+          "id": "70520432",
+          "tags": {
+            "highway": "unclassified"
+          },
+          "relations": [
+            {
+              "role": "",
+              "rel": "4708248",
+              "reltags": {
+                "name": "Promenade des Forges de Mellier",
+                "network": "lwn",
+                "osmc:symbol": "blue:white:red_corner",
+                "route": "hiking",
+                "type": "route"
+              }
+            }
+          ],
+          "meta": {
+            "timestamp": "2015-03-20T14:22:15Z",
+            "version": "4",
+            "changeset": "29616033",
+            "user": "juminet",
+            "uid": "812669"
+          }
+        },
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              5.5217242,
+              49.7525503
+            ],
+            [
+              5.5224763,
+              49.7526179
+            ],
+            [
+              5.5233617,
+              49.7527085
+            ]
+          ]
+        },
+        "id": "way/70520432"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "type": "node",
+          "id": "637693028",
+          "tags": {
+            "bus": "yes",
+            "public_transport": "stop_position"
+          },
+          "relations": [],
+          "meta": {
+            "timestamp": "2015-02-08T03:17:28Z",
+            "version": "4",
+            "changeset": "28695044",
+            "user": "Franc9876",
+            "uid": "2419327"
+          }
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            5.5320007,
+            49.7294256
+          ]
+        },
+        "id": "node/637693028"
+      }
+    ],
+    "pois": [
+      {
+        "Attr2": "java.util.Random@4308d92c",
+        "Attr1": "java.util.Random@31d79f04"
+      },
+      {
+        "Attr2": "java.util.Random@7021b73a",
+        "Attr1": "java.util.Random@79e9fa15"
+      },
+      {
+        "Attr2": "java.util.Random@c7c8482",
+        "Attr1": "java.util.Random@35847a59"
+      }
+    ],
+    "info": {
+      "title": "Promenade des Forges de Mellier",
+      "webpageURL": "http://www.ftlb.be/fr/attractions/fiche.php?avi_id=2920",
+      "description": "Les Forges de Mellier, ensemble sidérurgique qui connut son heure de gloire aux XVIIè et XVIIIè siècles, sont le point central de cette promenade de 9km au départ de la gare de Marbehan. Vous partirez également à la découverte de la forêt voisine et de la réserve naturelle située entre le village et le site des Forges, classé depuis 1980 par la Région Wallonne. Carte Tarpan des promenades en vente à 7.50€",
+      "pic1": "http://www.ftlb.be/dbimages/visiter/visiter2920_3.jpg",
+      "pic2": "http://www.ftlb.be/dbimages/visiter/visiter2920_4.jpg",
+      "pic3": "http://www.ftlb.be/dbimages/visiter/visiter2920.jpg",
+      "pic4": "http://www.ftlb.be/dbimages/visiter/visiter2920_2.jpg"
+    }
+  }
+]

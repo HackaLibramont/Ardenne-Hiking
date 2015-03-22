@@ -1,0 +1,10 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:ratingBarStyle">@style/RatingBarAppTheme</item>
+
+        <item name="android:ratingBarStyleSmall">@style/RatingBarSmallAppTheme</item>
+    </style>
+
+</resources>

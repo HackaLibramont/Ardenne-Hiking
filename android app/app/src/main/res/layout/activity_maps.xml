@@ -1,0 +1,149 @@
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             tools:context=".MapActivity"
+             android:background="#77669900"
+    >
+
+    <org.djodjo.widget.slidinglayout.SlidingUpPanelLayout
+        xmlns:jj="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/sliding_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="bottom"
+        jj:panelHeight="?android:listPreferredItemHeightLarge"
+        jj:shadowHeight="4dp"
+        jj:paralaxOffset="100dp"
+        jj:anchorPoint="0.47"
+        jj:dragView="@+id/dragView"
+        >
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+            <fragment
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="3"
+                android:id="@+id/map"
+                tools:context=".MapsActivity"
+                android:name="com.google.android.gms.maps.SupportMapFragment"/>
+
+                <android.support.v4.view.ViewPager xmlns:android="http://schemas.android.com/apk/res/android"
+                                                   xmlns:tools="http://schemas.android.com/tools"
+                                                   android:id="@+id/pager"
+                                                   android:layout_weight="2"
+                                                   android:layout_width="match_parent"
+                                                   android:layout_height="0dp"/>
+            </LinearLayout>
+
+            <org.djodjo.widget.multiselectspinner.ExpandableMultiSelectSpinner
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/multiselectSpinner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:gravity="center"
+                android:padding="10dip"
+                android:background="@drawable/info"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="50dp"
+                app:titleDividerColor="@color/apptheme_color"
+                />
+
+            <ProgressBar
+                android:id="@+id/progressBar1"
+                style="?android:attr/progressBarStyleLarge"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:maxHeight="200dp"
+                android:layout_gravity="center" />
+
+        </FrameLayout>
+        <!-- SLIDING LAYOUT -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_margin="7dip"
+
+            android:clickable="true"
+            android:focusable="false"
+            android:id="@+id/dragView"
+            android:padding="7dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            >
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:minHeight="?android:listPreferredItemHeightLarge"
+                android:divider="?android:dividerVertical"
+                android:dividerPadding="8dp"
+                android:showDividers="middle"
+
+                >
+
+                <LinearLayout android:id="@+id/main_info"
+                              android:layout_width="0dp"
+                              android:layout_height="match_parent"
+                              android:layout_weight="1"
+                              android:orientation="vertical"
+                              android:paddingLeft="?android:listPreferredItemPaddingLeft"
+                              android:paddingRight="?android:listPreferredItemPaddingRight"
+                              android:gravity="center_vertical"
+                    >
+
+                    <TextView style="?android:textAppearanceListItemSmall"
+                              android:id="@+id/txt_item_title"
+                              android:layout_width="wrap_content"
+                              android:layout_height="wrap_content" />
+
+                    <TextView style="?android:textAppearanceSmall"
+                              android:id="@+id/txt_item_subtitle"
+                              android:layout_width="wrap_content"
+                              android:layout_height="wrap_content"
+                        />
+
+                </LinearLayout>
+
+                <ImageButton android:id="@+id/img_directions"
+                             style="?android:borderlessButtonStyle"
+                             android:layout_width="@dimen/standard_touch_target_size"
+                             android:layout_height="match_parent"
+                             android:src="@drawable/ic_action_directions"
+                    />
+
+                <ImageButton android:id="@+id/img_streetview"
+                             style="?android:borderlessButtonStyle"
+                             android:layout_width="@dimen/standard_touch_target_size"
+                             android:layout_height="match_parent"
+                             android:src="@drawable/ic_action_streetview"
+                    />
+
+                <ImageButton android:id="@+id/img_open_www"
+                             style="?android:borderlessButtonStyle"
+                             android:layout_width="@dimen/standard_touch_target_size"
+                             android:layout_height="match_parent"
+                             android:src="@drawable/ic_action_open_in_browser"
+                    />
+
+            </LinearLayout>
+            <TextView
+                android:id="@+id/txt_item_snippet"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:singleLine="false"
+                android:isScrollContainer="true"
+                />
+        </LinearLayout>
+    </org.djodjo.widget.slidinglayout.SlidingUpPanelLayout>
+
+</FrameLayout>
